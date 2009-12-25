@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE struts-config PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+	"../dtd/struts-config_1_2.dtd">
+<!-- "http://struts.apache.org/dtds/struts-config_1_2.dtd" -->
+<struts-config>
+	<form-beans>
+		<form-bean name="loginForm"
+			type="com.tandoc.LoginForm" />
+	</form-beans>
+	
+ <action-mappings>
+    <action path="/home" forward="/WEB-INF/pages/home.jsp" input="/home.do" >
+    </action>
+ 	<action    path="/login" 
+             type="org.springframework.web.struts.DelegatingActionProxy" 
+             input="/login.do"
+             validate="true"
+             name="loginForm">
+             <forward name="success" path="/WEB-INF/pages/homelogin.jsp"/>
+             <forward name="failure" path="/WEB-INF/pages/home.jsp"/>
+    </action>             
+<!--    
+	<action    path="/home.do" forward="/WEB-INF/pages/search.jsp"/>
+ 	<action    path="/searchSubmit" 
+             type="org.springframework.web.struts.DelegatingActionProxy" |(1)
+             input="/searchEntry.do"
+             validate="true"
+             name="searchForm">
+             <forward name="success" path="/WEB-INF/pages/detail.jsp"/>
+             <forward name="failure" path="/WEB-INF/pages/search.jsp"/>
+    </action> 
+-->      
+
+ </action-mappings>
+<!--
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config"
+			value="/WEB-INF/config/tiles-defs.xml"/>
+		<set-property property="definitions-debug" value="0" />
+		<set-property property="definitions-parser-details" value="0" />
+		<set-property property="definitions-parser-validate"
+			value="false" />
+	</plug-in>
+-->
+	<controller processorClass="org.springframework.web.struts.DelegatingRequestProcessor"/>
+   
+	<plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
+		<set-property property="contextConfigLocation" 
+		value="classpath:com/tandoc/action-servlet.xml"/>
+	</plug-in>
+</struts-config>
