@@ -8,14 +8,14 @@ import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
 
-public class HomeAction extends Action {
+public class LoginAction  extends Action{
 	  public ActionForward execute(ActionMapping mapping,
               ActionForm form,
               HttpServletRequest request,
               HttpServletResponse response)
               throws Exception
 		{		
-		return mapping.findForward("/login");
+		return mapping.findForward("/home");
 		}
 	  public ActionForward init(ActionMapping mapping,
               ActionForm form,
