@@ -6,21 +6,31 @@
 <!-- "http://struts.apache.org/dtds/struts-config_1_2.dtd" -->
 <struts-config>
 	<form-beans>
-		<form-bean name="loginForm" type="com.tandoc.forms.HomeForm" />
+		<form-bean name="homeForm" type="com.tandoc.forms.HomeForm" />
+		<form-bean name="loginForm" type="com.tandoc.forms.LoginForm" />		
 	</form-beans>
 	
+	 <global-forwards>
+	 	<forward name="/login" path="/login.do?method=init"></forward>
+	 </global-forwards>
+	 	
 	<action-mappings>
-	    <action path="/home" forward="/WEB-INF/pages/home.jsp" input="/WEB-INF/pages/login.jsp" ></action>
 	 	<action  path="/home" 
 	             type="com.tandoc.actions.HomeAction" 
 	             input="/home.do"
 	             validate="false"
-	             name="loginForm">
+	             name="homeForm">
 	             <forward name="success" path="/pages/homelogin.jsp"/>
 	             <forward name="failure" path="/pages/home.jsp"/>
-	    </action>             
-      
-	
+	    </action>                   	
+	    <action  path="/login" 
+	             type="com.tandoc.actions.LoginAction" 
+	             input="/login.do"
+	             validate="false"
+	             name="loginForm">
+	             <forward name="success" path="/pages/homelogin.jsp"/>
+	             <forward name="failure" path="/pages/login.jsp"/>
+	    </action>                   	
 	 </action-mappings>
 
 <!--

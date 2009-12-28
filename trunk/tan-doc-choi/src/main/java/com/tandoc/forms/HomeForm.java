@@ -1,5 +1,9 @@
 package com.tandoc.forms;
 
-public class HomeForm {
+import java.io.Serializable;
+
+import org.apache.struts.validator.ValidatorActionForm;
+
+public class HomeForm  extends ValidatorActionForm implements Serializable{
 
 }
