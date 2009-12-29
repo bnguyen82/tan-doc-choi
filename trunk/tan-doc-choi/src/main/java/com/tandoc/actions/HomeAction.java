@@ -15,7 +15,7 @@ public class HomeAction extends Action {
               HttpServletResponse response)
               throws Exception
 		{		
-		return mapping.findForward("/login");
+		return mapping.findForward("success");
 		}
 	  public ActionForward init(ActionMapping mapping,
               ActionForm form,

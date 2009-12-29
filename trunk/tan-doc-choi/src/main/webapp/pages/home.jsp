@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hahaha
+Chao mung den trang web
+</br>
+Neu la member login  
+<h1><a href="/tan-doc-choi/login.do">tai day</a></h1>
+
 </body>
 </html>

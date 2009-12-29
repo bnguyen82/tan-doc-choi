@@ -7,6 +7,7 @@ import org.apache.struts.action.Action;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
+import com.tandoc.forms.LoginForm;
 
 public class LoginAction  extends Action{
 	  public ActionForward execute(ActionMapping mapping,
@@ -15,7 +16,9 @@ public class LoginAction  extends Action{
               HttpServletResponse response)
               throws Exception
 		{		
-		return mapping.findForward("/home");
+		LoginForm localForm = (LoginForm) form;
+		request.setAttribute("lForm", localForm);
+		return mapping.findForward("success");
 		}
 	  public ActionForward init(ActionMapping mapping,
               ActionForm form,
