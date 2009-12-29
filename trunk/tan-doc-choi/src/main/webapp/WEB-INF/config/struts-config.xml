@@ -16,6 +16,7 @@
 	 	
 	<action-mappings>
 	 	<action  path="/home" 
+	 			 parameter="method"
 	             type="com.tandoc.actions.HomeAction" 
 	             input="/home.do"
 	             validate="false"
@@ -23,6 +24,7 @@
 	             <forward name="success" path="/pages/home.jsp"/>
 	    </action>                   	
 	    <action  path="/login" 
+	    		 parameter="method"
 	             type="com.tandoc.actions.LoginAction" 
 	             input="/login.do"
 	             validate="false"
