@@ -2,10 +2,9 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 
 <beans>
-  <bean name="/home" class="com.tandoc.actions.HomeAction">
+  <bean name="/home" class="com.tandoc.actions.HomeAction"/>
+  <bean name="/login" class="com.tandoc.actions.LoginAction"/>
 <!-- <property name="bookService">
         <ref bean="bookService"/>
      </property> -->
-  </bean>
-
 </beans>
