@@ -7,22 +7,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login</title>
+<script language="javascript" src="/commons/navigation.jsp" type="text/javascript"></script>
 </head>
 <body>
 <bean:define id="localForm" name="lForm"></bean:define>
-<table>
-	<tr>
-		<td>Username</td>
-		<td><html:text name="localForm" property="username" ></html:text></td>
-	</tr>
-	<tr>
-		<td>Password</td>
-		<td><html:text name="localForm" property="password" ></html:text></td>
-	</tr>
-	<tr>
-		<td colspan="2" align="center"><html:button onclick="" property="enter">Login</html:button></td>
-	</tr>
-</table>
+<html:form action="/login">
+	<table>
+		<tr>
+			<td>Username</td>
+			<td><html:text name="localForm" property="username" ></html:text></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><html:text name="localForm" property="password" ></html:text></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><html:button property="enter" onclick="/tan-doc-choi/login.do?method=excuteLogin" >Login</html:button></td>
+		</tr>
+	</table>
+</html:form>
 </br>
 </body>
 </html>
