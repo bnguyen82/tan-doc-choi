@@ -12,6 +12,17 @@ import org.apache.struts.actions.DispatchAction;
 import com.tandoc.forms.LoginForm;
 
 public class LoginAction  extends DispatchAction{
+
+	  public ActionForward init(ActionMapping mapping,
+              ActionForm form,
+              HttpServletRequest request,
+              HttpServletResponse response)
+              throws Exception{
+			LoginForm localForm = (LoginForm) form;
+			request.setAttribute("lForm", localForm);		  
+		  return mapping.findForward("failure");
+	  }
+	  
 	  public ActionForward excuteLogin(ActionMapping mapping,
               ActionForm form,
               HttpServletRequest request,
@@ -22,13 +33,4 @@ public class LoginAction  extends DispatchAction{
 			request.setAttribute("lForm", localForm);	
 		return mapping.findForward("success");
 		}
-	  public ActionForward init(ActionMapping mapping,
-              ActionForm form,
-              HttpServletRequest request,
-              HttpServletResponse response)
-              throws Exception{
-			LoginForm localForm = (LoginForm) form;
-			request.setAttribute("lForm", localForm);		  
-		  return mapping.findForward("success");
-	  }
 }
