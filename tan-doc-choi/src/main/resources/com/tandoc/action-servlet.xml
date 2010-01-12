@@ -2,8 +2,9 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 
 <beans>
-  <bean name="/home" class="com.tandoc.actions.HomeAction"/>
-  <bean name="/login" class="com.tandoc.actions.LoginAction"/>
+  <bean name="/secure/home" class="com.tandoc.actions.HomeAction"/>
+  <bean name="/secure/login" class="com.tandoc.actions.LoginAction"/>
+  <bean name="/secure/welcome" class="com.tandoc.actions.WelcomeAction"/>
 <!-- <property name="bookService">
         <ref bean="bookService"/>
      </property> -->

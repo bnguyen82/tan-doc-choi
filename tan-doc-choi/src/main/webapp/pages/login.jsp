@@ -23,7 +23,7 @@
 </head>
 <body>
 <bean:define id="localForm" name="lForm"></bean:define>
-<html:form action="login">
+<html:form action="/secure/login">
 	<table>
 		<tr>
 			<td>Username</td>

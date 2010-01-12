@@ -8,5 +8,6 @@
 </head>
 <body>
 <h1>Wellcome back avaxnguyen</h1>
+<html:link href="secure/welcome.do?method=init">Help</html:link>
 </body>
 </html>
