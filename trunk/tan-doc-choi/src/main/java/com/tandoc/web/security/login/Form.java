@@ -1,4 +1,4 @@
-package com.tandoc.forms;
+package com.tandoc.web.security.login;
 
 import java.io.Serializable;
 
@@ -10,7 +10,7 @@ import org.apache.struts.action.ActionMapping;
 import org.apache.struts.action.ActionServlet;
 
 
-public class LoginForm extends ValidatorActionForm implements Serializable{
+public class Form extends ValidatorActionForm implements Serializable{
 	private String username;
 	private String password;
 	 public String getUsername() {

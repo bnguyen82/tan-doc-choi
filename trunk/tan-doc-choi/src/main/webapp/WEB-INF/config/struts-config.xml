@@ -6,15 +6,15 @@
 <!-- "http://struts.apache.org/dtds/struts-config_1_2.dtd" -->
 <struts-config>
 	<form-beans>
-		<form-bean name="forms/home" type="com.tandoc.forms.HomeForm" />
-		<form-bean name="forms/login" type="com.tandoc.forms.LoginForm" />
-		<form-bean name="forms/welcome" type="com.tandoc.forms.WelcomeForm" />			
+		<form-bean name="forms/home" type="com.tandoc.web.welcome.home.Form" />
+		<form-bean name="forms/login" type="com.tandoc.web.security.login.Form" />
+		<form-bean name="forms/welcome" type="com.tandoc.web.welcome.WelcomeForm" />			
 	</form-beans>
 	
 	 <global-forwards>
 	 	<forward name="fwd/login" path="/secure/login.do?method=init"></forward>
 	 	<forward name="fwd/welcome" path="/secure/welcome.do?method=init"></forward>
-	 	<forward name="fwd/home" path="/secure/home.do?method=init"></forward>
+	 	<forward name="fwd/home" path="/public/home.do?method=init"></forward>
 	 </global-forwards>
 	 	
 	<action-mappings>
@@ -35,7 +35,16 @@
 	             name="forms/{1}">	             
 	             <forward name="success" path="/pages/{1}.jsp"/>
 	             <forward name="failure" path="/pages/{1}.jsp"/>
-	    </action>	                	
+	    </action>
+	    
+   	 	<action  path="/public/**" 
+	 			 parameter="method" 
+	             input="/pages/{1}.jsp"
+	             validate="false"
+	             name="forms/{1}">	             
+	             <forward name="success" path="/pages/{1}.jsp"/>
+	             <forward name="failure" path="/pages/{1}.jsp"/>
+	    </action>	   	    	                	
 	 </action-mappings>
 
 <!--

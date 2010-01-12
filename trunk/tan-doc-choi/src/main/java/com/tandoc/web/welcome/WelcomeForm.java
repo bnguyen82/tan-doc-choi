@@ -1,4 +1,4 @@
-package com.tandoc.forms;
+package com.tandoc.web.welcome;
 
 import java.io.Serializable;
 

@@ -1,31 +1,34 @@
-package com.tandoc.actions;
+package com.tandoc.web.security.login;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.struts.action.Action;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
-import org.apache.struts.actions.DispatchAction;
 
 import com.tandoc.framework.web.struts.action.AppAction;
 
-public class HomeAction extends AppAction {
-	public static final String FWD_LOGIN = "fwd/login";
+public class Action  extends AppAction{
+	 public static final String FWD_WELCOME = "fwd/welcome";
 	  public ActionForward init(ActionMapping mapping,
               ActionForm form,
               HttpServletRequest request,
               HttpServletResponse response)
               throws Exception{
-		  
+			Form localForm = (Form) form;
+			request.setAttribute("lForm", localForm);		  
 		  return super.init(mapping, form, request, response);
 	  }
-	  public ActionForward login(ActionMapping mapping,
+	  
+	  public ActionForward excuteLogin(ActionMapping mapping,
               ActionForm form,
               HttpServletRequest request,
               HttpServletResponse response)
-              throws Exception{		  
-		  return mapping.findForward("FWD_LOGIN");
-	  }
+              throws Exception
+		{		
+			Form localForm = (Form) form;
+			request.setAttribute("lForm", localForm);	
+		return mapping.findForward(FWD_WELCOME);
+		}
 }
