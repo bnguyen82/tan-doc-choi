@@ -30,24 +30,24 @@
     
    	 	<action  path="/secure/**" 
 	 			 parameter="method" 
-	             input="/pages/{1}.jsp"
+	             input="pages/{1}"
 	             validate="false"
 	             name="forms/{1}">	             
-	             <forward name="success" path="/pages/{1}.jsp"/>
-	             <forward name="failure" path="/pages/{1}.jsp"/>
+	             <forward name="success" path="pages/{1}"/>
+	             <forward name="failure" path="pages/{1}"/>
 	    </action>
 	    
    	 	<action  path="/public/**" 
 	 			 parameter="method" 
-	             input="/pages/{1}.jsp"
+	             input="pages/{1}"
 	             validate="false"
 	             name="forms/{1}">	             
-	             <forward name="success" path="/pages/{1}.jsp"/>
-	             <forward name="failure" path="/pages/{1}.jsp"/>
+	             <forward name="success" path="pages/{1}"/>
+	             <forward name="failure" path="pages/{1}"/>
 	    </action>	   	    	                	
 	 </action-mappings>
 
-	<controller processorClass="org.springframework.web.struts.DelegatingRequestProcessor"/>
+	<controller processorClass="org.springframework.web.struts.DelegatingTilesRequestProcessor"/>
 	<message-resources parameter="ApplicationResources" ></message-resources>	
 
 	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
@@ -59,8 +59,7 @@
 			value="/WEB-INF/config/tiles-defs.xml"/>
 		<set-property property="definitions-debug" value="0" />
 		<set-property property="definitions-parser-details" value="0" />
-		<set-property property="definitions-parser-validate"
-			value="false" />
+		<set-property property="definitions-parser-validate" value="false" />
 	</plug-in>
 		
 	<plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
