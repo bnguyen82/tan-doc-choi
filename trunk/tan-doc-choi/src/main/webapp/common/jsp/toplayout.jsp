@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<tile:insert attribute="header"></tile:insert>
+	<tile:insert attribute="header" />
 </head>
 <body>
 	<tile:insert attribute="main"/>	

@@ -2,13 +2,21 @@
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"  "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
 
 <tiles-definitions>
-	<definition name="layout" path="common/jsp/toplayout.jsp">
+	<definition name="layout" path="/common/jsp/toplayout.jsp">
 		<put name="header" value="" />
 		<put name="main" value="" />
 		<put name="footer" value="" />
 	</definition>
 	<definition name="pages/home" extends="layout">
-		<put name="main" value="pages/home.jsp"></put>
-		<put name="header" value=""></put>
+		<put name="main" value="/pages/home.jsp"></put>
+		<put name="header" value="/common/jsp/header.jsp"></put>
+	</definition>
+	<definition name="pages/login" extends="layout">
+		<put name="main" value="/pages/login.jsp"></put>
+		<put name="header" value="/common/jsp/header.jsp"></put>
+	</definition>	
+	<definition name="pages/welcome" extends="layout">
+		<put name="main" value="/pages/welcome.jsp"></put>
+		<put name="header" value="/common/jsp/header.jsp"></put>
 	</definition>
 </tiles-definitions>
