@@ -7,16 +7,16 @@
 		<put name="main" value="" />
 		<put name="footer" value="" />
 	</definition>
-	<definition name="pages/home" extends="layout">
-		<put name="main" value="/pages/home.jsp"></put>
+	<definition name="pages/welcome/home" extends="layout">
+		<put name="main" value="/pages/welcome/home/body.jsp"></put>
 		<put name="header" value="/common/jsp/header.jsp"></put>
 	</definition>
-	<definition name="pages/login" extends="layout">
-		<put name="main" value="/pages/login.jsp"></put>
+	<definition name="pages/security/login" extends="layout">
+		<put name="main" value="/pages/security/login/body.jsp"></put>
 		<put name="header" value="/common/jsp/header.jsp"></put>
 	</definition>	
 	<definition name="pages/welcome" extends="layout">
-		<put name="main" value="/pages/welcome.jsp"></put>
+		<put name="main" value="/pages/welcome/welcome.jsp"></put>
 		<put name="header" value="/common/jsp/header.jsp"></put>
 	</definition>
 </tiles-definitions>

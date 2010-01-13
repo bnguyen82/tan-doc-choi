@@ -10,7 +10,7 @@ import org.apache.struts.action.ActionMapping;
 import com.tandoc.framework.web.struts.action.AppAction;
 
 public class Action extends AppAction {
-	public static final String FWD_LOGIN = "fwd/login";
+	public static final String FWD_LOGIN = "fwd/security/login";
 	  public ActionForward init(ActionMapping mapping,
               ActionForm form,
               HttpServletRequest request,
