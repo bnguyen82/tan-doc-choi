@@ -6,15 +6,15 @@
 <!-- "http://struts.apache.org/dtds/struts-config_1_2.dtd" -->
 <struts-config>
 	<form-beans>
-		<form-bean name="forms/home" type="com.tandoc.web.welcome.home.Form" />
-		<form-bean name="forms/login" type="com.tandoc.web.security.login.Form" />
+		<form-bean name="forms/welcome/home" type="com.tandoc.web.welcome.home.Form" />
+		<form-bean name="forms/security/login" type="com.tandoc.web.security.login.Form" />
 		<form-bean name="forms/welcome" type="com.tandoc.web.welcome.WelcomeForm" />			
 	</form-beans>
 	
 	 <global-forwards>
-	 	<forward name="fwd/login" path="/secure/login.do?method=init"></forward>
+	 	<forward name="fwd/security/login" path="/secure/security/login.do?method=init"></forward>
 	 	<forward name="fwd/welcome" path="/secure/welcome.do?method=init"></forward>
-	 	<forward name="fwd/home" path="/public/home.do?method=init"></forward>
+	 	<forward name="fwd/welcome/home" path="/public/welcome/home.do?method=init"></forward>
 	 </global-forwards>
 	 	
 	<action-mappings>
