@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE struts-config PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+	"../dtd/struts-config_1_2.dtd">
+<!-- "http://struts.apache.org/dtds/struts-config_1_2.dtd" -->
+<struts-config>
+	<form-beans>
+		<form-bean name="forms/welcome/home" type="com.tandoc.web.welcome.home.Form" />
+		<form-bean name="forms/security/login" type="com.tandoc.web.security.login.Form" />
+		<form-bean name="forms/welcome" type="com.tandoc.web.welcome.WelcomeForm" />			
+	</form-beans>
+	
+	 <global-forwards>
+	 	<forward name="fwd/security/login" path="/secure/security/login.do?method=init"></forward>
+	 	<forward name="fwd/welcome" path="/secure/welcome.do?method=init"></forward>
+	 	<forward name="fwd/welcome/home" path="/public/welcome/home.do?method=init"></forward>
+	 </global-forwards>
+	 	
+	<action-mappings>
+	  <!--    
+	    <action  path="/login" 
+	    		 parameter="method"
+	             type="com.tandoc.actions.LoginAction" 
+	             input="/login.do"
+	             validate="false"
+	             name="loginForm">
+	             <forward name="success" path="/pages/login.jsp"/>	             
+	    </action> -->      
+    
+   	 	<action  path="/secure/**" 
+	 			 parameter="method" 
+	             input="pages/{1}"
+	             validate="false"
+	             name="forms/{1}">	             
+	             <forward name="success" path="pages/{1}"/>
+	             <forward name="failure" path="pages/{1}"/>
+	    </action>
+	    
+   	 	<action  path="/public/**" 
+	 			 parameter="method" 
+	             input="pages/{1}"
+	             validate="false"
+	             name="forms/{1}">	             
+	             <forward name="success" path="pages/{1}"/>
+	             <forward name="failure" path="pages/{1}"/>
+	    </action>	   	    	                	
+	 </action-mappings>
+
+	<controller processorClass="org.springframework.web.struts.DelegatingTilesRequestProcessor"/>
+	<message-resources parameter="ApplicationResources" ></message-resources>	
+
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames" value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config"
+			value="/WEB-INF/config/tiles-defs.xml"/>
+		<set-property property="definitions-debug" value="0" />
+		<set-property property="definitions-parser-details" value="0" />
+		<set-property property="definitions-parser-validate" value="false" />
+	</plug-in>
+		
+	<plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
+		<set-property property="contextConfigLocation" 
+		value=" classpath:com/tandoc/action-servlet.xml"/>
+	</plug-in>
+
+</struts-config>
