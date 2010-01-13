@@ -12,7 +12,7 @@
 <script language="javascript" src="<%=root %>/common/navigation.jsp" type="text/javascript"></script>
 </head>
 <body>
-<html:form action="/public/home">
+<html:form action="/public/welcome/home">
 Chao mung den trang web
 </br>
 Neu la member login  
