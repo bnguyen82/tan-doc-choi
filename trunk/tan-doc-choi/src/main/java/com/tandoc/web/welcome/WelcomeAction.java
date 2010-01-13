@@ -9,7 +9,7 @@ import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
 import org.apache.struts.actions.DispatchAction;
 
-import com.tandoc.framework.web.struts.action.AppAction;
+import com.tandoc.framework.struts.action.AppAction;
 
 public class WelcomeAction extends AppAction {
 
