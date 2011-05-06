@@ -1,4 +1,4 @@
-package exams.practice.exam2.ex26;
+package exams.declare.practice.exam2.ex26;
 
 import java.util.ArrayList;
 import java.util.List;
