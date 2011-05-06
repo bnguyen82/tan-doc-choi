@@ -1,4 +1,4 @@
-package exams.practice.exam1.ex29;
+package exams.declare.practice.exam1.ex29;
 
 public class Humping {
 	   public static void main(String[] args) {

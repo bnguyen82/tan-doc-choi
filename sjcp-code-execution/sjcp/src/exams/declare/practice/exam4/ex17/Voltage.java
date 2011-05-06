@@ -1,4 +1,4 @@
-package exams.practice.exam4.ex17;
+package exams.declare.practice.exam4.ex17;
 class Electricity { int getCharge() { return 24; } }
 public class Voltage extends Electricity {
   enum volts {twelve, twentyfour, oneten};
