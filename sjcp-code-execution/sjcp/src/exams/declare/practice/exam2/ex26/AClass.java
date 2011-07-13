@@ -14,7 +14,7 @@ public class AClass {
 	    Number[] na = la[1];
 	    Number[] na2 = (Number[])la[0];
 	    Object o = na2;
-	    la[1] = (Number[])o;
+//	    la[1] = (Number[])o;
 	    la[0] = (Integer[])o;
 	}
 
