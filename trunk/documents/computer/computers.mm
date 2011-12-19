@@ -1601,7 +1601,7 @@ bkup-$this_day.tar.gz --listed-incremental=list
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841563778" ID="ID_1734999776" MODIFIED="1323141414497" POSITION="right" TEXT="Languages">
+<node COLOR="#0033ff" CREATED="1210841563778" ID="ID_1734999776" MODIFIED="1324295661243" POSITION="right" TEXT="Languages">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1210755858075" HGAP="131" ID="ID_1542658544" MODIFIED="1323141414537" TEXT="JAVA" VSHIFT="-346">
@@ -2906,7 +2906,7 @@ fis.close() ;</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1241863759227" FOLDED="true" HGAP="22" ID="ID_902282150" MODIFIED="1249707046718" TEXT="OOP" VSHIFT="30">
+<node COLOR="#990000" CREATED="1241863759227" HGAP="22" ID="ID_902282150" MODIFIED="1324295677942" TEXT="OOP" VSHIFT="30">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1241863762041" FOLDED="true" ID="ID_683142598" MODIFIED="1259467711287" TEXT="&#x110;a h&#xec;nh">
 <node COLOR="#111111" CREATED="1241863765776" ID="ID_1256759284" LINK="#ID_1777434014" MODIFIED="1242792237390" TEXT="C&#xf9;ng m&#xf4;t phth&#x1ee9;c g&#x1ecd;i tr&#xea;n c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng kh&#xe1;c nhau th&#x1ef1;c thi kh&#xe1;c nhau"/>
@@ -3034,7 +3034,7 @@ fis.close() ;</font></pre>
 <node COLOR="#111111" CREATED="1249404437225" ID="ID_675645613" MODIFIED="1249404448071" TEXT="&#x1ee8;ng d&#x1ee5;ng trong &#x111;a h&#xec;nh"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1241864007945" FOLDED="true" ID="ID_993459701" MODIFIED="1259467711287" TEXT="Giao ti&#x1ebf;p (interface)">
+<node COLOR="#111111" CREATED="1241864007945" FOLDED="true" ID="ID_993459701" MODIFIED="1324296289694" TEXT="Giao ti&#x1ebf;p (interface)">
 <node COLOR="#111111" CREATED="1241864015385" ID="ID_1992322717" MODIFIED="1242015934870" TEXT="Ch&#x1ec9; ra t&#xed;nh ch&#x1ea5;t c&#x1ee7;a m&#x1ed9;t s&#x1ef1; v&#x1ead;t" VSHIFT="19"/>
 <node COLOR="#111111" CREATED="1241864025360" HGAP="23" ID="ID_695361220" MODIFIED="1242015937443" TEXT="G&#x1ed3;m bi&#x1ebf;n static v&#xe0; method ch&#x1b0;a c&#xe0;i &#x111;&#x1eb7;t" VSHIFT="1"/>
 <node COLOR="#111111" CREATED="1242005476151" FOLDED="true" ID="ID_485175552" LINK="Ky_Thuat_Lap_Trinh_CSharp_2.0.chm" MODIFIED="1259467711287" TEXT="C&#xf3; th&#x1ec3; t&#x1ea1;o m&#x1ed9;t reference cho interface nh&#x1b0; sau" VSHIFT="-34">
@@ -3060,7 +3060,7 @@ fis.close() ;</font></pre>
 </node>
 <node COLOR="#111111" CREATED="1242005568874" ID="ID_102363241" MODIFIED="1242005585888" TEXT="SaverAccount class c&#xe0;i IBankAccount"/>
 </node>
-<node COLOR="#111111" CREATED="1242802386864" FOLDED="true" ID="ID_133069452" MODIFIED="1259467711287" TEXT="&#x110;a th&#x1eeb;a k&#x1ebf; giao di&#x1ec7;n">
+<node COLOR="#111111" CREATED="1242802386864" FOLDED="true" ID="ID_133069452" MODIFIED="1324296289038" TEXT="&#x110;a th&#x1eeb;a k&#x1ebf; giao di&#x1ec7;n">
 <node COLOR="#111111" CREATED="1242802400754" FOLDED="true" ID="ID_172902502" MODIFIED="1259467711287" TEXT="M&#x1ed9;t class c&#xf3; th&#x1ec3; c&#xe0;i &#x111;&#x1eb7;t nhi&#x1ec1;u giao di&#x1ec7;n">
 <node COLOR="#111111" CREATED="1242802500027" ID="ID_1292737220" MODIFIED="1242802504353" TEXT="public MyClass implements RemoteControl, AbsoluteControl">
 <icon BUILTIN="info"/>
@@ -3247,8 +3247,8 @@ fis.close() ;</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1242803321038" FOLDED="true" ID="ID_1052993883" MODIFIED="1259467711297" TEXT="Nested class">
-<node COLOR="#111111" CREATED="1242804062153" FOLDED="true" ID="ID_1434436120" MODIFIED="1259467711297" TEXT="N&#x1ebf;u nested class l&#xe0; non-static">
+<node COLOR="#111111" CREATED="1242803321038" FOLDED="true" ID="ID_1052993883" MODIFIED="1324296274335" TEXT="Nested class">
+<node COLOR="#111111" CREATED="1242804062153" FOLDED="true" ID="ID_1434436120" MODIFIED="1324296271318" TEXT="N&#x1ebf;u nested class l&#xe0; non-static">
 <node COLOR="#111111" CREATED="1242803372812" ID="ID_1121283724" MODIFIED="1242803709957">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3394,7 +3394,7 @@ fis.close() ;</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1242792838174" FOLDED="true" ID="ID_135383122" MODIFIED="1259467711297" TEXT="Thao t&#xe1;c bi&#x1ebf;n">
+<node COLOR="#111111" CREATED="1242792838174" FOLDED="true" ID="ID_135383122" MODIFIED="1324296302158" TEXT="Thao t&#xe1;c bi&#x1ebf;n">
 <node COLOR="#111111" CREATED="1242792847237" FOLDED="true" ID="ID_841477597" MODIFIED="1259467711297" TEXT="(T&#xea;nClass,Interface,primititype).class">
 <node COLOR="#111111" CREATED="1242792857572" ID="ID_741959131" MODIFIED="1242792922405" TEXT="Tr&#x1ea3; v&#x1ec1; tchi&#x1ebf;u &#x111;&#x1ebf;n Class object c&#x1ee7;a class &#x111;&#xf3;"/>
 <node COLOR="#111111" CREATED="1242794946596" FOLDED="true" ID="ID_1254975810" MODIFIED="1259467711297" TEXT="V&#xed; d&#x1ee5;">
@@ -3450,6 +3450,66 @@ fis.close() ;</font></pre>
 </node>
 <node COLOR="#111111" CREATED="1248248531671" FOLDED="true" ID="ID_1740472933" MODIFIED="1259467711297" TEXT="Khi truy&#x1ec1;n m&#x1ed9;t object s&#x1ebd; truy&#x1ec1;n value c&#x1ee7;a ref c&#x1ee7;a object ">
 <node COLOR="#111111" CREATED="1248248614296" ID="ID_908675861" MODIFIED="1248248617078" TEXT="Trong eclipse ta th&#x1ea5;y id c&#x1ee7;a object &#x1edf; trong method v&#xe0; &#x1edf; ngo&#xe0;i nh&#x1b0; nhau"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1324295699046" ID="ID_1725590284" MODIFIED="1324295706301" TEXT="Collection">
+<node COLOR="#111111" CREATED="1324295733030" ID="ID_1876347546" MODIFIED="1324295735662" TEXT="List">
+<node COLOR="#111111" CREATED="1324296313936" ID="ID_118660527" MODIFIED="1324296316281" TEXT="ArrayList"/>
+<node COLOR="#111111" CREATED="1324296316728" ID="ID_811502308" MODIFIED="1324296319647" TEXT="LinkedList">
+<node COLOR="#111111" CREATED="1324296320937" ID="ID_712015854" MODIFIED="1324296353327" TEXT="Gi&#x1ed1;ng ArrayList nh&#x1b0;ng m&#x1ed7;i element c&#xf3; tham chi&#x1ebf;u &#x111;&#x1ebf;n 2 th&#xe0;nh ph&#x1ea7;n kh&#xe1;c"/>
+<node COLOR="#111111" CREATED="1324296353529" ID="ID_430942343" MODIFIED="1324296402752" TEXT="Cho ph&#xe9;p insert nhanh v&#xe0; v&#xe0;o b&#x1ea5;t k&#x1ef3; v&#x1ecb; tr&#xed; n&#xe0;o ArrayList"/>
+<node COLOR="#111111" CREATED="1324296409023" ID="ID_1337205740" MODIFIED="1324296413372" TEXT="Access ch&#x1ead;m h&#x1a1;n"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1324295736211" ID="ID_962111144" MODIFIED="1324295738271" TEXT="Set">
+<node COLOR="#111111" CREATED="1324295746926" ID="ID_377649504" MODIFIED="1324295748376" TEXT="HashSet">
+<node COLOR="#111111" CREATED="1324295754032" ID="ID_976825242" MODIFIED="1324296051953" TEXT="N&#x1ebf;u add m&#x1ed9;t element th&#x1ee9; 2, so s&#xe1;nh c&#xe1;i &#x111;&#x1ea7;u ti&#xea;n, d&#xf9;ng hashcode() sau &#x111;&#xf3; equals()">
+<node COLOR="#111111" CREATED="1324296058309" ID="ID_327401430" MODIFIED="1324296061399" TEXT="N&#x1ebf;u b&#x1eb1;ng =&gt;k&#xf4; add v&#xf4;"/>
+</node>
+<node COLOR="#111111" CREATED="1324295763266" ID="ID_51193743" MODIFIED="1324295766860" TEXT="Ki&#x1ec3;m tra contains() d&#xf9;ng hashcode() sau &#x111;&#xf3; equals(), "/>
+</node>
+<node COLOR="#111111" CREATED="1324295774660" ID="ID_1271036291" MODIFIED="1324295775469" TEXT="TreeSet">
+<node COLOR="#111111" CREATED="1324295781069" ID="ID_464156308" MODIFIED="1324295787707" TEXT="Set th&#xea;m ch&#x1ee9;c n&#x103;ng s&#x1eaf;p x&#x1ebf;p t&#x1ef1; &#x111;&#x1ed9;ng"/>
+<node BACKGROUND_COLOR="#ccff99" COLOR="#111111" CREATED="1324295793580" ID="ID_621484616" MODIFIED="1324296082133" TEXT="Element ph&#x1ea3;i implement Comparable, d&#xf9;ng compareTo() thay th&#x1ebf; cho c&#x1eb7;p hashcode() v&#xe0; equals()">
+<node COLOR="#111111" CREATED="1324296477206" ID="ID_1007705495" MODIFIED="1324296486153" TEXT="K&#xf4; care &#x111;&#x1ebf;n 2 method n&#xe0;y n&#x1eef;a"/>
+</node>
+<node COLOR="#111111" CREATED="1324295801072" ID="ID_1664485782" MODIFIED="1324295804897" TEXT="Add m&#x1ed9;t element m&#x1edb;i, s&#x1ebd; so s&#xe1;nh element m&#x1edb;i v&#x1edb;i element &#x111;&#x1ea7;u ti&#xea;n d&#xf9;ng h&#xe0;m compareTo()">
+<node COLOR="#111111" CREATED="1324295811167" ID="ID_1999622415" MODIFIED="1324296030830" TEXT="n&#x1ebf;u b&#x1eb1;ng nhau =&gt; k&#xf4; add v&#xe0;o, k&#x1ec3; c&#x1ea3; khi equals() tr&#x1ea3; v&#x1ec1; l&#xe0; kh&#xe1;c nhau">
+<icon BUILTIN="idea"/>
+</node>
+<node COLOR="#111111" CREATED="1324295813391" ID="ID_913182401" MODIFIED="1324295825007" TEXT="N&#x1ebf;u kh&#xe1;c =&gt; add, theo th&#x1ee9; t&#x1ef1;"/>
+</node>
+<node COLOR="#111111" CREATED="1324295830945" ID="ID_115502769" MODIFIED="1324295834455" TEXT="Ki&#x1ec3;m tra contains() d&#xf9;ng compareTo()"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1324295738694" ID="ID_1981384" MODIFIED="1324295739876" TEXT="Map">
+<node COLOR="#111111" CREATED="1324295841992" ID="ID_1334065225" MODIFIED="1324295842647" TEXT="HashMap">
+<node COLOR="#111111" CREATED="1324295847785" ID="ID_1791247559" MODIFIED="1324295848854" TEXT="N&#x1ebf;u add m&#x1ed9;t c&#x1eb7;p th&#x1ee9; 2, so s&#xe1;nh 2 key v&#x1edb;i nhau, d&#xf9;ng hashcode() sau &#x111;&#xf3; equals() , n&#x1ebf;u b&#x1eb1;ng k&#xf4; add v&#xf4;"/>
+<node COLOR="#111111" CREATED="1324295856930" ID="ID_1806739633" MODIFIED="1324295857491" TEXT="Tr&#x1ea3; v&#x1ec1; d&#xf9;ng get(key):">
+<node COLOR="#111111" CREATED="1324295862449" ID="ID_1892267095" MODIFIED="1324295862979" TEXT="D&#xf9;ng equals() &#x111;&#x1ec3; xem key c&#xf3; t&#x1ed3;n t&#x1ea1;i k&#xf4;, c&#xf3; th&#xec; tr&#x1ea3; value"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1324295869940" ID="ID_674313355" MODIFIED="1324295870429" TEXT="TreeMap">
+<node COLOR="#111111" CREATED="1324295874977" ID="ID_1078803853" MODIFIED="1324295879756" TEXT="Map th&#xea;m ch&#x1ee9;c n&#x103;ng s&#x1eaf;p x&#x1ebf;p key"/>
+<node BACKGROUND_COLOR="#ccff99" COLOR="#111111" CREATED="1324295885708" ID="ID_141238435" MODIFIED="1324296082132" TEXT="Element ph&#x1ea3;i implemet Comparable, d&#xf9;ng compareTo() thay th&#x1ebf; cho c&#x1eb7;p hashcode() v&#xe0; equals()"/>
+<node COLOR="#111111" CREATED="1324295898545" ID="ID_1699787477" MODIFIED="1324295990399" TEXT="Add m&#x1ed9;t c&#x1eb7;p key, value m&#x1edb;i, so s&#xe1;nh key m&#x1edb;i v&#x1edb;i key c&#x169; d&#xf9;ng compareTo()">
+<node COLOR="#111111" CREATED="1324295905632" ID="ID_372103692" MODIFIED="1324296004422" TEXT="n&#x1ebf;u b&#x1eb1;ng nhau =&gt; k&#xf4; add key m&#x1edb;i v&#xe0;o, nh&#x1b0;ng update value c&#x1ee7;a key c&#x169; v&#x1edb;i value m&#x1edb;i">
+<icon BUILTIN="idea"/>
+</node>
+<node COLOR="#111111" CREATED="1324295912976" ID="ID_1457823746" MODIFIED="1324295913562" TEXT="n&#x1ebf;u kh&#xe1;c nhau &#x21d2; add v&#xe0;o"/>
+</node>
+<node COLOR="#111111" CREATED="1324295910055" ID="ID_1236600957" MODIFIED="1324295920856" TEXT="Tr&#x1ea3; v&#x1ec1; d&#xf9;ng get(key)">
+<node COLOR="#111111" CREATED="1324295925170" ID="ID_1414679841" MODIFIED="1324296016606" TEXT="D&#xf9;ng compareTo() &#x111;&#x1ec3; xem key c&#xf3; t&#x1ed3;n t&#x1ea1;i k&#xf4;, c&#xf3; th&#xec; tr&#x1ea3; value, b&#x1ea5;t k&#x1ec3; equals() tr&#x1ea3; v&#x1ec1; l&#xe0; kh&#xe1;c nhau">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1324295939876" ID="ID_169981358" MODIFIED="1324295943774" TEXT="PriorityQueue">
+<node COLOR="#111111" CREATED="1324295949768" ID="ID_317080103" MODIFIED="1324295952451" TEXT="K&#xf4; h&#x1ed7; tr&#x1ee3; element duy nh&#x1ea5;t nh&#x1b0; set"/>
+<node COLOR="#111111" CREATED="1324295960714" ID="ID_915156891" MODIFIED="1324295965795" TEXT="Element ph&#x1ea3;i implemet Comparable, v&#x1eab;n d&#xf9;ng hashcode() v&#xe0; equals()"/>
+<node COLOR="#111111" CREATED="1324295970352" ID="ID_139975910" MODIFIED="1324295973205" TEXT="Add m&#x1ed9;t element, d&#xf9;ng compareTo() so s&#xe1;nh, d&#xf9;ng &#x111;&#x1ec3; s&#x1eaf;p x&#x1ebf;p, n&#xea;n n&#x1ebf;u b&#x1eb1;ng v&#x1eab;n add v&#xe0;o"/>
+<node COLOR="#111111" CREATED="1324295980907" ID="ID_1957717683" MODIFIED="1324295982766" TEXT="Ki&#x1ec3;m tra contains() d&#xf9;ng compareTo()"/>
 </node>
 </node>
 </node>
@@ -5618,7 +5678,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 <node COLOR="#111111" CREATED="1210843730153" ID="ID_119010454" MODIFIED="1224323213351" TEXT="C&#xf3; th&#x1ec3; updata nhi&#x1ec1;u database trong c&#xf9;ng m&#x1ed9;t giao d&#x1ecb;ch"/>
 </node>
-<node COLOR="#990000" CREATED="1210843776294" ID="ID_1900665239" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1323141416217" STYLE="fork" TEXT="EJB">
+<node COLOR="#990000" CREATED="1210843776294" FOLDED="true" ID="ID_1900665239" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1324295674803" STYLE="fork" TEXT="EJB">
 <edge STYLE="bezier"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#66ffcc" COLOR="#111111" CREATED="1241412867725" ID="ID_1896302376" MODIFIED="1323144619532" STYLE="fork" TEXT="Basic">
@@ -8685,7 +8745,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1240991230995" FOLDED="true" ID="ID_73332861" MODIFIED="1254752370894" STYLE="fork" TEXT="Basic">
+<node COLOR="#00b439" CREATED="1240991230995" FOLDED="true" ID="ID_73332861" MODIFIED="1324295658158" STYLE="fork" TEXT="Basic">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1240991292072" FOLDED="true" ID="ID_265732936" MODIFIED="1259467714591" STYLE="fork" TEXT="Ki&#x1ebf;n tr&#xfa;c">
@@ -15682,7 +15742,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#00b439" CREATED="1322708372869" ID="ID_1922537935" MODIFIED="1322708380014" TEXT="Netbean RCP">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1322708383110" ID="ID_655585072" MODIFIED="1322708385762" TEXT="Actions">
+<node COLOR="#990000" CREATED="1322708383110" FOLDED="true" ID="ID_655585072" MODIFIED="1323524669393" TEXT="Actions">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1322708391433" ID="ID_695128284" MODIFIED="1322708399794" TEXT="Synchronize">
 <node COLOR="#111111" CREATED="1322708400083" ID="ID_548516604" MODIFIED="1322708403093" TEXT="Yes">
@@ -15700,6 +15760,307 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 <node COLOR="#111111" CREATED="1322708571911" ID="ID_1246150748" MODIFIED="1322708579835" TEXT="CallableSystemAction">
 <node COLOR="#111111" CREATED="1322708580748" ID="ID_1772597332" MODIFIED="1322708588142" TEXT="Ph&#x1ea3;i implent code th&#x1ef1;c thi"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1323496116836" ID="ID_1996161788" MODIFIED="1323496123926" TEXT="Lookup">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1323499005167" ID="ID_1903841630" MODIFIED="1323499007700" TEXT="&#xdd; ngh&#x129;a">
+<node COLOR="#111111" CREATED="1323499010697" ID="ID_1519872345" MODIFIED="1323499134904" TEXT="Cho ph&#xe9;p m&#x1ed9;t class t&#xec;m ki&#x1ebf;m c&#xe1;c service provider c&#x1ee7;a m&#x1ed9;t interface v&#xe0; s&#x1eed; d&#x1ee5;ng n&#xf3;">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1323496156548" ID="ID_1701735723" MODIFIED="1323499137768" TEXT="C&#x1a1; ch&#x1ebf; cho ph&#xe9;p c&#xe1;c module li&#xea;n l&#x1ea1;c v&#x1edb;i nhau">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1323499067074" ID="ID_1844286964" MODIFIED="1323499096016" TEXT="M&#x1ed9;t class s&#x1ebd; cung c&#x1ea5;p Lookup c&#x1ee7;a ri&#xea;ng n&#xf3;, public n&#xf3;"/>
+<node COLOR="#111111" CREATED="1323499096318" ID="ID_804552758" MODIFIED="1323499119754" TEXT="M&#x1ed9;t class kh&#xe1;c s&#x1ebd; d&#xf9;ng lookup public &#x111;&#x1ec3; truy xu&#x1ea5;t th&#xf4;ng tin tr&#xea;n class cung c&#x1ea5;p"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323496169279" ID="ID_71104728" MODIFIED="1323496179410" TEXT="T&#x1ea1;o ra loose couple">
+<node COLOR="#111111" CREATED="1323496215284" ID="ID_1250617315" MODIFIED="1323496225248" TEXT="Service &#x111;&#x1b0;&#x1ee3;c define d&#x1ea1;ng interface"/>
+<node COLOR="#111111" CREATED="1323496225528" ID="ID_1586129233" MODIFIED="1323496246263" TEXT="Implement (provider) cung c&#x1ea5;p &#x1edf; nhi&#x1ec1;u n&#x1a1;i"/>
+<node COLOR="#111111" CREATED="1323496371109" ID="ID_1169617354" MODIFIED="1323496395580" TEXT="Service t&#xec;m tr&#x1a1;ng META-INF/services folder.">
+<node COLOR="#111111" CREATED="1323497336634" ID="ID_1913598079" MODIFIED="1323497428636" TEXT="Netbean t&#x1ea1;o ra folder n&#xe0;y khi c&#xf3; s&#x1ef1; &#x111;&#x103;ng k&#xfd; d&#xf9;ng annotation">
+<node COLOR="#111111" CREATED="1323497372106" ID="ID_832520137" MODIFIED="1323497419808" TEXT="@ServiceProvider(service=TaskIdGenerator.class) &#xa;public class TaskIdGeneratorImpl implements TaskIdGenerator {....}"/>
+</node>
+<node COLOR="#111111" CREATED="1323497432315" ID="ID_1444580627" MODIFIED="1323497437533" TEXT="Ho&#x1eb7;c t&#x1ea1;o b&#x1eb1;ng tay"/>
+<node COLOR="#111111" CREATED="1323497468350" ID="ID_1506786015" MODIFIED="1323497483771" TEXT="V&#xed; d&#x1ee5; m&#x1ed9;t interface t&#x1ea1;o ra m&#x1ed9;t file trong folder">
+<node COLOR="#111111" CREATED="1323497485353" ID="ID_692736171" MODIFIED="1323497515135" TEXT="T&#xea;n file com.netbeansrcp.taskidgenerator.api.TaskIdGenerator"/>
+<node COLOR="#111111" CREATED="1323497489144" ID="ID_942027650" MODIFIED="1323497493477" TEXT="N&#x1ed9;i dung com.netbeansrcp.taskidgenerator.TaskIdGeneratorImpl"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323496193048" ID="ID_1174995139" MODIFIED="1323496200429" TEXT="API gi&#x1ed1;ng nh&#x1b0;  Map&lt;Class, Collection&lt;Object&gt;&gt;">
+<node COLOR="#111111" CREATED="1323496260646" ID="ID_1652290511" MODIFIED="1323496276538" TEXT="The key is a type "/>
+<node COLOR="#111111" CREATED="1323496276776" ID="ID_1506714914" MODIFIED="1323496283153" TEXT="The values are instances of the type."/>
+</node>
+<node COLOR="#111111" CREATED="1323496359891" ID="ID_234597297" MODIFIED="1323498065565" TEXT="S&#x1eed; d&#x1ee5;ng">
+<node COLOR="#111111" CREATED="1323499148888" ID="ID_590307799" MODIFIED="1323499168137" TEXT="S&#x1eed; d&#x1ee5;ng trong &#xfd; ngh&#x129;a t&#xec;m ki&#x1ebf;m provider">
+<node COLOR="#111111" CREATED="1323498043374" ID="ID_1305220131" MODIFIED="1323498053982" TEXT="Tr&#x1ea3; v&#x1ec1; m&#x1ed9;t instance duy nh&#x1ea5;t">
+<node COLOR="#111111" CREATED="1323496369573" ID="ID_1124351626" MODIFIED="1323498042876" TEXT="Lookup.getDefault().lookup(Class)"/>
+</node>
+<node COLOR="#111111" CREATED="1323499179275" ID="ID_218248856" MODIFIED="1323499185424" TEXT="Tr&#x1ea3; v&#x1ec1; nhi&#x1ec1;u instance">
+<node COLOR="#111111" CREATED="1323497731118" ID="ID_1531184669" MODIFIED="1323497732715" TEXT=" Lookup.Result object">
+<node COLOR="#111111" CREATED="1323497734230" ID="ID_439198679" MODIFIED="1323498083643" TEXT="Bao &#x111;&#xf3;ng k&#x1ebf;t qu&#x1ea3; tr&#x1ea3; v&#x1ec1; d&#x1ea1;ng collection c&#x1ee7;a lookupResult()">
+<node COLOR="#111111" CREATED="1323498105967" ID="ID_944861682" MODIFIED="1323498115968" TEXT="Lookup.Result&lt;IdValidator&gt; rslt =  Lookup.getDefault().lookupResult(IdValidator.class);"/>
+</node>
+<node COLOR="#111111" CREATED="1323497784108" ID="ID_1549718760" MODIFIED="1323497812254" TEXT="Cho ph&#xe9;p th&#xf4;ng b&#xe1;o cho listener &#x111;&#x103;ng k&#xfd; n&#xf3; khi k&#x1ebf;t qu&#x1ea3; tr&#x1ea3; v&#x1ec1; thay &#x111;&#x1ed5;i"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323499214431" ID="ID_1255989645" MODIFIED="1323499223149" TEXT="S&#x1eed; d&#x1ee5;ng &#x111;&#x1ec3; t&#x1ea1;o lookup ri&#xea;ng">
+<node COLOR="#111111" CREATED="1323506638742" ID="ID_672847047" MODIFIED="1323506644741" TEXT="Static Lookup">
+<node COLOR="#111111" CREATED="1323499377498" ID="ID_754701089" MODIFIED="1323499381068" TEXT="Provider">
+<node COLOR="#111111" CREATED="1323499224206" ID="ID_1568418657" MODIFIED="1323499239234" TEXT="C&#xe0;i &#x111;&#x1eb7;t interface  Lookup.Provider">
+<node COLOR="#111111" CREATED="1323499241264" ID="ID_951466209" MODIFIED="1323499252481" TEXT="Method Lookup getLookup()"/>
+</node>
+<node COLOR="#111111" CREATED="1323499255498" ID="ID_1773634226" MODIFIED="1323499282667" TEXT="N&#x1ebf;u extend TopComponent th&#xec; kh&#xf4;ng c&#x1ea7;n c&#xe0;i interface v&#xec; l&#x1edb;p n&#xe0;y c&#xe0;i r&#x1ed3;i">
+<node COLOR="#111111" CREATED="1323499284837" ID="ID_238844297" MODIFIED="1323499313555" TEXT="C&#x1ea7;n &#x111;&#x103;ng k&#xfd; trong constructor c&#xe1;i lookup &#x111;&#xf3;">
+<node COLOR="#111111" CREATED="1323499326423" ID="ID_174509066" MODIFIED="1323499351517">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      this.associateLookup&#160;(Lookups.singleton(((TaskEditorPanel)&#160;this.taskEditorPanel1).task)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323500416658" ID="ID_1518940567" MODIFIED="1323500439680" TEXT="V&#xed; d&#x1ee5; cung c&#x1ea5;p th&#xf4;ng tin m&#x1ed9;t item &#x111;ang &#x111;&#x1b0;&#x1ee3;c ch&#x1ecd;n cho m&#x1ed9;t window kh&#xe1;c &#x111;&#x1ec3; update"/>
+</node>
+<node COLOR="#111111" CREATED="1323499386467" ID="ID_1416614821" MODIFIED="1323499390586" TEXT="Consumer">
+<node COLOR="#111111" CREATED="1323500377210" ID="ID_796419488" MODIFIED="1323500386160" TEXT="C&#xf3; th&#x1ec3; l&#xe0; m&#x1ed9;t Window kh&#xe1;c"/>
+<node COLOR="#111111" CREATED="1323500364330" ID="ID_1980921422" MODIFIED="1323500412582" TEXT="C&#xf3; th&#x1ec3; khi kh&#x1edf;i t&#x1ea1;o s&#x1eed; d&#x1ee5;ng l&#x1ec7;nh sau &#x111;&#x1ec3; l&#x1ea5;y object hi&#x1ec7;n th&#x1edd;i b&#xea;n window cung c&#x1ea5;p">
+<node COLOR="#111111" CREATED="1323500447871" ID="ID_1114630003" MODIFIED="1323500520849">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;public void componentOpened() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Task task = WindowManager.getDefault().findTopComponent(&quot;TaskEditorTopComponent&quot;).
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;getLookup().lookup(Task.class);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#273;&#259;ng k&#253; n&#7871;u task thay &#273;&#7893;i th&#236; s&#7869; update
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; task.addPropertyChangeListener(this);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#111111" CREATED="1323500535713" ID="ID_735826882" MODIFIED="1323500542960" TEXT="TaskEditorTopComponent l&#xe0; window cung c&#x1ea5;p"/>
+</node>
+<node COLOR="#111111" CREATED="1323500449788" ID="ID_375523269" MODIFIED="1323500565565" TEXT="Update thay &#x111;&#x1ed5;i c&#x1ee7;a object b&#xea;n kia">
+<node COLOR="#111111" CREATED="1323500566630" ID="ID_620354660" MODIFIED="1323500572598">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;public void propertyChange(PropertyChangeEvent arg0) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.jList1.repaint();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323506645172" ID="ID_298520697" MODIFIED="1323506653812" TEXT="Dynamic Lookup">
+<node COLOR="#111111" CREATED="1323499377498" ID="ID_1590086161" MODIFIED="1323499381068" TEXT="Provider">
+<node COLOR="#111111" CREATED="1323499224206" ID="ID_281630794" MODIFIED="1323507146494" TEXT="S&#x1eed; d&#x1ee5;ng AbstractLookup nh&#x1b0; l&#xe0; Lookup v&#xe0; InstanceContent &#x111;&#x1ec3; l&#x1b0;u d&#x1eef; li&#x1ec7;u truy&#x1ec1;n &#x111;i">
+<node COLOR="#111111" CREATED="1323499241264" ID="ID_776269877" MODIFIED="1323507456938">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      private TaskEditorTopComponent() {
+    </p>
+    <p>
+      &#160;&#160;&#160;initComponents();
+    </p>
+    <p>
+      &#160;&#160; <font color="#9999ff">//g&#7855;n c&#244;ng vi&#7879;c s&#7869; l&#224;m khi panel ch&#7913;a task thay &#273;&#7893;i</font>
+    </p>
+    <p>
+      &#160;&#160;&#160;this.taskEditorPanel1.addPropertyChangeListener
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(taskChangeListener);
+    </p>
+    <p>
+      &#160;&#160; this.instanceContent.add(((TaskEditorPanel)&#160;&#160;this.taskEditorPanel1).task);
+    </p>
+    <p>
+      &#160;&#160;&#160;this.associateLookup(new AbstractLookup(this.ic));
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+<node COLOR="#111111" CREATED="1323507485623" ID="ID_190846928" MODIFIED="1323507498704" TEXT="Listeners">
+<node COLOR="#111111" CREATED="1323507502714" ID="ID_1649650520" MODIFIED="1323507520830">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;private class ListenForTaskChanges implements
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;PropertyChangeListener {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;public void propertyChange(PropertyChangeEvent arg0) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;If(TaskEditorPanel.<font color="#66ff33">PROP_TASK</font>.equals
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(arg0.getPropertyName())) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;List newContent = new ArrayList();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;newContent.add(((TaskEditorPanel)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;TaskEditorTopComponent.this.taskEditorPanel1).
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;task);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;TaskEditorTopComponent.this.ic.set(
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;newContent, null);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+<node COLOR="#111111" CREATED="1323507530035" ID="ID_728972896" MODIFIED="1323507551440" TEXT="C&#xf3; v&#x1ebb; nh&#x1b0; s&#x1ebd; l&#x1eaf;ng nghe m&#x1ecd;i change tr&#xea;n c&#xe1;c element trong TopComponent"/>
+<node COLOR="#111111" CREATED="1323507551852" ID="ID_1969474097" MODIFIED="1323507591812" TEXT="N&#x1ebf;u change tr&#xea;n task s&#x1ebd; update instanceContent ic v&#x1edb;i task m&#x1edb;i"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323499386467" ID="ID_1985863249" MODIFIED="1323499390586" TEXT="Consumer">
+<node COLOR="#111111" CREATED="1323500377210" ID="ID_1555036010" MODIFIED="1323500386160" TEXT="C&#xf3; th&#x1ec3; l&#xe0; m&#x1ed9;t Window kh&#xe1;c"/>
+<node COLOR="#111111" CREATED="1323524307301" ID="ID_1437010258" MODIFIED="1323524313243" TEXT="Implement LookupListeners">
+<node COLOR="#111111" CREATED="1323524344791" ID="ID_5658111" MODIFIED="1323524352567">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;public void resultChanged(LookupEvent evt) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Lookup.Result&lt;Task&gt; rslt = (Result&lt;Task&gt;) evt.getSource();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for (Task task : rslt.allInstances()) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.listModel.addElement(task);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;task.addPropertyChangeListener(this);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323524406355" ID="ID_1065131052" MODIFIED="1323524855062" TEXT="G&#x1ecd;i khi kh&#x1edf;i t&#x1ea1;o component">
+<node COLOR="#111111" CREATED="1323524423952" ID="ID_1436968785" MODIFIED="1323524535910">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      this.result = &#160;WindowManager.getDefault().
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;findTopComponent(&quot;TaskEditorTopComponent&quot;).
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;getLookup().lookupResult(Task.class);
+    </p>
+    <p>
+      this.result.addLookupListener(this);
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+<node COLOR="#111111" CREATED="1323524811331" ID="ID_1618724593" MODIFIED="1323524879013" TEXT="Y&#xea;u c&#x1ea7;u Topcomponent l&#x1eaf;ng nghe s&#x1ef1; th&#xe2;y &#x111;&#x1ed5;i c&#x1ee7;a Lookup.Result"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1323524369099" ID="ID_616950809" MODIFIED="1323524381265" TEXT="Nh&#x1ead;n change qua private Lookup.Result&lt;Task&gt; result;"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1323524674416" ID="ID_122087842" MODIFIED="1323524692652" TEXT="S&#x1a1; l&#x1b0;&#x1ee3;c Listener">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1323524695240" ID="ID_948536660" MODIFIED="1323524699012" TEXT="Producer">
+<node COLOR="#111111" CREATED="1323524700452" ID="ID_211820871" MODIFIED="1323524759253" TEXT="G&#x1ecd;i l&#xe0; m&#x1ed9;t bean c&#xf3; th&#x1ec3; fire event n&#xe0;o &#x111;&#xf3; khi c&#xf3; s&#x1ef1; t&#x1b0;&#x1a1;ng tac b&#xea;n ngo&#xe0;i v&#xe0;o n&#xf3;">
+<node COLOR="#111111" CREATED="1323524762115" ID="ID_1604245186" MODIFIED="1323524783683" TEXT="V&#xed; d&#x1ee5; click v&#xe0;o n&#xfa;t g&#xe2;y ra event"/>
+</node>
+<node COLOR="#111111" CREATED="1323524705937" ID="ID_1354616888" MODIFIED="1323524712791" TEXT="Define 2 method">
+<node COLOR="#111111" CREATED="1323524723625" ID="ID_1466783058" MODIFIED="1323524731399">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public void add&lt;Event&gt;Listener(&lt;Event&gt;Listener a)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1323524732814" ID="ID_587753298" MODIFIED="1323524733747" TEXT="public void remove&lt;Event&gt;Listener(&lt;Event&gt;Listener a)"/>
 </node>
 </node>
 </node>
