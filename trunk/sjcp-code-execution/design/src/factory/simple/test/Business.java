@@ -10,6 +10,5 @@ public class Business {
 		RegistAnimalFactory fac = RegistAnimalFactory.getInstance();
 		Animal ani = fac.createAnimal(type);
 		return ani.sound();
-
 	}
 }
