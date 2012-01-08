@@ -1601,7 +1601,7 @@ bkup-$this_day.tar.gz --listed-incremental=list
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841563778" ID="ID_1734999776" MODIFIED="1324295661243" POSITION="right" TEXT="Languages">
+<node COLOR="#0033ff" CREATED="1210841563778" FOLDED="true" ID="ID_1734999776" MODIFIED="1326016197150" POSITION="right" TEXT="Languages">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1210755858075" HGAP="131" ID="ID_1542658544" MODIFIED="1323141414537" TEXT="JAVA" VSHIFT="-346">
@@ -8331,7 +8331,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841840575" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1287028692421" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
+<node COLOR="#0033ff" CREATED="1210841840575" FOLDED="true" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1326016192268" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
 <edge COLOR="#00cccc" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1240837489319" FOLDED="true" ID="ID_417273820" MODIFIED="1254752369422" STYLE="fork" TEXT="Architecture">
@@ -16328,6 +16328,71 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1242393294493" ID="ID_1645014639" MODIFIED="1242393310246" TEXT="Cell nh&#x1ecf;, t&#x1ed1;n b&#x103;ng th&#xf4;ng, t&#x1ed1;n gh&#xe9;p t&#xed;n hi&#x1ec7;u"/>
 <node COLOR="#111111" CREATED="1242397968164" ID="ID_1653192153" MODIFIED="1242397989334" TEXT="Dug l&#x1b0;&#x1ee3;ng &gt;154 Mb/s"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1326016217805" ID="ID_1186901436" MODIFIED="1326016226815" POSITION="left" TEXT="Design Pattern">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1326016232149" ID="ID_773153003" MODIFIED="1326016237831" TEXT="Adapter">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1326016285414" ID="ID_370543731" MODIFIED="1326016287659" TEXT="S&#x1eed; d&#x1ee5;ng">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326016239729" ID="ID_276839110" MODIFIED="1326016290964" TEXT="D&#xf9;ng k&#x1ebf;t n&#x1ed1;i c&#xe1;c h&#x1ec7; th&#x1ed1;ng kh&#xf4;ng kh&#x1edb;p v&#x1ec1; interface exposed">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1326016294638" ID="ID_495269001" MODIFIED="1326016304260" TEXT="Object Adapter">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326016316067" ID="ID_1568267813" MODIFIED="1326016764069">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Class Adapter <font color="#0000ff">wrap</font>&#160;Adaptee implents Interface mong mu&#7889;n
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1326016368140" ID="ID_870219913" MODIFIED="1326016510527" TEXT="S&#x1eed; d&#x1ee5;ng th&#x1b0;&#x1edd;ng xuy&#xea;n h&#x1a1;n "/>
+<node COLOR="#111111" CREATED="1326016528949" ID="ID_1051172953" MODIFIED="1326016801550" TEXT="B&#x1eaf;t bu&#x1ed9;c khi expected interface l&#x1ea1;i l&#xe0; m&#x1ed9;t abstract class ch&#x1ee9; kh&#xf4;ng ph&#x1ea3;i interface =&gt; bu&#x1ed9;c ph&#x1ea3;i extend abstract class =&gt; k&#xf4; extends &#x111;&#x1b0;&#x1ee3;c n&#x1eef;a"/>
+<node COLOR="#111111" CREATED="1326016836770" ID="ID_1625173828" MODIFIED="1326017061701">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#009999">Kh&#7903;i t&#7841;o object adaptee wrap trong Adapter</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="idea"/>
+<node COLOR="#111111" CREATED="1326016858255" ID="ID_1076585783" MODIFIED="1326016928104" TEXT="Adapter t&#x1ef1; t&#x1ea1;o m&#x1ed9;t Adapter m&#x1edb;i n&#x1ebf;u Adapter ch&#x1ec9; c&#x1ea7;n behavior c&#x1ee7;a Adaptee, k&#xf4; c&#x1ea7;n state c&#x1ee7;a n&#xf3;"/>
+<node COLOR="#111111" CREATED="1326016930372" ID="ID_317909273" MODIFIED="1326017001394" TEXT="Adapter ch&#x1ec9; declare Adaptee, c&#xf2;n client ph&#x1ea3;i cung c&#x1ea5;p instant adaptee =&gt; aware v&#x1ec1; vi&#x1ec7;c adaption"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1326016304675" HGAP="21" ID="ID_62355528" MODIFIED="1326016688383" TEXT="Class Adapter" VSHIFT="27">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326016316067" ID="ID_428319489" MODIFIED="1326016756083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Class Adapter <font color="#0000ff">extends</font>&#160;Adaptee&#160;&#160;implents Interface mong mu&#7889;n
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1326016391878" ID="ID_1986475316" MODIFIED="1326016819975" TEXT="B&#x1eaf;t bu&#x1ed9;c khi adaptee c&#xf3; m&#x1ed9;t method c&#x1ea7;n interface nh&#x1b0;ng b&#x1ecb; protected n&#xea;n kh&#xf4;ng adapte &#x111;&#x1b0;&#x1ee3;c khi s&#x1eed; d&#x1ee5;ng object adapter"/>
 </node>
 </node>
 </node>
