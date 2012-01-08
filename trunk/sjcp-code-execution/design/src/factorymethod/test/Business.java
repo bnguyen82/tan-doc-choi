@@ -1,15 +1,12 @@
 package factorymethod.test;
 
-import factory.animal.Animal;
-import factorymethod.animal.MethodFactory;
+import factorymethod.HyndaiFactory;
+import factorymethod.SeoulFactory;
 
 public class Business {
-	public void displayAnimalCases(String[] animalFolk){
-		MethodFactory factory ;
-		for (String animalType : animalFolk){
-			factory = MethodFactory.getFactory(animalType);
-			Animal animal = factory.layAnimal();
-			System.out.println(animal.sound());
-		}
+	public void exportSeoulProduct(){
+		HyndaiFactory creator = new SeoulFactory();
+		creator.export("Car");
+		creator.export("Bus");
 	}
 }
