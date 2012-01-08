@@ -32,9 +32,10 @@ public abstract class Vehicle {
 	private Chair[] chairs;
 	
 	public void display(){
-		System.out.println(wheels);
-		System.out.println(lights);
-		System.out.println(chairs);
+		System.out.println("Vehicle: "+type);
+		System.out.println("Number of wheels: "+wheels.length);
+		System.out.println("Number of lights: "+lights.length);
+		System.out.println("Number of chairs: "+chairs.length);
 	}
 	
 }

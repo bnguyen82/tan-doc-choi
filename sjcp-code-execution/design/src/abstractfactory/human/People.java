@@ -2,11 +2,15 @@ package abstractfactory.human;
 
 import java.util.Locale;
 
+import adapter.address.Address;
+
+
 public class People {
 	private Locale local;
 	private int id;
 	protected static int idCount;
 	protected int type;
+	private Address address;
 	public People(String local){
 		this.local = new Locale(local);
 		this.id = getIdCount()+1;
@@ -34,5 +38,11 @@ public class People {
 
 	public int getId() {
 		return id;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	public Address getAddress() {
+		return address;
 	}
 }

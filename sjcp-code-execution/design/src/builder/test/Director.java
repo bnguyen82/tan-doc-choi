@@ -7,6 +7,7 @@ import builder.products.Vehicle;
 public class Director {
 	public void createVehicle(VehicleDesignForm design){
 		BuilderFactory builder = BuilderFactory.getFactory(design);
+		builder.createVehicle();
 		Vehicle vehicle = builder.getVehicle();
 		vehicle.display();
 		
