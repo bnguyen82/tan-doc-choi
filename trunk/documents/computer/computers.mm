@@ -16355,8 +16355,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
       Class Adapter <font color="#0000ff">wrap</font>&#160;Adaptee implents Interface mong mu&#7889;n
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1326016368140" ID="ID_870219913" MODIFIED="1326016510527" TEXT="S&#x1eed; d&#x1ee5;ng th&#x1b0;&#x1edd;ng xuy&#xea;n h&#x1a1;n "/>
 <node COLOR="#111111" CREATED="1326016528949" ID="ID_1051172953" MODIFIED="1326016801550" TEXT="B&#x1eaf;t bu&#x1ed9;c khi expected interface l&#x1ea1;i l&#xe0; m&#x1ed9;t abstract class ch&#x1ee9; kh&#xf4;ng ph&#x1ea3;i interface =&gt; bu&#x1ed9;c ph&#x1ea3;i extend abstract class =&gt; k&#xf4; extends &#x111;&#x1b0;&#x1ee3;c n&#x1eef;a"/>
@@ -16370,8 +16369,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
       <font color="#009999">Kh&#7903;i t&#7841;o object adaptee wrap trong Adapter</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="idea"/>
 <node COLOR="#111111" CREATED="1326016858255" ID="ID_1076585783" MODIFIED="1326016928104" TEXT="Adapter t&#x1ef1; t&#x1ea1;o m&#x1ed9;t Adapter m&#x1edb;i n&#x1ebf;u Adapter ch&#x1ec9; c&#x1ea7;n behavior c&#x1ee7;a Adaptee, k&#xf4; c&#x1ea7;n state c&#x1ee7;a n&#xf3;"/>
 <node COLOR="#111111" CREATED="1326016930372" ID="ID_317909273" MODIFIED="1326017001394" TEXT="Adapter ch&#x1ec9; declare Adaptee, c&#xf2;n client ph&#x1ea3;i cung c&#x1ea5;p instant adaptee =&gt; aware v&#x1ec1; vi&#x1ec7;c adaption"/>
@@ -16389,10 +16387,40 @@ aPerson.getEvents().add(anEvent);</font></pre>
       Class Adapter <font color="#0000ff">extends</font>&#160;Adaptee&#160;&#160;implents Interface mong mu&#7889;n
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1326016391878" ID="ID_1986475316" MODIFIED="1326016819975" TEXT="B&#x1eaf;t bu&#x1ed9;c khi adaptee c&#xf3; m&#x1ed9;t method c&#x1ea7;n interface nh&#x1b0;ng b&#x1ecb; protected n&#xea;n kh&#xf4;ng adapte &#x111;&#x1b0;&#x1ee3;c khi s&#x1eed; d&#x1ee5;ng object adapter"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1325751158318" ID="ID_318037091" MODIFIED="1326180053552" TEXT="Prototype">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1325751168134" ID="ID_172551017" MODIFIED="1326180053553" TEXT="L&#xe0; s&#x1ef1; k&#x1ebf;t h&#x1ee3;p gi&#x1eef;a Abstract Factory v&#xe0; clone">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1325751206296" ID="ID_1664091227" MODIFIED="1326180053553" TEXT="Kh&#xe1;c v&#x1edb;i factory v&#xec; m&#x1ed7;i l&#x1ea7;n t&#x1ea1;o k&#xf4; t&#x1ea1;o m&#x1ed9;t product m&#x1edb;i ho&#xe0;n to&#xe0;n m&#xe0; d&#xf9;ng clone &#x111;&#x1ec3; sao ch&#xe9;p">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1325751246201" ID="ID_215763031" MODIFIED="1326180053553" TEXT="C&#x1ea7;n khi vi&#x1ec7;c kh&#x1edf;i t&#x1ea1;o m&#x1ed9;t product m&#x1edb;i c&#x1ea7;n nhi&#x1ec1;u th&#x1edd;i gian (v&#xed; d&#x1ee5; c&#x1ea7;n truy xu&#x1ea5;t DB &#x111;&#x1ec3; l&#x1ea5;y d&#x1eef; li&#x1ec7;u) v&#xe0; ta ch&#x1ec9; c&#x1ea7;n c&#xe1;c product c&#xf3; n&#x1ed9;i dung ban &#x111;&#x1ea7;u gi&#x1ed1;ng nhau c&#x169;ng &#x111;&#x1b0;&#x1ee3;c">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1325758841391" ID="ID_1948807019" MODIFIED="1325758916705" TEXT="V&#xed; d&#x1ee5; game, m&#x1ed7;i l&#x1ea7;n t&#x1ea1;o m&#x1ed9;t lo&#x1ea1;i nh&#xe2;n v&#x1ead;t ta l&#x1ea1;i cung c&#x1ea5;p &#x111;&#x1eb7;c &#x111;i&#x1ec3;m ri&#xea;ng nh&#x1b0; qu&#x1ea7;n &#xe1;o, s&#xfa;ng. V&#xe0; c&#xe1;c nh&#x1ead;n v&#x1ead;t c&#xf9;ng lo&#x1ea1;i l&#xfa;c &#x111;&#x1ea7;u ho&#xe0;n to&#xe0;n gi&#x1ed1;ng nhau"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1325845200984" HGAP="23" ID="ID_738391235" MODIFIED="1326180059089" TEXT="Builder" VSHIFT="17">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1325845215257" ID="ID_1243127722" MODIFIED="1326180050476" TEXT="Gi&#x1ed1;ng Abstract Factory v&#xec; c&#xf3; nhi&#x1ec1;u method trong factory t&#x1ea1;o ra nhi&#x1ec1;u object">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1325845264374" ID="ID_1942382794" MODIFIED="1326180050477" TEXT="Kh&#xe1;c l&#xe0; &#x1edf; ch&#x1ed7;, c&#xe1;c object t&#x1ea1;o ra l&#xe0; &#x111;&#x1ec3; build up m&#x1ed9;t lo&#x1ea1;i object duy nh&#x1ea5;t v&#xe0; client ch&#x1ec9; s&#x1eed; d&#x1ee5;ng object cu&#x1ed1;i c&#xf9;ng n&#xe0;y">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1325565267698" HGAP="26" ID="ID_341482602" MODIFIED="1326180060256" TEXT="Abstract Factory" VSHIFT="19">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1325565283601" ID="ID_644112952" MODIFIED="1326180047220" TEXT="&#xc1;p d&#x1ee5;ng khi deal v&#x1edb;i nhi&#x1ec1;u family of products">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
