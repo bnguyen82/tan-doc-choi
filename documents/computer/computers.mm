@@ -270,7 +270,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1259467628227" FOLDED="true" ID="ID_36019212" MODIFIED="1282708124281" POSITION="left" TEXT="Tools">
+<node COLOR="#0033ff" CREATED="1259467628227" ID="ID_36019212" MODIFIED="1326180099038" POSITION="left" TEXT="Tools">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1210746911302" FOLDED="true" HGAP="16" ID="ID_193956902" MODIFIED="1259467710535" TEXT="Version controls" VSHIFT="-30">
@@ -431,8 +431,46 @@
 <node COLOR="#00b439" CREATED="1262058565157" ID="ID_244137477" MODIFIED="1262067932704" TEXT="Maven">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1262058568735" ID="ID_1214902072" MODIFIED="1262058582969" TEXT="Build Lifecycle">
+<node COLOR="#990000" CREATED="1326180112695" ID="ID_419571815" MODIFIED="1326180168530" TEXT="Basic">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326180134920" ID="ID_324932075" MODIFIED="1326180419566">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      C&#417; b&#7843;n c&#7911;a maven l&#224; c&#225;c <font color="#990099">goal</font>&#160;m&#224; n&#243; s&#7869; th&#7921;c thi d&#7921;a tr&#234;n file pom.xml
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1326180268759" ID="ID_1236079040" MODIFIED="1326180325690">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kh&#7889;i th&#7921;c thi c&#7911;a maven chia th&#224;nh c&#225;c <font color="#009966">phase</font>&#160; kh&#7899;p v&#7899;i build lifecycle c&#7911;a d&#7921; &#225;n ph&#7847;n m&#7873;m
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node COLOR="#111111" CREATED="1326180360458" ID="ID_1187594977" MODIFIED="1326180397909" TEXT="Khi call mvn phase, Maven s&#x1ebd; th&#x1ef1;c thi t&#x1ea5;t c&#x1ea3; c&#xe1;c phase tr&#x1b0;&#x1edb;c phase &#x111;&#x1b0;&#x1ee3;c ch&#x1ec9; &#x111;&#x1ecb;nh"/>
+</node>
+<node COLOR="#990000" CREATED="1262058568735" HGAP="25" ID="ID_1214902072" MODIFIED="1326180953085" TEXT="Phase" VSHIFT="39">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326180477096" ID="ID_1957037109" MODIFIED="1326181227191" TEXT="M&#x1ed9;t phase bao g&#x1ed3;m nhi&#x1ec1;u goal &#x111;&#x1ecb;nh s&#x1eb5;n cho n&#xf3;, ta c&#xf3; th&#x1ec3; thay &#x111;&#x1ed5;i b&#x1eb1;ng ch&#x1ec9; &#x111;&#x1ecb;nh tr&#xea;n pom.xml">
+<node COLOR="#111111" CREATED="1326180931098" ID="ID_1412785790" MODIFIED="1326181303105" TEXT="V&#xed; d&#x1ee5; clean phase c&#xf3; goal &#x111;&#x1ecb;nh s&#x1eb5;n cho m&#x1ecd;i packaging l&#xe0; clean:clean"/>
+</node>
+<node COLOR="#111111" CREATED="1326180615037" ID="ID_801448548" MODIFIED="1326181428766" TEXT="Ta x&#xe1;c &#x111;&#x1ecb;nh goal n&#xe0;o trong phase s&#x1ebd; excute trong proj b&#x1eb1;ng c&#xe1;ch ch&#x1ec9; &#x111;&#x1ecb;nh">
+<node COLOR="#111111" CREATED="1326180652575" ID="ID_81357083" MODIFIED="1326180660515" TEXT="Packaging"/>
+<node COLOR="#111111" CREATED="1326180660815" ID="ID_1807629147" MODIFIED="1326180665132" TEXT="Plugins"/>
+</node>
+<node BACKGROUND_COLOR="#ffcc99" COLOR="#111111" CREATED="1326181627317" ID="ID_900642530" MODIFIED="1326181706529" TEXT="N&#x1ebf;u nhi&#x1ec1;u h&#x1a1;n m&#x1ed9;t goal trong phase, goal t&#x1eeb; packaging th&#x1ef1;c thi tr&#x1b0;&#x1edb;c"/>
 <node COLOR="#111111" CREATED="1262058583735" ID="ID_643513784" MODIFIED="1262058696172" TEXT="default lifecycle">
 <node COLOR="#111111" CREATED="1262058707610" ID="ID_1821015862" MODIFIED="1262058708485" TEXT="validate "/>
 <node COLOR="#111111" CREATED="1262058709282" ID="ID_1584966943" MODIFIED="1262058756126" TEXT="compile"/>
@@ -450,16 +488,68 @@
 <node COLOR="#111111" CREATED="1262058884407" ID="ID_687875288" MODIFIED="1262058896016" TEXT="Ch&#x1ea1;y clean cho project con, install ch&#x1ee7;"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1262058615407" ID="ID_290976702" MODIFIED="1262058620594" TEXT="built-in build lifecycles">
+<node COLOR="#111111" CREATED="1262058615407" HGAP="67" ID="ID_290976702" MODIFIED="1326181440007" TEXT="built-in build lifecycles" VSHIFT="-55">
 <node COLOR="#111111" CREATED="1262058621563" ID="ID_645082340" MODIFIED="1262058645329" TEXT="default"/>
 <node COLOR="#111111" CREATED="1262058630376" ID="ID_1719899554" MODIFIED="1262058642485" TEXT="clean "/>
 <node COLOR="#111111" CREATED="1262058647688" ID="ID_673675819" MODIFIED="1262058649938" TEXT="site"/>
 <node COLOR="#111111" CREATED="1262058661563" ID="ID_1465641422" MODIFIED="1262058680110" TEXT="M&#x1ed7;i lo&#x1ea1;i c&#xf3; s&#x1ed1; phase kh&#xe1;c nhau"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1262067953454" ID="ID_1620849315" MODIFIED="1262067957813" TEXT="Plugin">
+<node COLOR="#990000" CREATED="1326180183858" HGAP="32" ID="ID_1087976887" MODIFIED="1326180954587" TEXT="Goal" VSHIFT="49">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1262067959876" ID="ID_1207874745" LINK="http://www2.sebastiendionne.ca:8282/java/enhance-your-javadoc-with-ulmgraph.html" MODIFIED="1262067987860" TEXT="Enhance your javadoc with ULMGraph"/>
+<node COLOR="#111111" CREATED="1326180187843" ID="ID_728562679" MODIFIED="1326180204880" TEXT="X&#xe1;c &#x111;&#x1ecb;nh c&#xe1;c c&#xf4;ng vi&#x1ec7;c m&#xe0; Maven th&#x1ef1;c thi"/>
+<node COLOR="#111111" CREATED="1326181026156" ID="ID_1302009426" MODIFIED="1326181049739" TEXT="M&#x1ed9;t goal ch&#x1ec9; c&#xf3; &#xfd; ngh&#x129;a trong m&#x1ed9;t s&#x1ed1; phase n&#xe0;o &#x111;&#xf3;"/>
+<node BACKGROUND_COLOR="#33ff66" COLOR="#111111" CREATED="1326181927210" ID="ID_114510915" MODIFIED="1326181969507" TEXT="C&#xf3; th&#x1ec3; g&#x1ecd;i goal tr&#x1ef1;c ti&#x1ebf;p, khi &#x111;&#xf3; t&#x1ea5;t c&#x1ea3; phase c&#xf3; ch&#x1ee9;a goal &#x111;&#xf3; &#x111;c l&#x1ea7;n l&#x1b0;&#x1ee3;t th&#x1ef1;c thi"/>
+</node>
+<node COLOR="#990000" CREATED="1326181342250" ID="ID_466025142" MODIFIED="1326181389439" TEXT="Packaging " VSHIFT="25">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326181352010" ID="ID_1464064123" MODIFIED="1326181357470" TEXT="M&#x1ed9;t s&#x1ed1; gi&#xe1; tr&#x1ecb;">
+<node COLOR="#111111" CREATED="1326181361969" ID="ID_831712433" MODIFIED="1326181386663" TEXT="ejb / ejb3 / jar / par / rar / war/ ear/ maven-plugin/ pom"/>
+</node>
+<node COLOR="#111111" CREATED="1326181392882" ID="ID_1521009485" MODIFIED="1326181413512" TEXT="L&#xe0; m&#x1ed9;t th&#xe0;nh ph&#x1ea7;n gi&#xfa;p x&#xe1;c &#x111;&#x1ecb;nh goal cho phase"/>
+<node BACKGROUND_COLOR="#ffcc33" COLOR="#111111" CREATED="1326181505704" ID="ID_822467382" MODIFIED="1326181564251" TEXT="&#x110;&#x1eb7;c bi&#x1ec7;t, m&#x1ed9;t packaging c&#x169;ng bao g&#x1ed3;m m&#x1ed9;t s&#x1ed1; goal c&#x1ee5; th&#x1ec3;, b&#x1ea5;t k&#x1ec3; plugin"/>
+</node>
+<node COLOR="#990000" CREATED="1262067953454" HGAP="25" ID="ID_1620849315" MODIFIED="1326180955987" TEXT="Plugin" VSHIFT="27">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326180683432" ID="ID_213395407" MODIFIED="1326181156588" TEXT="M&#x1ed9;t c&#x1a1; ch&#x1ebf; bao g&#x1ed3;m nhi&#x1ec1;u goals, trong &#x111;&#xf3; m&#x1ed9;t s&#x1ed1; l&#xe0; m&#x1eb7;c &#x111;&#x1ecb;nh cho m&#x1ed9;t phase n&#xe0;o &#x111;&#xf3;"/>
+<node COLOR="#111111" CREATED="1326181095904" ID="ID_680543211" MODIFIED="1326181588330" TEXT="X&#xe1;c &#x111;&#x1ecb;nh goals c&#x1ee5; th&#x1ec3; trong m&#x1ed9;t plugin">
+<node COLOR="#111111" CREATED="1326181107423" ID="ID_1754234444" MODIFIED="1326181120330">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>...
+ &lt;plugin&gt;
+   &lt;groupId&gt;com.mycompany.example&lt;/groupId&gt;
+   &lt;artifactId&gt;display-maven-plugin&lt;/artifactId&gt;
+   &lt;version&gt;1.0&lt;/version&gt;
+   &lt;executions&gt;
+     &lt;execution&gt;
+       &lt;phase&gt;process-test-resources&lt;/phase&gt;
+       &lt;goals&gt;
+         &lt;goal&gt;time&lt;/goal&gt;
+       &lt;/goals&gt;
+     &lt;/execution&gt;
+   &lt;/executions&gt;
+ &lt;/plugin&gt;
+...</pre>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="info"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1326180723673" ID="ID_885671032" MODIFIED="1326180726265" TEXT="V&#xed; d&#x1ee5;">
+<node COLOR="#111111" CREATED="1326180727026" ID="ID_1419791930" MODIFIED="1326180733678" TEXT="Compiler plugin has two goals">
+<node COLOR="#111111" CREATED="1326180734642" ID="ID_562224658" MODIFIED="1326180743463" TEXT="compile ">
+<node COLOR="#111111" CREATED="1326180760067" ID="ID_929973498" MODIFIED="1326180768744" TEXT="Compiles the source code of your main code"/>
+</node>
+<node COLOR="#111111" CREATED="1326180737755" ID="ID_87423644" MODIFIED="1326180740207" TEXT="testCompile">
+<node COLOR="#111111" CREATED="1326180770603" ID="ID_1137859828" MODIFIED="1326180773751" TEXT="Compiles the source code of your test code"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
