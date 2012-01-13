@@ -443,8 +443,7 @@
       C&#417; b&#7843;n c&#7911;a maven l&#224; c&#225;c <font color="#990099">goal</font>&#160;m&#224; n&#243; s&#7869; th&#7921;c thi d&#7921;a tr&#234;n file pom.xml
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1326180268759" ID="ID_1236079040" MODIFIED="1326180325690">
 <richcontent TYPE="NODE"><html>
@@ -456,8 +455,7 @@
       Kh&#7889;i th&#7921;c thi c&#7911;a maven chia th&#224;nh c&#225;c <font color="#009966">phase</font>&#160; kh&#7899;p v&#7899;i build lifecycle c&#7911;a d&#7921; &#225;n ph&#7847;n m&#7873;m
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node COLOR="#111111" CREATED="1326180360458" ID="ID_1187594977" MODIFIED="1326180397909" TEXT="Khi call mvn phase, Maven s&#x1ebd; th&#x1ef1;c thi t&#x1ea5;t c&#x1ea3; c&#xe1;c phase tr&#x1b0;&#x1edb;c phase &#x111;&#x1b0;&#x1ee3;c ch&#x1ec9; &#x111;&#x1ecb;nh"/>
 </node>
@@ -535,8 +533,7 @@
  &lt;/plugin&gt;
 ...</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="info"/>
 </node>
 </node>
@@ -550,6 +547,118 @@
 </node>
 </node>
 </node>
+</node>
+<node COLOR="#990000" CREATED="1326437581883" ID="ID_1099162227" MODIFIED="1326437583468" TEXT="Options">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326437584140" ID="ID_1914821384" MODIFIED="1326437592090" TEXT="Change default repo ">
+<node COLOR="#111111" CREATED="1326437593813" ID="ID_122528796" MODIFIED="1326437657232" TEXT="Change setting.xml apply cho m&#x1ecd;i l&#x1ea7;n ch&#x1ea1;y"/>
+<node COLOR="#111111" CREATED="1326437599693" ID="ID_1226493568" MODIFIED="1326437626735" TEXT="Cho m&#x1ed7;i l&#x1ea7;n run mvn">
+<node COLOR="#111111" CREATED="1326437627646" ID="ID_222201947" MODIFIED="1326437646082" TEXT="mvn -Dmaven.repo.local=c:\test\repo"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1326337697478" ID="ID_1859372212" MODIFIED="1326337887210" TEXT="LDAP" VSHIFT="22">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1326337707352" ID="ID_1729535391" MODIFIED="1326337720531" TEXT="C&#x1ea5;u tr&#xfa;c">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326337721351" HGAP="21" ID="ID_399160852" MODIFIED="1326337969203" TEXT="D&#x1ea1;ng c&#xe2;y g&#x1ecd;i l&#xe0; LDAP Directory" VSHIFT="14">
+<node COLOR="#111111" CREATED="1326337908140" ID="ID_1829190015" MODIFIED="1326337930438" TEXT="The root directory (the starting place or the source of the tree), which branches out to     "/>
+<node COLOR="#111111" CREATED="1326337931675" ID="ID_1636577892" MODIFIED="1326337941980" TEXT="Countries, each of which branches out to     "/>
+<node COLOR="#111111" CREATED="1326337942929" ID="ID_1224821604" MODIFIED="1326337950956" TEXT="Organizations, which branch out to    "/>
+<node COLOR="#111111" CREATED="1326337945817" ID="ID_771464031" MODIFIED="1326337961235" TEXT=" Organizational units (divisions, departments, and so forth), which branches out to (includes an entry for)   "/>
+<node COLOR="#111111" CREATED="1326337962304" ID="ID_1641956801" MODIFIED="1326337964015" TEXT="  Individuals (which includes people, files, and shared resources such as printers) "/>
+</node>
+<node COLOR="#111111" CREATED="1326338339043" ID="ID_164068954" MODIFIED="1326338347989" TEXT="C&#x1ea5;u tr&#xfa;c m&#x1ed9;t Entry">
+<node COLOR="#111111" CREATED="1326338348418" ID="ID_1284340912" MODIFIED="1326338354445" TEXT="An entry is defined as a set of attributes, and an attribute is a set of values, and sets need not be ordered."/>
+<node COLOR="#111111" CREATED="1326338581263" ID="ID_974406207" MODIFIED="1326338582117" TEXT="An attribute has a name (an attribute type or attribute description) and one or more values"/>
+<node COLOR="#111111" CREATED="1326338599040" ID="ID_1352418711" MODIFIED="1326338599541" TEXT="Each entry has a unique identifier: its Distinguished Name (DN)">
+<node COLOR="#111111" CREATED="1326338633506" ID="ID_368800664" MODIFIED="1326338634030" TEXT="This consists of its Relative Distinguished Name (RDN)"/>
+<node COLOR="#111111" CREATED="1326338643730" ID="ID_1829030879" MODIFIED="1326338644174" TEXT="Think of the DN as the full file path and the RDN as its relative filename in its parent folder "/>
+<node COLOR="#111111" CREATED="1326338650306" ID="ID_1303905407" MODIFIED="1326338650822" TEXT="e.g. if /foo/bar/myfile.txt were the DN, then myfile.txt would be the RDN"/>
+</node>
+<node COLOR="#111111" CREATED="1326338363506" ID="ID_1122145526" MODIFIED="1326338366326" TEXT="M&#x1ed9;t v&#xed; d&#x1ee5;">
+<node COLOR="#111111" CREATED="1326338370609" ID="ID_689467973" MODIFIED="1326338379139">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre> dn: cn=John Doe,dc=example,dc=com
+ cn: John Doe
+ givenName: John
+ sn: Doe
+ telephoneNumber: +1 888 555 6789
+ telephoneNumber: +1 888 555 1232
+ mail: john@example.com
+ manager: cn=Barbara Doe,dc=example,dc=com
+ objectClass: inetOrgPerson
+ objectClass: organizationalPerson
+ objectClass: person
+ objectClass: top</pre>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+<node COLOR="#111111" CREATED="1326338402296" ID="ID_986059655" MODIFIED="1326338687318">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;dn&quot; is the <font color="#990033">DN</font>&#160;of the entry; it's neither an attribute nor a part of the entry
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1326338413488" ID="ID_940699498" MODIFIED="1326338669354">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;cn=John Doe&quot; is the entry's <font color="#009933">RDN</font>&#160;(Relative Distinguished Name)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node COLOR="#111111" CREATED="1326338419840" ID="ID_702835372" MODIFIED="1326338420307" TEXT="&quot;dc=example,dc=com&quot; is the DN of the parent entry">
+<node COLOR="#111111" CREATED="1326338429448" ID="ID_543202101" MODIFIED="1326338429972" TEXT="&quot;dc&quot; denotes &apos;Domain Component&apos;"/>
+</node>
+<node COLOR="#111111" CREATED="1326338470954" ID="ID_1032690303" MODIFIED="1326338471375" TEXT="The other lines show the attributes in the entry"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1326338523965" ID="ID_1552357427" MODIFIED="1326338524521" TEXT="A server holds a subtree starting from a specific entry, e.g. &quot;dc=example,dc=com&quot; and its children"/>
+<node COLOR="#111111" CREATED="1326338539581" ID="ID_1540270549" MODIFIED="1326338539953" TEXT="Servers may also hold references to other servers"/>
+</node>
+<node COLOR="#111111" CREATED="1326337787883" HGAP="30" ID="ID_1152070077" MODIFIED="1326337970796" TEXT="M&#x1ed9;t LDAP server g&#x1ecd;i l&#xe0; Directory System Agent (DSA)" VSHIFT="21">
+<node COLOR="#111111" CREATED="1326338013813" ID="ID_1162712423" MODIFIED="1326338019488" TEXT="Defaulte TCP port 389"/>
+</node>
+<node COLOR="#111111" CREATED="1326337856223" HGAP="22" ID="ID_1372457819" MODIFIED="1326337972075" TEXT="C&#xe1;c DSA c&#xf3; th&#x1ec3; ch&#x1ee9;a m&#x1ed9;t b&#x1ea3;n sao LDAP Directory, &#x111;&#x1ed3;ng b&#x1ed9; v&#x1edb;i nhau" VSHIFT="20"/>
+<node COLOR="#111111" CREATED="1326339055907" ID="ID_1128293399" MODIFIED="1326339060135" TEXT="LDAP URLs">
+<node COLOR="#111111" CREATED="1326339061154" ID="ID_803006038" MODIFIED="1326339155434" TEXT="ldap://host:port/DN?attributes?scope?filter?extensions">
+<icon BUILTIN="info"/>
+<node COLOR="#111111" CREATED="1326339070499" ID="ID_1637733186" MODIFIED="1326339071446" TEXT="host is the FQDN or IP address of the LDAP server to search."/>
+<node COLOR="#111111" CREATED="1326339072180" ID="ID_683517809" MODIFIED="1326339076999" TEXT="port is the network port (default port 389) of the LDAP server."/>
+<node COLOR="#111111" CREATED="1326339081507" ID="ID_472252162" MODIFIED="1326339081803" TEXT="DN is the distinguished name to use as the search base."/>
+<node COLOR="#111111" CREATED="1326339085652" ID="ID_1767921533" MODIFIED="1326339085875" TEXT="attributes is a comma-separated list of attributes to retrieve."/>
+<node COLOR="#111111" CREATED="1326339089420" ID="ID_1619646157" MODIFIED="1326339089657" TEXT="scope specifies the search scope and can be &quot;base&quot; (the default), &quot;one&quot; or &quot;sub&quot;."/>
+<node COLOR="#111111" CREATED="1326339094165" ID="ID_1653289991" MODIFIED="1326339095713" TEXT="filter is a search filter. For example (objectClass=*) as defined in RFC 4515."/>
+<node COLOR="#111111" CREATED="1326339099492" ID="ID_989422063" MODIFIED="1326339099778" TEXT="extensions are extensions to the LDAP URL format."/>
+</node>
+<node COLOR="#111111" CREATED="1326339127478" ID="ID_677557211" MODIFIED="1326339128910" TEXT="V&#xed; d&#x1ee5;">
+<node COLOR="#111111" CREATED="1326339121293" ID="ID_1977869973" MODIFIED="1326339153426" TEXT="&quot;ldap://ldap.example.com/cn=John%20Doe,dc=example,dc=com&quot; ">
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1326339149190" ID="ID_1495804009" MODIFIED="1326339149532" TEXT="refers to all user attributes in John Doe&apos;s entry in ldap.example.com"/>
+</node>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1326337781948" ID="ID_1042665805" MODIFIED="1326337876673" TEXT="Ho&#x1ea1;t &#x111;&#x1ed9;ng" VSHIFT="28">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1326337800586" ID="ID_696498900" MODIFIED="1326337814277" TEXT="M&#x1ed9;t DSA c&#xf3; th&#x1ec3; chuy&#x1ec3;n request cho DSA kh&#xe1;c"/>
 </node>
 </node>
 </node>
