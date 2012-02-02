@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1209962496390" ID="ID_885632261" MODIFIED="1323141406787" TEXT="computer">
+<node COLOR="#000000" CREATED="1209962496390" ID="ID_885632261" MODIFIED="1328174594489" TEXT="computer">
 <edge COLOR="#cc3300" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="20"/>
 <icon BUILTIN="ksmiletris"/>
@@ -428,7 +428,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1262058565157" ID="ID_244137477" MODIFIED="1262067932704" TEXT="Maven">
+<node COLOR="#00b439" CREATED="1262058565157" FOLDED="true" ID="ID_244137477" MODIFIED="1328174608577" TEXT="Maven">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1326180112695" ID="ID_419571815" MODIFIED="1326180168530" TEXT="Basic">
@@ -558,7 +558,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1326337697478" ID="ID_1859372212" MODIFIED="1326337887210" TEXT="LDAP" VSHIFT="22">
+<node COLOR="#00b439" CREATED="1326337697478" FOLDED="true" ID="ID_1859372212" MODIFIED="1328174610753" TEXT="LDAP" VSHIFT="22">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1326337707352" ID="ID_1729535391" MODIFIED="1326337720531" TEXT="C&#x1ea5;u tr&#xfa;c">
@@ -579,7 +579,7 @@
 <node COLOR="#111111" CREATED="1326338650306" ID="ID_1303905407" MODIFIED="1326338650822" TEXT="e.g. if /foo/bar/myfile.txt were the DN, then myfile.txt would be the RDN"/>
 </node>
 <node COLOR="#111111" CREATED="1326338363506" ID="ID_1122145526" MODIFIED="1326338366326" TEXT="M&#x1ed9;t v&#xed; d&#x1ee5;">
-<node COLOR="#111111" CREATED="1326338370609" ID="ID_689467973" MODIFIED="1326338379139">
+<node COLOR="#111111" CREATED="1326338370609" ID="ID_689467973" MODIFIED="1326689775843">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -588,7 +588,9 @@
     <pre> dn: cn=John Doe,dc=example,dc=com
  cn: John Doe
  givenName: John
- sn: Doe
+&#160;sn: Doe
+<font color="#0000cc"> userId: john
+ userPassword: 12</font>3
  telephoneNumber: +1 888 555 6789
  telephoneNumber: +1 888 555 1232
  mail: john@example.com
@@ -624,11 +626,52 @@
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1326338419840" ID="ID_702835372" MODIFIED="1326338420307" TEXT="&quot;dc=example,dc=com&quot; is the DN of the parent entry">
-<node COLOR="#111111" CREATED="1326338429448" ID="ID_543202101" MODIFIED="1326338429972" TEXT="&quot;dc&quot; denotes &apos;Domain Component&apos;"/>
-</node>
+<node COLOR="#111111" CREATED="1326338419840" ID="ID_702835372" MODIFIED="1326338420307" TEXT="&quot;dc=example,dc=com&quot; is the DN of the parent entry"/>
 <node COLOR="#111111" CREATED="1326338470954" ID="ID_1032690303" MODIFIED="1326338471375" TEXT="The other lines show the attributes in the entry"/>
 </node>
+<node BACKGROUND_COLOR="#ff99ff" COLOR="#111111" CREATED="1326689781032" ID="ID_1212728630" MODIFIED="1326689852115" TEXT="D&#xf9;ng LDAP nh&#x1b0; m&#x1ed9;t d&#x1ecb;ch v&#x1ee5; &#x111;&#x103;ng nh&#x1ead;p cho &#x1ee9;ng d&#x1ee5;ng kh&#xe1;c">
+<node COLOR="#111111" CREATED="1326689855731" ID="ID_55955710" MODIFIED="1326690130633" TEXT="&#x1ee8;ng d&#x1ee5;ng &#x111;&#x103;ng nh&#x1ead;p d&#xf9;ng user/pass (hard code) &#x111;&#x1ec3; &#x111;&#x103;ng nh&#x1ead;p LDAP server"/>
+<node COLOR="#111111" CREATED="1326689866643" ID="ID_1506183659" MODIFIED="1326689938138" TEXT="&#x1ee8;ng d&#x1ee5;ng g&#x1ecd;i d&#x1ecb;ch v&#x1ee5; search tr&#xea;n LDAP xem c&#xf3; entry n&#xe0;o m&#xe0; userId=xxx v&#xe0; userPassword=yyy kh&#xf4;ng"/>
+<node COLOR="#111111" CREATED="1326689938654" ID="ID_827182576" MODIFIED="1326690079180" TEXT="C&#xf3; th&#xec; tr&#x1ea3; v&#x1ec1; entry &#x111;&#xf3; (ho&#x1eb7;c m&#x1ed9;t v&#xe0;i thu&#x1ed9;c t&#xed;nh c&#x1ee7;a entry)">
+<node COLOR="#111111" CREATED="1326690014898" ID="ID_957169015" MODIFIED="1326690070194">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="font-style: normal; font-weight: normal; text-indent: -3"><code>            results = ctx.search(&quot;&quot;, &quot;(objectclass=person)&quot;, controls);
+            while (results.hasMore()) {
+                SearchResult searchResult = (SearchResult) results.next();
+                Attributes attributes = searchResult.getAttributes();
+                Attribute attr = attributes.get(&quot;cn&quot;);
+                String cn = (String) attr.get();
+                System.out.println(&quot; Person Common Name = &quot; + cn);
+            }</code></pre>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1326684969632" ID="ID_1235138533" MODIFIED="1326685147830" TEXT="M&#x1ed9;t s&#x1ed1; vi&#x1ebf;t t&#x1eaf;t">
+<node BACKGROUND_COLOR="#66ff33" COLOR="#111111" CREATED="1326685324116" ID="ID_549063714" MODIFIED="1326688858964" TEXT="DN= Distinguished Name ">
+<node COLOR="#111111" CREATED="1326688817884" ID="ID_203484574" MODIFIED="1326688839439" TEXT="T&#xea;n &#x111;&#x1ea7;y &#x111;&#x1ee7; ph&#xe2;n bi&#x1ec7;t gi&#x1eef;a c&#xe1;c entry kh&#xe1;c nhau"/>
+</node>
+<node COLOR="#111111" CREATED="1326688975275" ID="ID_321612160" MODIFIED="1326689007361" TEXT="RDN=Relative Distinguished Name">
+<node COLOR="#111111" CREATED="1326688983620" ID="ID_1413400942" MODIFIED="1326688997523" TEXT="T&#xea;n ng&#x1eaf;n ph&#xe2;n bi&#x1ec7;t entry c&#xf9;ng cha"/>
+</node>
+<node COLOR="#111111" CREATED="1326689048302" ID="ID_82718824" MODIFIED="1326689072572" TEXT="Alias entry l&#xe0; m&#x1ed9;t link tr&#x1ecf; &#x111;&#x1ebf;n m&#x1ed9;t entry kh&#xe1;c"/>
+<node COLOR="#111111" CREATED="1326338429448" ID="ID_543202101" MODIFIED="1326685164313" TEXT="DC= &apos;Domain Component&apos;"/>
+<node COLOR="#111111" CREATED="1326684997086" ID="ID_454336096" MODIFIED="1326684997685" TEXT="OU = organizational unit">
+<node COLOR="#111111" CREATED="1326685083130" ID="ID_552144988" MODIFIED="1326685086525" TEXT="CN=Jay Jamieson, OU= Newport,DC=cp,DC=com">
+<icon BUILTIN="info"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1326685008135" ID="ID_1257734110" MODIFIED="1326685008929" TEXT="CN=common name"/>
+<node COLOR="#111111" CREATED="1326685121619" ID="ID_1655979403" MODIFIED="1326685126054" TEXT="C=Country or Region"/>
+<node COLOR="#111111" CREATED="1326685173935" ID="ID_944774670" MODIFIED="1326685176848" TEXT="L = Location.  City ( Maybe Office)"/>
+<node COLOR="#111111" CREATED="1326685184182" ID="ID_698494343" MODIFIED="1326685186049" TEXT="ST=State, Province or County"/>
 </node>
 <node COLOR="#111111" CREATED="1326338523965" ID="ID_1552357427" MODIFIED="1326338524521" TEXT="A server holds a subtree starting from a specific entry, e.g. &quot;dc=example,dc=com&quot; and its children"/>
 <node COLOR="#111111" CREATED="1326338539581" ID="ID_1540270549" MODIFIED="1326338539953" TEXT="Servers may also hold references to other servers"/>
@@ -1601,7 +1644,7 @@ bkup-$this_day.tar.gz --listed-incremental=list
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841450341" FOLDED="true" ID="ID_582905701" MODIFIED="1259467715382" POSITION="left" TEXT="Windows">
+<node COLOR="#0033ff" CREATED="1210841450341" ID="ID_582905701" MODIFIED="1328174616024" POSITION="left" TEXT="Windows">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1210841456466" ID="ID_133388507" MODIFIED="1224323213341">
@@ -1796,6 +1839,16 @@ bkup-$this_day.tar.gz --listed-incremental=list
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1328174622477" ID="ID_1345987371" MODIFIED="1328174624279" TEXT="Telnet">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1328174625156" ID="ID_1653512040" MODIFIED="1328174642607" TEXT="S&#x1eed; d&#x1ee5;ng">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1328174643837" ID="ID_918341992" MODIFIED="1328174700848" TEXT="Ki&#x1ec3;m tra port c&#x1ee7;a server c&#xf3; connect &#x111;c k&#xf4;, n&#x1ebf;u c&#xf3; m&#x1edf; m&#x1ed9;t window m&#x1edb;i =&gt; hit Ctrl+]">
+<node COLOR="#111111" CREATED="1328174657829" ID="ID_993991160" MODIFIED="1328174677496" TEXT="telnet  localhost 8080"/>
 </node>
 </node>
 </node>
