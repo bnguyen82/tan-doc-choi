@@ -7,9 +7,18 @@ public class ClassA {
  
  public ClassA(){};
  public ClassA(int d){
-  this.g=d;};
+	 this.g=d;};
  public void in(){
 	 System.out.print("A");
 
  }
+ public static void in2(){
+	 
+ }
+ public static final String AA="aa";
+ public static  void in1(){
+	 System.out.print("A");
+	 
+ }
+ public class AAAA{}
 }
