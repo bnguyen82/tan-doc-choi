@@ -2,7 +2,10 @@ package test;
 
 public class ClassB extends ClassA{
 	 public int a=8;
-
+	 public static final void in1(){
+		 System.out.print("A");
+		 
+	 }
 	 public void in(){
 		 int d = a+c;
 		 System.out.print("B");

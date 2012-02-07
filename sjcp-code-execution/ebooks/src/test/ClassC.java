@@ -13,6 +13,7 @@ public class ClassC extends ClassB{
 			}
 		};
 		a.in();
+		a.in1();
 	}
 	public class ClassD{
 		int e=f;

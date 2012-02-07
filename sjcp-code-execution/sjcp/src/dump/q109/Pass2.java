@@ -10,5 +10,6 @@ public class Pass2 {
 	
 	void doStuff(int x) {
 	System.out.print(" doStuff x = " + x++);
+
 	}
 	}

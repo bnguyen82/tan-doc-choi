@@ -10,5 +10,9 @@ public class Test{
 	strings.add("AAaa");
 	 Collections.sort(strings);
 	for (String s : strings) { System.out.print(s + " "); }
+	
+	if ('a' > 'A'){
+		int c=2;
+	}
 
 }}
