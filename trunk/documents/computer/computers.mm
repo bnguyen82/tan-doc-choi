@@ -8583,7 +8583,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841840575" FOLDED="true" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1326016192268" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
+<node COLOR="#0033ff" CREATED="1210841840575" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1328868383719" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
 <edge COLOR="#00cccc" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1240837489319" FOLDED="true" ID="ID_417273820" MODIFIED="1254752369422" STYLE="fork" TEXT="Architecture">
@@ -13158,7 +13158,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1243655152305" FOLDED="true" HGAP="18" ID="ID_1252984368" LINK="Manning.Spring.in.Action.2nd.Edition.Aug.2007.pdf" MODIFIED="1322708369008" TEXT="Spring" VSHIFT="83">
+<node COLOR="#00b439" CREATED="1243655152305" HGAP="18" ID="ID_1252984368" LINK="Manning.Spring.in.Action.2nd.Edition.Aug.2007.pdf" MODIFIED="1328868388477" TEXT="Spring" VSHIFT="83">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1243655175368" ID="ID_1369297481" MODIFIED="1259470412811" TEXT="IoC Controler">
@@ -13750,7 +13750,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1246155621074" FOLDED="true" HGAP="43" ID="ID_256268420" MODIFIED="1322470825374" VSHIFT="53">
+<node COLOR="#990000" CREATED="1246155621074" HGAP="43" ID="ID_256268420" MODIFIED="1328868396296" VSHIFT="53">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14260,7 +14260,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#111111" CREATED="1258258568797" FOLDED="true" ID="ID_698541653" MODIFIED="1322454132747" TEXT="Transactions">
+<node BACKGROUND_COLOR="#ffff00" COLOR="#111111" CREATED="1258258568797" ID="ID_698541653" MODIFIED="1328868398046" TEXT="Transactions">
 <node COLOR="#111111" CREATED="1258258574545" ID="ID_346111211" MODIFIED="1258258624747" TEXT="Spring h&#x1ed7; tr&#x1ee3; declare transaction management th&#xf4;ng wa AOP framework"/>
 <node BACKGROUND_COLOR="#ccffcc" COLOR="#111111" CREATED="1258258675961" ID="ID_1610562459" MODIFIED="1291876485609" TEXT="Spring gi&#xfa;p &#x111;&#x1ecb;nh ngh&#x129;a transaction tr&#xea;n c&#xe1;c method">
 <node COLOR="#111111" CREATED="1258258804456" ID="ID_1450274233" MODIFIED="1258258891701" TEXT="Ch&#x1ec9; &#xe1;p d&#x1ee5;ng method tr&#xea;n l&#x1edb;p service v&#xe0; method &#x111;&#x1b0;&#x1ee3;c g&#x1ecd;i wa proxy m&#xe0; th&#xf4;i">
@@ -14275,7 +14275,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1258259062817" ID="ID_683638599" MODIFIED="1322453345275" TEXT="C&#x1ee5; th&#x1ec3; c&#xe1;c thu&#x1ed9;c t&#xed;nh transation">
 <node COLOR="#111111" CREATED="1258259079101" ID="ID_1128866452" MODIFIED="1322453350002" TEXT="Propagation behavior">
 <node COLOR="#111111" CREATED="1258259135311" ID="ID_206384954" MODIFIED="1258259158905" TEXT="Ch&#x1ec9; &#x111;&#x1ecb;nh method c&#xf3; c&#x1ea7;n transaction c&#x1eb7;p n&#xf3; kh&#xf4;ng"/>
-<node COLOR="#111111" CREATED="1258259160958" FOLDED="true" ID="ID_520838235" MODIFIED="1322453360375" TEXT="PROPAGATION_REQUIRED">
+<node COLOR="#111111" CREATED="1258259160958" FOLDED="true" ID="ID_520838235" MODIFIED="1328869270904" TEXT="PROPAGATION_REQUIRED">
 <node COLOR="#111111" CREATED="1258259229687" ID="ID_95602606" MODIFIED="1258259247473" TEXT="Y&#xea;u c&#x1ea7;u method ph&#x1ea3;i ch&#x1ea1;y trong transation"/>
 <node COLOR="#111111" CREATED="1258259753270" ID="ID_1591436491" MODIFIED="1258259767961" TEXT="N&#x1ebf;u c&#xf3; tx &#x111;ag ch&#x1ea1;y, method s&#x1ebd; tthi trong tx &#x111;&#xf3;"/>
 <node COLOR="#111111" CREATED="1258259768241" ID="ID_1232558055" MODIFIED="1258259779898" TEXT="N&#x1ebf;u k&#xf4; c&#xf3; tx &#x111;ag ch&#x1ea1;y, t&#x1ea1;o m&#x1edb;i tx"/>
@@ -14398,6 +14398,16 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1258260223606" ID="ID_1699812507" MODIFIED="1258260234011" TEXT="Annotation"/>
+</node>
+<node COLOR="#111111" CREATED="1328868417305" ID="ID_1276935506" MODIFIED="1328868423117" TEXT="Annotations">
+<node COLOR="#111111" CREATED="1328868440881" ID="ID_545482173" MODIFIED="1328868445513" TEXT="@Transactional">
+<node COLOR="#111111" CREATED="1328868424490" ID="ID_1909095418" MODIFIED="1328868430217" TEXT="The @Transactional annotation is metadata that specifies that an interface, class, or method must have transactional semantics"/>
+<node COLOR="#111111" CREATED="1328868530797" ID="ID_381385385" MODIFIED="1328868543633" TEXT="Default if not specify any parameter">
+<node COLOR="#111111" CREATED="1328868581398" ID="ID_779587755" MODIFIED="1328868581832" TEXT="PROPAGATION_REQUIRED"/>
+<node COLOR="#111111" CREATED="1328868589319" ID="ID_697558083" MODIFIED="1328868589957" TEXT="ISOLATION_DEFAULT"/>
+<node COLOR="#111111" CREATED="1328868596352" ID="ID_256512680" MODIFIED="1328868596822" TEXT="The transaction is read/write"/>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1259133530750" FOLDED="true" ID="ID_823721207" MODIFIED="1322454142743" TEXT="Security cho class service">
