@@ -326,7 +326,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1210840695957" FOLDED="true" HGAP="30" ID="ID_8828670" MODIFIED="1262067993313" TEXT="Eclipse" VSHIFT="-164">
+<node COLOR="#00b439" CREATED="1210840695957" HGAP="30" ID="ID_8828670" MODIFIED="1329104741415" TEXT="Eclipse" VSHIFT="-164">
 <edge COLOR="#990033" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1210840701363" ID="ID_1167485465" MODIFIED="1259467640505" STYLE="bubble">
@@ -384,6 +384,20 @@
 </html></richcontent>
 <edge STYLE="bezier" WIDTH="thin"/>
 <font ITALIC="true" NAME="Tahoma" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1329104756065" ID="ID_1972731819" MODIFIED="1329104757181" TEXT="SVN">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1329104743484" ID="ID_1689053524" MODIFIED="1329104763568" TEXT="Remove svn folder in source">
+<font NAME="SansSerif" SIZE="12"/>
+<node COLOR="#111111" CREATED="1329104773355" ID="ID_1814238941" MODIFIED="1329107783692" TEXT="Open Properties/Resorce/Resourc Filters">
+<icon BUILTIN="full-1"/>
+</node>
+<node COLOR="#111111" CREATED="1329104787612" ID="ID_905221770" MODIFIED="1329107799349" TEXT="Hit exclude ">
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1329104759298" HGAP="52" ID="ID_1888513894" MODIFIED="1329107714838" TEXT="**/.svn/"/>
+<node COLOR="#111111" CREATED="1329107800955" ID="ID_722392258" MODIFIED="1329107811291" TEXT="Check Include "/>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1210757772232" FOLDED="true" HGAP="32" ID="ID_201338832" MODIFIED="1259467671029" TEXT="Tomcat" VSHIFT="-65">
@@ -555,6 +569,20 @@
 <node COLOR="#111111" CREATED="1326437599693" ID="ID_1226493568" MODIFIED="1326437626735" TEXT="Cho m&#x1ed7;i l&#x1ea7;n run mvn">
 <node COLOR="#111111" CREATED="1326437627646" ID="ID_222201947" MODIFIED="1326437646082" TEXT="mvn -Dmaven.repo.local=c:\test\repo"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1329114621820" ID="ID_1130086717" MODIFIED="1329114623912" TEXT="Ant">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1329114641913" ID="ID_1712642259" MODIFIED="1329114646934" TEXT="Java tools">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1329114647821" ID="ID_908544925" MODIFIED="1329114649809" TEXT="Jar">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1329114650736" ID="ID_647226916" MODIFIED="1329114664161" TEXT="T&#x1ea1;o jar file t&#x1eeb; folder source code">
+<node COLOR="#111111" CREATED="1329114670244" ID="ID_963267137" MODIFIED="1329114694982" TEXT="Trong folder bin of SDK, jar cvf xxx.jar folder_path"/>
 </node>
 </node>
 </node>
@@ -8583,7 +8611,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841840575" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1328868383719" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
+<node COLOR="#0033ff" CREATED="1210841840575" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1329113631649" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
 <edge COLOR="#00cccc" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1240837489319" FOLDED="true" ID="ID_417273820" MODIFIED="1254752369422" STYLE="fork" TEXT="Architecture">
@@ -13158,10 +13186,10 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1243655152305" HGAP="18" ID="ID_1252984368" LINK="Manning.Spring.in.Action.2nd.Edition.Aug.2007.pdf" MODIFIED="1328868388477" TEXT="Spring" VSHIFT="83">
+<node COLOR="#00b439" CREATED="1243655152305" HGAP="18" ID="ID_1252984368" LINK="Manning.Spring.in.Action.2nd.Edition.Aug.2007.pdf" MODIFIED="1329115362117" TEXT="Spring" VSHIFT="83">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1243655175368" ID="ID_1369297481" MODIFIED="1259470412811" TEXT="IoC Controler">
+<node COLOR="#990000" CREATED="1243655175368" FOLDED="true" ID="ID_1369297481" MODIFIED="1329113636943" TEXT="IoC Controler">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#00ffcc" COLOR="#111111" CREATED="1243815583109" ID="ID_960329385" MODIFIED="1259470416847" TEXT="Dependencis">
 <node COLOR="#111111" CREATED="1243815589969" ID="ID_213355214" MODIFIED="1259470422375" TEXT="Constructor Injection">
@@ -13750,7 +13778,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1246155621074" HGAP="43" ID="ID_256268420" MODIFIED="1328868396296" VSHIFT="53">
+<node COLOR="#990000" CREATED="1246155621074" HGAP="43" ID="ID_256268420" MODIFIED="1329113665371" VSHIFT="53">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14318,6 +14346,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1258259416576" ID="ID_842751632" MODIFIED="1258259490222" TEXT="C&#xe1;c table c&#x1ee7;a transaction b&#x1ecb; lock khi tx &#x111;ang th&#x1ef1;c thi"/>
 <node COLOR="#111111" CREATED="1258259447550" ID="ID_1227690195" MODIFIED="1258259450725" TEXT="DB ch&#x1ea1;y ch&#x1ead;m"/>
 </node>
+<node COLOR="#111111" CREATED="1329113673643" ID="ID_1353222024" MODIFIED="1329113981077" TEXT="Thu&#x1ed9;c t&#xed;nh n&#xe0;y &#x111;&#x1ecb;nh ngh&#x129;a trong TransactionDefinition v&#xe0; &#x111;&#x1b0;&#x1ee3;c truy&#x1ec1;n xu&#x1ed1;ng java.mysql.Connection &#x111;&#x1ec3; s&#x1eed; d&#x1ee5;ng"/>
 </node>
 <node COLOR="#111111" CREATED="1258259115052" FOLDED="true" ID="ID_437551703" MODIFIED="1322453415083" TEXT="Readonly">
 <node COLOR="#111111" CREATED="1258259848166" ID="ID_712373231" MODIFIED="1258259892550" TEXT="Tx readonly s&#x1ebd; t&#x1ead;n d&#x1ee5;ng kh&#x1ea3; n&#x103;ng t&#x1ed1;i &#x1b0;u c&#x1ee7;a DB &#x111;&#x1ec3; ththi query t&#x1ed1;t h&#x1a1;n"/>
@@ -14399,7 +14428,27 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 <node COLOR="#111111" CREATED="1258260223606" ID="ID_1699812507" MODIFIED="1258260234011" TEXT="Annotation"/>
 </node>
-<node COLOR="#111111" CREATED="1328868417305" ID="ID_1276935506" MODIFIED="1328868423117" TEXT="Annotations">
+<node BACKGROUND_COLOR="#00cccc" COLOR="#111111" CREATED="1329113775496" ID="ID_1408200589" MODIFIED="1329115390151" TEXT="C&#xe0;i &#x111;&#x1eb7;t trong Spring">
+<node COLOR="#111111" CREATED="1329115407605" ID="ID_1319030805" MODIFIED="1329115410232" TEXT="JDBC">
+<node COLOR="#111111" CREATED="1329113791705" ID="ID_1102884003" MODIFIED="1329113827012" TEXT="M&#x1ed9;t transaction th&#x1ef1;c s&#x1ef1; &#x111;&#x1b0;&#x1ee3;c bi&#x1ec3;u di&#x1ec5;n b&#x1edf;i DataSourceTransactionObject">
+<node COLOR="#111111" CREATED="1329113827859" ID="ID_379559568" MODIFIED="1329115689387" TEXT="Object n&#xe0;y ch&#x1ee9;a m&#x1ed9;t ConnectionHolder trong &#x111;&#xf3; ch&#x1ee9;a Connection"/>
+<node COLOR="#111111" CREATED="1329115635208" ID="ID_1251774150" MODIFIED="1329115695506" TEXT="ConnectionHolder qu&#x1ea3;n l&#xfd; session bind v&#x1edb;i thread b&#x1edf;i bi&#x1ebf;n Thread Local"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1329115411885" ID="ID_157571735" MODIFIED="1329115414661" TEXT="Hibernate">
+<node COLOR="#111111" CREATED="1329115436188" ID="ID_1495910247" MODIFIED="1329115448610" TEXT="M&#x1ed9;t transaction th&#x1ef1;c s&#x1ef1; &#x111;&#x1b0;&#x1ee3;c bi&#x1ec3;u di&#x1ec5;n b&#x1edf;i HibernateTransactionObject">
+<node COLOR="#111111" CREATED="1329115467626" ID="ID_559627519" MODIFIED="1329115551173" TEXT="Trong &#x111;&#xf3; ch&#x1ee9;a SessionHolder ch&#x1ee9;a org.hibernate.Session">
+<node COLOR="#111111" CREATED="1329115635208" ID="ID_889710106" MODIFIED="1329115664029" TEXT="SessionHolder qu&#x1ea3;n l&#xfd; session bind v&#x1edb;i thread b&#x1edf;i bi&#x1ebf;n Thread Local"/>
+</node>
+<node COLOR="#111111" CREATED="1329115554901" ID="ID_581519540" MODIFIED="1329115605533" TEXT="Session l&#xe0; object qu&#x1ea3;n l&#xfd; &#x111;&#x1eb7;c bi&#x1ec7;t c&#x1ee7;a Hibernate &#x111;&#x1ebf;n c&#xe1;c object mapping xu&#x1ed1;ng DB, n&#xf3; ch&#x1ee9;a Connection c&#x1ee7;a mysql"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1329123930602" ID="ID_371032549" MODIFIED="1329123939010" TEXT="Transaction Manager">
+<node COLOR="#111111" CREATED="1329123939376" ID="ID_1885397206" MODIFIED="1329123964787" TEXT="Qu&#x1ea3;n l&#xfd; transaction Isolation, Propagation"/>
+<node COLOR="#111111" CREATED="1329123968241" ID="ID_1165159317" MODIFIED="1329124005207" TEXT="N&#x1ebf;u k&#xf4; d&#xf9;ng Tx Manager ta ph&#x1ea3;i open Transaction t&#x1eeb; object session c&#x1ee7;a Hibernate"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1328868417305" HGAP="17" ID="ID_1276935506" MODIFIED="1329124010155" TEXT="Annotations" VSHIFT="47">
 <node COLOR="#111111" CREATED="1328868440881" ID="ID_545482173" MODIFIED="1328868445513" TEXT="@Transactional">
 <node COLOR="#111111" CREATED="1328868424490" ID="ID_1909095418" MODIFIED="1328868430217" TEXT="The @Transactional annotation is metadata that specifies that an interface, class, or method must have transactional semantics"/>
 <node COLOR="#111111" CREATED="1328868530797" ID="ID_381385385" MODIFIED="1328868543633" TEXT="Default if not specify any parameter">
@@ -14756,7 +14805,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 <node COLOR="#111111" CREATED="1247154818852" ID="ID_1716055514" MODIFIED="1247154821716" TEXT="Pool connections"/>
 </node>
-<node COLOR="#111111" CREATED="1247284911845" FOLDED="true" ID="ID_1882715604" MODIFIED="1322470829647" TEXT="Spring v&#x1edb;i Hibernate">
+<node COLOR="#111111" CREATED="1247284911845" ID="ID_1882715604" MODIFIED="1329113650406" TEXT="Spring v&#x1edb;i Hibernate">
 <node COLOR="#111111" CREATED="1247156146481" HGAP="64" ID="ID_1088182118" MODIFIED="1312859832704" TEXT="&#x110;&#x1ecb;nh ngh&#x129;a Template" VSHIFT="12">
 <node COLOR="#111111" CREATED="1247156152450" ID="ID_1396572295" MODIFIED="1247156196373" TEXT="Cho ph&#xe9;p xem qu&#xe1; tr&#xec;nh li&#xea;n wan &#x111;&#x1ebf;n DB l&#xe0; qtr&#xec;nh chu&#x1ea9;n"/>
 <node COLOR="#111111" CREATED="1247156174712" FOLDED="true" ID="ID_257278083" MODIFIED="1322463880614" TEXT="Ch&#x1ec9; c&#xf3; m&#x1ed9;t s&#x1ed1; b&#x1b0;&#x1edb;c trong qtr&#xec;nh l&#xe0; c&#xf3; th&#x1ec3; th&#xe2;y &#x111;&#x1ed5;i t&#xf9;y thu&#x1ed9;c ho&#xe0;n c&#x1ea3;nh">
@@ -16025,7 +16074,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1323496116836" ID="ID_1996161788" MODIFIED="1323496123926" TEXT="Lookup">
+<node COLOR="#990000" CREATED="1323496116836" FOLDED="true" ID="ID_1996161788" MODIFIED="1329113640208" TEXT="Lookup">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1323499005167" ID="ID_1903841630" MODIFIED="1323499007700" TEXT="&#xdd; ngh&#x129;a">
 <node COLOR="#111111" CREATED="1323499010697" ID="ID_1519872345" MODIFIED="1323499134904" TEXT="Cho ph&#xe9;p m&#x1ed9;t class t&#xec;m ki&#x1ebf;m c&#xe1;c service provider c&#x1ee7;a m&#x1ed9;t interface v&#xe0; s&#x1eed; d&#x1ee5;ng n&#xf3;">
@@ -16303,7 +16352,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1323524674416" ID="ID_122087842" MODIFIED="1323524692652" TEXT="S&#x1a1; l&#x1b0;&#x1ee3;c Listener">
+<node COLOR="#990000" CREATED="1323524674416" FOLDED="true" ID="ID_122087842" MODIFIED="1329113642510" TEXT="S&#x1a1; l&#x1b0;&#x1ee3;c Listener">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1323524695240" ID="ID_948536660" MODIFIED="1323524699012" TEXT="Producer">
 <node COLOR="#111111" CREATED="1323524700452" ID="ID_211820871" MODIFIED="1323524759253" TEXT="G&#x1ecd;i l&#xe0; m&#x1ed9;t bean c&#xf3; th&#x1ec3; fire event n&#xe0;o &#x111;&#xf3; khi c&#xf3; s&#x1ef1; t&#x1b0;&#x1a1;ng tac b&#xea;n ngo&#xe0;i v&#xe0;o n&#xf3;">
