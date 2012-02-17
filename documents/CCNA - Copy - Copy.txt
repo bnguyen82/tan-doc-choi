@@ -1,0 +1,130 @@
+End device: thiêt bi ðâu cuôi
+Computer: may tinh 
+Network print: may in kêt nôi trong vãn phong.
+Voip phones: may ðiên thoai xý ly trên mang sô liêu.
+Security cameras: cameras bao mât
+Mobile handheld device
+Intermediary: _network device: thiêt bi mang trung gian
+Network access device: thiêt bi truy câp mang nhý: hubs, switches, wireless access point.
+Access: truy câp
+Accessible: co’ thê sý dung, truy câp…
+Internetwork device : thiêt bi liên mang
+Communication: _server and modems: may chu va` modem kêt nôi mang
+Security device: thiêt bi bao ve nhu : firewalls.
+Maintain : duy tri
+Alternate: luan phien
+Notify : thong bao
+Regenerate : tai tao
+Retransmit : truyen lai
+Signal : tin hieu.
+Processes : xu ly
+Component : thanh phan
+Classify : sap xep
+Direct : gui truc tiep
+According : theo
+Priority: uu tien
+QoS: quality of service
+Permit: cho phep
+Deny: tu choi, phu nhan
+Flow: chay, tran`
+Based on: can cu tren, dua tren
+Network media: moi truong mang
+Metallic wires within cables: day kim loai trong cap
+Metallic: thuoc ve kim loai
+Glass fiber: cap quang
+Plastic fiber; cap quang 
+Wireless transmission: mang phat vo tuyen
+Criateria: tieu chuan (for choice a network media):
+Ditance: khoang cach(the media can successfully carry a signal)
+Environment: moi truong tu nhien (in which the media is to be installed)
+Amount of data: luong data (and the speed at which it must be transmitted.)
+The cost: chi phi ( the cost of the media and installation)
+Installation: su lap dat
+Term: gioi han
+Individual: ca nhan, rieng le
+Span: mo rong 
+geographical : thuoc vung dia ly
+application: ung dung
+common: pho bien
+campus: mang khuon vien
+region: vung`, mien`.
+Separate: ngãn cach, khoang cach
+WAN: wide area network, mang diên rông
+Instant: khân câ’p
+Following: nho’m
+Performance: sý thýc thi
+Global: toan` câu`
+Mesh: mang lýõi’,
+ISPs: internet servise providers,”cac’ nhà cung câp’ dich vu”
+Intranet: mang nôi bô
+Refer : (to), ðê` câp ðên’ …
+Belong: (to), thuôc vê`
+Authorization: sý cho phep’, sý câp’ phep’
+Network interface card:card giao diên mang, nôi cap’mang vao` PC
+Physical port: công mang vât ly’
+Interface: giao diên, mach ghep’ nôi’, chãn’ nôi mang.
+Protocol: giao thýc’, cac’ quy tãc’ ðê nôi’ cac’ mang või’ nhau
+Govern: chi phôi’, quyêt’ ðinh
+Predetermined: quyêt’ ðinh
+Specific: ranh` mach, cu thê
+Characteristic: ðãc trýng
+Specific: ranh` mach, cu thê
+Conversation: kêt’ nôi’, kêt hõp
+Stack: ngãn xêp’
+Layer: phân lõp’
+Suite: bô.
+Implement: thýc thi, thýc hanh`
+Hierarchy: hê ðãng câp’
+Formal: theo nghi thýc, cân ðôi’
+Simply: ðõn gian
+Custom: thoi’ quen, phong tuc
+Pratice: thoi’ quen
+Describe: diên ta, mô ta
+Encapsulated: ðong’ goi’, tom’ luoc, tom’ gon’
+Encapsulation: su dong goi, tom’ luoc, tom’ gon
+Destination : ðich’, ðiêm ðên’
+Underlying : phia’ dýõi’,cõ ban, cõ sõ,ýu tiên.
+Exchange: trao ðôi
+Initiate: bãt’ ðâu`, khõi ðâu`.
+Fit: ãn khõp’
+Framework: khuôn khô, khung
+Presentation: sý biêu diên,
+Session: giao tiêp’, truyên thông
+Interpret: biên dich,
+Appropriate: thich’ ýng’.
+Compression: su nen’
+Encryption: ma hoa’
+Upon : trên
+Receipt : nhânj.
+Dialogs : cuôc ðôi’ thoaij
+period of time: chu trinh` thõi` gian.
+Period: chu trinh`, 
+Disrupt: ðýt’ ðoanj.
+Idle: nhan` rôix
+DNS: hê thông’ tên miên`, “domain name system
+DHCP: giao thýc’ câu’ hinh` HOST ðôngj,” Dynamic Host Configuration Pro”
+HTTP: giao thýc’ truyên` siêu vãn ban,” Hypertext Transfer Protocol”
+SMTP: giao thýc’ truyên` thý tin’,” Simple mail Transfer Protocol”
+FTP:  giao thýc’ truyên` tâp tin.
+Telnet: chýõng trinh` thâm nhâp may’ tinh’ õ xa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

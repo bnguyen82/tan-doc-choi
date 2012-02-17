@@ -1,0 +1,55 @@
+Weather: thõi`tiêt’
+Season: mua`
+Dry season: mua`khô
+Around the year: quanh nãm
+All the year: quanh nãm
+Forcast: dý bao’(v), sý dý bao’(n)
+Weather forcast: dý bao’thõi`tiêt’
+Hot: nong’
+Heat(n): nong’
+Cold: lanh, sý lanh lung`(n)
+Cold heart: trai’tim bãng gia’
+Coldness: sý lanh(n)
+Wet: âm ýõt’
+Wetten: lam`ýõt’(V_tr)
+Dry: khô(V_tr)
+Humid: âm?
+Humidity: ðô âm?
+Rainy: co’mýa
+Rain: mýa (V_intr)
+Cool: mat’me?
+Warm: âm’ap’
+Windy: co’gio’
+Wind: gio’
+Cloudy: co’mây
+Cloud: mây
+Smoggy: co’sýõng mu`
+Smog: sýõng mu`
+Foggy: co’sýõng(hat)
+Fog: sýõng(hat)
+Ice: kem ða’
+Snowy: co’tuyêt’
+Snow: tuyêt’
+Animal: loai`vât
+Frog: coc’
+Snake; rãn’
+Insect: sâu, côn trung`
+Snail: ôc’sên
+Silk_warm: sâu
+Butterfly: býõm’
+Mosquito: muôi~
+Peacock: công
+Bird: chim
+Crab: cua
+Crocodile: con ca’sâu’
+Elephant: voi
+Rabbit: tho?
+Puma: bao’
+Ant: kiên’
+Daragon: long(rông`)
+Unicorn: li(lân)
+Tortoise: quy(rua`)
+Phonenix: phýõng(phýõng hoang`)
+Donkey: lýa`
+Monkey: khi?
+

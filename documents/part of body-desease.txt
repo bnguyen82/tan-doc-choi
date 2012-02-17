@@ -1,0 +1,80 @@
+Head: ðâu`
+Skull: ðâu`lâu (sõ`câu)
+Shoulder: vai
+Eye: mãt’, ðê?y’, ðê mãt’ STH
+Ex: an eye is soul’s windown
+Arm: canh’tay
+Arm Sbody: trang bi vu~trang cho ai
+Armed force: lýc lýõng vu~trang
+Hand: tay
+Mouth: miêng
+Chin: cãm`
+Ex: keep one’s chin up, ai luôn týõi cýõi`
+Ear: tai
+Earing: bông tai
+Foot: ban`chân
+Leg: chân
+Throat: cô?hong
+Nose: mui~
+Tooth: môt cai’rãng
+Teeth: nhiêu`cai’rãng
+Upper jaw: ham`rãng trên
+Lower jaw: ham`rãng dýõi’
+Bone: xýõng
+Back: lýng, ung?hô Sbody
+Back bone,spine: xýõng sông’
+Lung: phôi?
+Lung cancer: ung thý phôi?
+Small intestant: long`non
+Larger intestant: long`gia`
+Cheek: ma’
+Cheek bone: xýõng go`ma’
+Ex: kiss on cheek, hôn lên ma’
+Hair: sõi toc’, mai’toc’
+Lip: môi
+Eye brow: lông may`
+Eye lash: lông mi
+Nail: mong’tay, nghê`trang ðiêm mong’tay
+Belly: bung
+Stomach: da day`
+Neck: cô?
+Necklace: dây chuyên`
+Blood: mau’, huyêt’thông’, dinh’ðây’mau’
+Bloody: chêt’tiêt
+Liver: gan
+Hip: mông
+Chest: ngýc, býõm’
+Mother_tongue langue: tiêng’me ðe?
+Beard : râu
+Forehead : tran’
+Finger :ngon’tay
+Ring finger: ngon’nhân~
+Pain: ðau ðõn’, nôi~ðau
+Chest pain: chýng’ðau ngýc
+Painful: gây ðau, ðau ðõn’
+Headache: ðau ðâu`
+Backache: ðau lýng
+Stomache: ðau da day`
+Ex: I have a headache
+Ex: I have a pain a (part of body)
+
+Desease: bênh tât
+Flu: cam?cum’
+Bird flu: dich cum’giacâm`
+Measles: bênh sõi?
+Mumps: quai bi
+Encaphalitis : viêm nao~ (nhât ban?)
+Tonsillitis : viêm hong
+Hepatitis : viêm gan
+Arthritis : viêm khõp’
+Pneumonia : viêm phôi?
+Chest cold : viêm phôi?
+Lovesick(adj) : týõng tý
+Lovesickness : bênh týõng tý
+Homesich: nhõ’nha`	
+Fever: sôt’
+Obesity: bênh beo’phi`
+Obese(adj): beo’phi`
+Asthma: bênh hen
+Trauma: chân’thýõng, tôn?thýõng
+

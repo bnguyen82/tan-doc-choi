@@ -1,0 +1,500 @@
+stress: cang thang ;"put the tress on"
+courtesan: gai goi hang sang; courtezan
+division: su cat'; "divide the class into 2 groups "
+finally: cuoi cung thi...; "finally, she got married to me"
+cook: dau bep
+chef: bep truong
+beef : thit bo`
+name: ten; "we will name our son mit' "
+ordinal: so' thuong`
+digital: thuoc ve` so',
+technology: cong nghe; "the technology of computer"
+millionare: trieu phu
+billionare: ty phu
+remote area: vung sau vung xa
+cardinal: so thu' tu
+role: vai tro, vai dien.
+play leading role: thu vai chinh (trong kich), dong vai tro lanh dao
+dialect: phuong ngu
+general: toan the, tong the, chung...
+general store: cua hang bach hoa
+general hospital: benh vien da khoa
+win: chien thang, "win sbody's heart" 
+lose: mat, lam hai, "lose sbody's heart to me"
+morning: sang'
+afternoon: chieu`
+evening: toi'
+night: khuya
+deaday: ngay chet, ngay do~
+wedding day: ngay cuoi'
+mariadge: ngay cuoi'
+divorce: ngay ly di
+anniversary: ngay ki niem, "anniversary on "-ky niem ngay nao?
+christmast: le giang sinh
+ex: cuu, co'
+former: cuu, co'
+mayday: Quoc te lao dong
+labour day: Quoc te lao dong
+international: quoc te, "international woman's day"
+invalid: nguoi benh tat, tan` phe', vo hieu,"war invalid day"
+national: dan toc, quoc gia, "national festival" or "national holiday" 
+snake: con ran'
+secretary: thu ky
+dove: chim bo cau, "the eyes of you are as dark as dove's"
+date: ngay, hen gap ai? "have a date with Sbody" or " date Sbody?"
+navel: ron (nguoi), trung tam
+centre: trung tam
+agent:  tac' nhan
+cradle: cai Noi, "rock the cadle"-dua noi
+cow : con bo`
+angel: thien than`
+avatar: thien than`,su hien than
+magi: thien than`, dao si
+daughter: con gai, "daughter in law"-con dau
+paddy: thoc lua, dung cu khoan, "paddy field"-ruong
+lot: nhieu,  "cast lots"-rut tham; "lot of land"-lo dat
+noun: danh tu`
+adjective: tinh' tu`
+adverb: trang tu`
+preposition: gioi tu`
+subject: chu ngu
+complement: bô ngý~
+object: tân ngý~
+conjunction: tu nôi’giua cac cau
+possessive_adj: tinh' t?` s? h?u~
+V-trannsitive: ngoai dong tu;"meet ghost"
+V-intransitive: noi dong tu;"meet with ghost"
+speaker: loa, nguoi noi'
+marker: but long; "black/white board marker"- but long viet bang den
+fan: quat; "table/wall/ceiling fan"-quat ban` /tuong/tran`
+body: than the, co quan
+altar: ban` tho`
+insame: huong (huong khoi')
+lamp: den` neon
+buld: den` toc'
+contact: cong tat, su giao tiep, su gap go
+switch off: tat' (den`)
+cap: mu luoi trai
+hat: mu thuong`
+pot: noi, xoong, chao
+knife: con dao
+electricity column: cot dien
+electricity cooker: noi com dien
+chopstick: doi dua (an)
+fork: xien, nia (an)," fork out"-trao tra, tra tien, xuy ra
+helmet: mu bao hiem
+rag: gie rach, gie lau
+cleaner: cai de lau chui`
+astray: gat tan`
+ink-pot: lo muc
+twin-tower: thap doi
+gas station: tram xang
+wardrobe: tu quan ao
+fridge: may lam dong lanh
+bottle: chai, lo; "bottel of wine"-chai ruou
+air conditioner: may dieu hoa
+refrigerator: tu lanh
+freezer: tu lanh
+fridge: tu lanh
+ice-box: tu lanh
+singlet: ao lot, ao day
+underwear: ao quan lot
+potocopier: may photo copy
+obey: chap hanh, nghe loi "abey traffic law"-chap hanh luat giao thong
+glasses: kinh, guong, thuy tinh
+lawful: hop phap
+short sighted: can thi; "short sighted glasses"-kinh can
+far sighted: vien thi ; "far sighted glasses"-kinh vien
+colour glasses: kinh mau
+sun glasses: kinh ram
+plural: sô’ nhiêu`
+singular: sô’ it’
+safe: ket’ sãt’
+burner: l? hýõng, lo` ðôt’
+fairy: cô tiên
+grip: niu’ giý~ (Vtr)
+name: thýõng hiêu, “be named after + tên ai?”-ðãt theo tên ai?
+brand: nhan~(hang`hoa’)
+trademark: tên nhan~, thýõng hiêu
+give: ðýa, sinh ra, cho,”give a birth to a child”
+product: san phâm
+inventor: ngýõi`sang’lâp
+establish: ngýõi`thanh`lâp, chýng’minh, cung cô’
+Mr.: ông, what do you call her_hoi vê` chýc’týõc’
+Mrs: ba`
+Miss: cô
+Ms: cô(chýa ro~ ða~ co’chông`?)
+Sir: ngai`
+Title: “title SBD as “Sir””-phong týõc’hiêu cho ai?
+Professor: Pr, giao’sý
+Associate professor: pho’giao’sý
+Doctor: Dr,tiên’si~
+Master of arts: thac si~
+Period: giai ðoan
+Greeting: lõi` chao`, greet SBD
+Bow SBD: cui’chao`ai?
+Wink: nhay’mãt’ai?-wink at SBD
+Formal: trang trong
+Informal: không trang trong
+Farewell: tam biêt, “farewell until we meet again!”
+Have success: chuc’thanh`công
+Forget: quên,
+Forest: rýng`
+Dreamed: mõ co’thât
+Dreamy: mõ mông hao~ huyên`, “never be dreamy”
+Material: chât’ liêu, vât liêu,
+Material: vât chât’
+Raw material: nguyên liêu
+Fuel: nhiên liêu
+Fuel: tiêp’nhiên liêu cho cai’gi`
+Spiritual: tinh thân`
+Spirit: linh hôn`, tinh thân`
+Spirits: rýõu manh
+Communist: công san
+Party: ðang phai’, ðôi’tac’
+VN communist party: ðang công san viêt nam
+Government: chinh’phu
+The state: nha`nýõc’
+Take care of: chãm soc’ai?
+Apply S.TH to: ap’ dung cai’gi` vao` ðâu?
+On occasion of: nhân ngay`
+Earing: bông tai
+Pair of: ðôi “pair of earing”
+In-service: tai chýc’
+Transport: phýõng tiên
+Bike: xe ðap
+Bicyle: xe ðap
+Car: xe hõi
+Lorry: xe tai
+Truck : xe tai nãng
+Taxi service motobike : xe ôm
+Motobike : môtô
+Plane: may’bay
+Jet: may’bay gia’re
+Train: tau hoa?
+Coach: xe ðo`, xe khach’, toa tau`
+Coach: huân’luânviên
+Vomit: nôn
+Bus: xe bus
+Ship: tau`thuy
+Boat: con ðo`
+Ferri: pha`
+Cyclo: xich’lô
+Underground: tau`ðiên ngâm`
+Subway: tau` ðiên ngâm`
+Metro: tau`ðiên ngâm`
+Tube: tau`ðiên ngâm`
+Richshaw: xe keo’ bãng` ngýõi`
+
+Corporation: tông?côngty, tâp ðoan`
+Hithhike: ði nhõ`xe, s? ði nhõ`
+Cultural: vãn hoa’
+Insurrance: bao? Hiêm?
+Croup: tâp ðoan`, nhom’
+Consortium: tâp ðoan`
+Come: there, here
+Get: there, here
+Go: there, here 
+Attract: thu hut’
+Interest: lôi cuôn’, lai~suât’
+Dynamic: nãng ðông
+Especially: ðãc biêt la`
+Specially: ðãc biêt
+Foreign: nýõc’ngoai`
+Bathe: tãm’
+Have a bath: tãm’
+Take a bath: tãm’
+Have dinner: ãn tôi’
+Diner: ãn t?i, “lýu y’, ðoc khac’ dinner”
+Economy: nên`kinhtê’
+Economic: tinh’kinhtê’
+Economics: kinh tê’hoc
+Economic theory: hoc thuyêt’KT
+Economist: nha`KT
+Economical: tiêt’kiêm
+Bartender: nhân viên quan’bar
+Airhostest: tiêp’viên hang`không
+Flight attendant: tiêp’viên hang`không
+Invest : ðâu`tý,”invest S.TH In”
+Investment: sý ðâu`tý
+Foreign: nýõc’ngoài,”foreign currency exchange”
+Go bankrupt: pha’san?
+Be in bankrupt: trong bõ`výc pha’san?
+Petrolium company: công ty dâu`khi’
+Enterprise: doanh nghiêp
+Firm: hang kinh doanh
+Unfortunate: không may mãn’
+Take a rest: nghi ngõi
+Reform: (on) cai?cach’
+Waste: waste S.th V_ing, lang~phi’lam`cai’gi`
+Spend: spend S.th on, tiêu xai`, sý?dung
+Charity: tý`thiên
+Spend time V_ing: trai qua time
+Spend money V_ing: tiêu xai`tiên`
+Meter: met’
+Metre: met’
+Kilometer: km
+Approximatetly: khoang? = some, about
+Some+N_it’: gi`ðo’, ai ðo’
+Some+N_nhiêu`: môt vai`
+Horizon: chân trõi`
+Convention: hôi nghi
+National convention centre : trung tâm hôi nghi quôc’gia
+President palace :lãng bac’
+President :chu?tich
+Palace :lãng, cung ðiên
+Square : quang?trýõng`, BaÐinh`Square
+Cubic :(adj) khôi’, cubic meter
+Flyover: câu`výõt
+Overpass: câu`výõt
+Academy of finace: hoc viên tai`chinh’
+Academy: hoc viên, viên
+Finace: tai`chinh’
+Sweden acadamy institute: viên han`lâm thuy ðiên?
+Institute: han`lâm
+Onetime: =once
+Twotime: =twice
+Once peryear: =once yearly
+Every year: môi~nãm
+Go abroad: ði nýõc’ngoai`
+Go oversea: ði nýõc’ngoai`
+Political: thuôc vê`chinh’tri, quantâmðên’CT, lam`CT
+Politician : chinh’trigia
+Politics : chinh’trihoc, nên`chinh’tri
+Poliburo : bô chinh’tri
+Politic : khôn ngoan
+Communist : côngsan?, ngýõi`côngsan?
+VN communist party : Ðangcôngsan VN
+General secretary : Tông?Bi’thý, United national general secretary 
+Party leader: Tông?Bi’thý
+Member of poliburo: thanh`viên Bô chinh’tri
+*: member of central party committee, uy viên TW Ðang
+Committee: uy ban
+Legislation: lâp phap’
+Legislator: nha`lâp phap’=law maker
+Parlement member: Ðai biêu Quôc’Hôi
+Parlement : Quôc’hôi cua Tý Ban?
+National assembly: Quôc’Hôi
+Assembly : hôi hop, lãp’rap’
+National party congress : ÐaiHôi Ðang?
+Chairman of parlement: Chu?TichQuôc’Hôi
+Deputy chairman of parlement: pho’ChuTichQuôc’Hôi
+Management: hanh`phap’
+Adminitration: hanh`phap’
+Cabinet: nôi cac’
+The president of state: chu?tich nýõc’, tông?thông’
+Deputy president of state: pho’chu?tich nýõc’
+Ministry: bô(môt tô?chýc’câp’cao)
+The ministry of Internal affairs: bô nôi vu
+Internal affairs ministry: bô nôi vu
+Internal department: sõ nôi vu
+External department: sõ ngoai vu
+Interior affairs department: bô nôi ðia(my~)
+Foreign affairs ministry: bô ngoai giao
+State secretary: ngoai trýõng (my~,phap’)
+Foreigner: ngýõi`nýõc’ngoai`
+Bô NN&PtNT: agriculture and rural development ministry
+Bo GTVT: communication and transport ministry
+Justice ministry: bô tý phap’
+Judge: thâm?phan’
+Bo CThuong: industry and trade ministry
+Finance ministry: bô tai`chinh’
+Finanacial: thuôc vê`tai`chinh’
+Urban : thuôc vê`thanh`thi
+Data : dý~liêu
+Bo Qphong`: national defense ministry
+Bo CA: Public security Ministry
+Bo BCVT: telecommunication and post ministry
+Police: canh?sat’
+Bo VH-TT-DL: culture, sport and tourism ministry
+Tourism: du lich
+Branch: chi nhanh’
+Level: câp’
+Multi_lateral: ða phýõng
+Bi_lateral: song phýõng
+Uni_lateral: ðõn phýõng
+BBC: bristish broadcasting corporation,tâp ðoan`truyên`thông anhquôc’
+Weather: thõi`tiêt’
+Season: mua`
+Dry season: mua`khô
+Around the year: quanh nãm
+All the year: quanh nãm
+Forcast: dý bao’(v), sý dý bao’(n)
+Weather forcast: dý bao’thõi`tiêt’
+Hot: nong’
+Heat(n): nong’
+Cold: lanh, sý lanh lung`(n)
+Cold heart: trai’tim bãng gia’
+Coldness: sý lanh(n)
+Wet: âm ýõt’
+Wetten: lam`ýõt’(V_tr)
+Dry: khô(V_tr)
+Humid: âm?
+Humidity: ðô âm?
+Rainy: co’mýa
+Rain: mýa (V_intr)
+Cool: mat’me?
+Warm: âm’ap’
+Windy: co’gio’
+Wind: gio’
+Cloudy: co’mây
+Cloud: mây
+Smoggy: co’sýõng mu`
+Smog: sýõng mu`
+Foggy: co’sýõng(hat)
+Fog: sýõng(hat)
+Ice: kem ða’
+Snowy: co’tuyêt’
+Snow: tuyêt’
+Animal: loai`vât
+Frog: coc’
+Snake; rãn’
+Insect: sâu, côn trung`
+Snail: ôc’sên
+Silk_warm: sâu
+Butterfly: býõm’
+Mosquito: muôi~
+Peacock: công
+Bird: chim
+Crab: cua
+Crocodile: con ca’sâu’
+Elephant: voi
+Rabbit: tho?
+Puma: bao’
+Ant: kiên’
+Daragon: long(rông`)
+Unicorn: li(lân)
+Tortoise: quy(rua`)
+Phonenix: phýõng(phýõng hoang`)
+Donkey: lýa`
+Monkey: khi?
+Head: ðâu`
+Skull: ðâu`lâu (sõ`câu)
+Shoulder: vai
+Eye: mãt’, ðê?y’, ðê mãt’ STH
+Ex: an eye is soul’s windown
+Arm: canh’tay
+Arm Sbody: trang bi vu~trang cho ai
+Armed force: lýc lýõng vu~trang
+Hand: tay
+Mouth: miêng
+Chin: cãm`
+Ex: keep one’s chin up, ai luôn týõi cýõi`
+Ear: tai
+Earing: bông tai
+Foot: ban`chân
+Leg: chân
+Throat: cô?hong
+Nose: mui~
+Tooth: môt cai’rãng
+Teeth: nhiêu`cai’rãng
+Upper jaw: ham`rãng trên
+Lower jaw: ham`rãng dýõi’
+Bone: xýõng
+Back: lýng, ung?hô Sbody
+Back bone,spine: xýõng sông’
+Lung: phôi?
+Lung cancer: ung thý phôi?
+Small intestant: long`non
+Larger intestant: long`gia`
+Cheek: ma’
+Cheek bone: xýõng go`ma’
+Ex: kiss on cheek, hôn lên ma’
+Hair: sõi toc’, mai’toc’
+Lip: môi
+Eye brow: lông may`
+Eye lash: lông mi
+Nail: mong’tay, nghê`trang ðiêm mong’tay
+Belly: bung
+Stomach: da day`
+Neck: cô?
+Necklace: dây chuyên`
+Blood: mau’, huyêt’thông’, dinh’ðây’mau’
+Bloody: chêt’tiêt
+Liver: gan
+Hip: mông
+Chest: ngýc, býõm’
+Mother_tongue langue: tiêng’me ðe?
+Beard : râu
+Forehead : tran’
+Finger :ngon’tay
+Ring finger: ngon’nhân~
+Pain: ðau ðõn’, nôi~ðau
+Chest pain: chýng’ðau ngýc
+Painful: gây ðau, ðau ðõn’
+Headache: ðau ðâu`
+Backache: ðau lýng
+Stomache: ðau da day`
+Ex: I have a headache
+Ex: I have a pain a (part of body)
+
+Desease: bênh tât
+Flu: cam?cum’
+Bird flu: dich cum’giacâm`
+Measles: bênh sõi?
+Mumps: quai bi
+Encaphalitis : viêm nao~ (nhât ban?)
+Tonsillitis : viêm hong
+Hepatitis : viêm gan
+Arthritis : viêm khõp’
+Pneumonia : viêm phôi?
+Chest cold : viêm phôi?
+Lovesick(adj) : týõng tý
+Lovesickness : bênh týõng tý
+Homesich: nhõ’nha`	
+Fever: sôt’
+Obesity: bênh beo’phi`
+Obese(adj): beo’phi`
+Asthma: bênh hen
+Trauma: chân’thýõng, tôn?thýõng
+Development : phat’triên
+Drepression: suy thoai’
+Decline : suy thoai’
+Crisis: khung?hoang?
+Inflation: lam phat’
+Growth: tãng trýõng?
+Growth rate: ty lê tãng trýõng?
+Growth speed: tôc’ðô tãng trýõng
+Unemployment: thât’nghiêp
+Dismission: sa thai?
+Sack: sa thai?
+Surplus: thãng dý
+Deficit: thâm hut
+Trade balace: can’cân thýõng mai
+Salary: lýõng
+Wage: lýõng tuân`, phat’ðông
+Economic sector: thanh`phân`kinhtê’
+Sector: thanh`phân`
+Fiscal policy: chinh’sach’tai`khoa’
+Financial policy: chinh’sach’tai`chinh’
+Right: quyên`
+Duty: quyên`
+Monopoly: sý ðôc quyên`
+Duty free: miên~thuê’
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
