@@ -25,7 +25,7 @@ public class DataProcess {
 			BufferedReader br = new BufferedReader(new FileReader(txtFileName));
 			String line = null;
 		
-			while (br.readLine()!=null){
+			while ((line=br.readLine())!=null){
 				StringTokenizer tk = new StringTokenizer(line, ",");
 				
 				currentID = tk.nextToken();
