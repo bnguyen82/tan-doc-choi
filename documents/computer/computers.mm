@@ -9200,7 +9200,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1240838496317" FOLDED="true" HGAP="25" ID="ID_746770444" MODIFIED="1259744273000" STYLE="fork" TEXT="Servlet" VSHIFT="47">
+<node COLOR="#00b439" CREATED="1240838496317" FOLDED="true" HGAP="25" ID="ID_746770444" MODIFIED="1329191319307" STYLE="fork" TEXT="Servlet" VSHIFT="47">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1240838510618" ID="ID_386012972" MODIFIED="1241702519114" STYLE="fork" TEXT="C&#x1ea7;n duy nh&#x1ea5;t m&#x1ed9;t Servlet container process &#x111;&#xf3;n nh&#x1ead;n to&#xe0;n b&#x1ed9; c&#xe1;c request">
@@ -9422,10 +9422,10 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1240990484541" FOLDED="true" HGAP="83" ID="ID_1328290896" MODIFIED="1259467714601" STYLE="fork" TEXT="Database" VSHIFT="23">
+<node COLOR="#990000" CREATED="1240990484541" HGAP="83" ID="ID_1328290896" MODIFIED="1329191291109" STYLE="fork" TEXT="Database" VSHIFT="23">
 <edge STYLE="bezier"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1240990489318" FOLDED="true" ID="ID_1074842690" MODIFIED="1259467714601" STYLE="fork" TEXT="Transactions">
+<node COLOR="#111111" CREATED="1240990489318" ID="ID_1074842690" MODIFIED="1329191293260" STYLE="fork" TEXT="Transactions">
 <edge STYLE="bezier"/>
 <node COLOR="#111111" CREATED="1240990495247" ID="ID_131187265" MODIFIED="1241702291447" STYLE="fork" TEXT="&#x110;&#x1ec3; cho ph&#xe9;p group m&#x1ed9;t nh&#xf3;m h&#xe0;nh &#x111;&#x1ed9;ng SQL li&#xea;n quan v&#x1edb;i nhau ta d&#xf9;ng transaction">
 <edge STYLE="bezier"/>
@@ -9433,7 +9433,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <node COLOR="#111111" CREATED="1240990548683" ID="ID_1061822004" MODIFIED="1241702291447" STYLE="fork" TEXT="M&#x1eb7;c &#x111;&#x1ecb;nh khi excute m&#x1ed9;t c&#xe2;u SQL, DB s&#x1ebd; &#x111;c update ngay khi th&#x1ef1;c hi&#x1ec7;n xong l&#x1ec7;nh &#x111;&#xf3;">
 <edge STYLE="bezier"/>
 </node>
-<node COLOR="#111111" CREATED="1240990714452" FOLDED="true" ID="ID_766381230" MODIFIED="1259467714601" STYLE="fork" TEXT="Th&#x1ef1;c hi&#x1ec7;n transaction">
+<node COLOR="#111111" CREATED="1240990714452" FOLDED="true" ID="ID_766381230" MODIFIED="1329191315444" TEXT="Th&#x1ef1;c hi&#x1ec7;n transaction">
 <edge STYLE="bezier"/>
 <node COLOR="#111111" CREATED="1240990592406" ID="ID_1644456742" MODIFIED="1241705394189" STYLE="fork">
 <richcontent TYPE="NODE"><html>
@@ -14303,17 +14303,18 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1258259062817" ID="ID_683638599" MODIFIED="1322453345275" TEXT="C&#x1ee5; th&#x1ec3; c&#xe1;c thu&#x1ed9;c t&#xed;nh transation">
 <node COLOR="#111111" CREATED="1258259079101" ID="ID_1128866452" MODIFIED="1322453350002" TEXT="Propagation behavior">
 <node COLOR="#111111" CREATED="1258259135311" ID="ID_206384954" MODIFIED="1258259158905" TEXT="Ch&#x1ec9; &#x111;&#x1ecb;nh method c&#xf3; c&#x1ea7;n transaction c&#x1eb7;p n&#xf3; kh&#xf4;ng"/>
-<node COLOR="#111111" CREATED="1258259160958" FOLDED="true" ID="ID_520838235" MODIFIED="1328869270904" TEXT="PROPAGATION_REQUIRED">
+<node COLOR="#111111" CREATED="1258259160958" ID="ID_520838235" MODIFIED="1329191336059" TEXT="PROPAGATION_REQUIRED">
 <node COLOR="#111111" CREATED="1258259229687" ID="ID_95602606" MODIFIED="1258259247473" TEXT="Y&#xea;u c&#x1ea7;u method ph&#x1ea3;i ch&#x1ea1;y trong transation"/>
 <node COLOR="#111111" CREATED="1258259753270" ID="ID_1591436491" MODIFIED="1258259767961" TEXT="N&#x1ebf;u c&#xf3; tx &#x111;ag ch&#x1ea1;y, method s&#x1ebd; tthi trong tx &#x111;&#xf3;"/>
 <node COLOR="#111111" CREATED="1258259768241" ID="ID_1232558055" MODIFIED="1258259779898" TEXT="N&#x1ebf;u k&#xf4; c&#xf3; tx &#x111;ag ch&#x1ea1;y, t&#x1ea1;o m&#x1edb;i tx"/>
 </node>
-<node COLOR="#111111" CREATED="1258259514627" FOLDED="true" ID="ID_1006130400" MODIFIED="1322453369096" TEXT="PROPAGATION_REQUIRED_NEW">
+<node COLOR="#111111" CREATED="1258259514627" ID="ID_1006130400" MODIFIED="1329191343379" TEXT="PROPAGATION_REQUIRED_NEW">
 <node COLOR="#111111" CREATED="1258259229687" ID="ID_1319763697" MODIFIED="1258259247473" TEXT="Y&#xea;u c&#x1ea7;u method ph&#x1ea3;i ch&#x1ea1;y trong transation"/>
 <node COLOR="#111111" CREATED="1258259787960" ID="ID_1408632472" MODIFIED="1258259830571" TEXT="T&#x1ea1;o m&#x1edb;i tx cho method"/>
-<node COLOR="#111111" CREATED="1258259753270" ID="ID_1088974097" MODIFIED="1258259808069" TEXT="N&#x1ebf;u c&#xf3; tx &#x111;ag ch&#x1ea1;y, tx b&#x1ecb; treo cho &#x111;&#x1ebf;n khi method xong"/>
+<node COLOR="#111111" CREATED="1258259753270" ID="ID_1088974097" MODIFIED="1329191376987" TEXT="N&#x1ebf;u c&#xf3; tx &#x111;ag ch&#x1ea1;y, tx b&#x1ecb; suspend cho &#x111;&#x1ebf;n khi method xong"/>
+<node BACKGROUND_COLOR="#ffffcc" COLOR="#111111" CREATED="1329191347532" ID="ID_530523317" MODIFIED="1329191504728" TEXT="T&#x1eeb;ng tx s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c commit ri&#xea;ng r&#x1ebd;"/>
 </node>
-<node COLOR="#111111" CREATED="1258259542617" FOLDED="true" ID="ID_780800011" MODIFIED="1322453384180" TEXT="PROPAGATION_NESTED">
+<node COLOR="#111111" CREATED="1258259542617" ID="ID_780800011" MODIFIED="1329191381650" TEXT="PROPAGATION_NESTED">
 <node COLOR="#111111" CREATED="1258259572490" ID="ID_910315347" MODIFIED="1258259646186">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14326,11 +14327,19 @@ aPerson.getEvents().add(anEvent);</font></pre>
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1258259630003" ID="ID_1529076281" MODIFIED="1258259635981" TEXT="Vi&#x1ec7;c commit, rollback c&#x1ee7;a n&#xf3; &#x111;&#x1ed9;c l&#x1ead;p v&#x1edb;i tx b&#xea;n ngo&#xe0;i"/>
+<node COLOR="#111111" CREATED="1258259630003" ID="ID_1529076281" MODIFIED="1329191395987" TEXT="Vi&#x1ec7;c commit, rollback c&#x1ee7;a n&#xf3; &#x111;&#x1ed9;c l&#x1ead;p v&#x1edb;i tx b&#xea;n ngo&#xe0;i">
+<icon BUILTIN="help"/>
 </node>
-<node COLOR="#111111" CREATED="1258259556167" FOLDED="true" ID="ID_97616469" MODIFIED="1322453390139" TEXT="PROPAGATION_NEVER">
+<node BACKGROUND_COLOR="#99ffcc" COLOR="#111111" CREATED="1329191398068" ID="ID_938769117" MODIFIED="1329191488881" TEXT="Theo debug Spring Tx Manager th&#xec; th&#x1ea5;y tx con k&#xf4; &#x111;&#x1b0;&#x1ee3;c commit ri&#xea;ng, sau khi n&#xf3; ho&#xe0;n th&#xe0;nh th&#xec; save point &#x111;c release, sau &#x111;&#xf3; t&#x1edb; tx cha m&#x1edb;i commit m&#x1ed9;t l&#x1ea7;n th&#xf4;i">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1258259556167" ID="ID_97616469" MODIFIED="1329191510906" TEXT="PROPAGATION_NEVER">
 <node COLOR="#111111" CREATED="1258259690440" ID="ID_685428456" MODIFIED="1258259697960" TEXT="Method k&#xf4; &#x111;c ch&#x1ea1;y trong tx"/>
 <node COLOR="#111111" CREATED="1258259698311" ID="ID_433056356" MODIFIED="1258259713693" TEXT="N&#x1ebf;u m&#x1ed9;t tx &#x111;ang ch&#x1ea1;y th&#xec; method b&#x1ecb; exception"/>
+</node>
+<node COLOR="#111111" CREATED="1329193118659" ID="ID_1064583488" MODIFIED="1329193229314" TEXT="Ch&#x1ec9; apply &#x1edf; m&#x1ee9;c class (bean), k&#xf4; apply cho t&#x1eeb;ng method. Ngh&#x129;a l&#xe0; n&#x1ebf;u m&#x1ed9;t method &#x1edf; trong 1 tx r&#x1ed3;i th&#xec; c&#xe1;c method kh&#xe1;c trong class d&#xf9; define new th&#xec; v&#x1eab;n trong c&#xf9;ng tx ">
+<icon BUILTIN="idea"/>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1258259101703" HGAP="24" ID="ID_846070398" MODIFIED="1322453391933" TEXT="M&#x1ee9;c Insolation" VSHIFT="24">
@@ -14430,9 +14439,10 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 <node BACKGROUND_COLOR="#00cccc" COLOR="#111111" CREATED="1329113775496" ID="ID_1408200589" MODIFIED="1329115390151" TEXT="C&#xe0;i &#x111;&#x1eb7;t trong Spring">
 <node COLOR="#111111" CREATED="1329115407605" ID="ID_1319030805" MODIFIED="1329115410232" TEXT="JDBC">
-<node COLOR="#111111" CREATED="1329113791705" ID="ID_1102884003" MODIFIED="1329113827012" TEXT="M&#x1ed9;t transaction th&#x1ef1;c s&#x1ef1; &#x111;&#x1b0;&#x1ee3;c bi&#x1ec3;u di&#x1ec5;n b&#x1edf;i DataSourceTransactionObject">
+<node COLOR="#111111" CREATED="1329113791705" ID="ID_1102884003" MODIFIED="1329191721804" TEXT="M&#x1ed9;t transaction th&#x1ef1;c s&#x1ef1; &#x111;&#x1b0;&#x1ee3;c bi&#x1ec3;u di&#x1ec5;n b&#x1edf;i DataSourceTransactionObject">
 <node COLOR="#111111" CREATED="1329113827859" ID="ID_379559568" MODIFIED="1329115689387" TEXT="Object n&#xe0;y ch&#x1ee9;a m&#x1ed9;t ConnectionHolder trong &#x111;&#xf3; ch&#x1ee9;a Connection"/>
 <node COLOR="#111111" CREATED="1329115635208" ID="ID_1251774150" MODIFIED="1329115695506" TEXT="ConnectionHolder qu&#x1ea3;n l&#xfd; session bind v&#x1edb;i thread b&#x1edf;i bi&#x1ebf;n Thread Local"/>
+<node COLOR="#111111" CREATED="1329191725500" ID="ID_297281333" MODIFIED="1329191750643" TEXT="C&#xe1;c transaction kh&#xe1;c nhau s&#x1ebd; c&#xf3; DataSourceTransactionObject kh&#xe1;c nhau"/>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1329115411885" ID="ID_157571735" MODIFIED="1329115414661" TEXT="Hibernate">
