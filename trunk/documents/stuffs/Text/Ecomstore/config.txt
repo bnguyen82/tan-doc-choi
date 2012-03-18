@@ -1,0 +1,4 @@
+
+
+ Django exceptions
+ http://code.google.com/p/django-db-log/
