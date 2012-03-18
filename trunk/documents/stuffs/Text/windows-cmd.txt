@@ -1,0 +1,2 @@
+Change PATH variable
+set "PATH=%PATH%;c:\Program Files\MySQL
