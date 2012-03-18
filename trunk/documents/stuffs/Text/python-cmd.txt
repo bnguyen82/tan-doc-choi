@@ -1,0 +1,4 @@
+
+###################
+MySQL
+Start DB shell : python manage.py dbshell
