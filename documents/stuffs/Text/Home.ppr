@@ -10,14 +10,9 @@ AbsolutePath=0
 FileFormat=0
 ProjectFilesOnly=0
 [Project tree]
-New project
-	+Folder
+Home
+	+Python
 		python-cmd.txt
 [Open project files]
-0=python-cmd.txt
 [Selected Project Files]
 Main=
-Selected=python-cmd.txt
-[python-cmd.txt]
-TopLine=1
-Caret=18,4
