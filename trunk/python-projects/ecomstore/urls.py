@@ -14,13 +14,15 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
-    (r'^catalog/?', 'views.home'), 
-    (r'^static/(?P<path>.*)$', 'django.views.static.serve', 
-          { 'document_root' : '/home/smoochy/eclipse/workspace/ecomstore/static' }), 
+#    (r'^catalog/?', 'views.home'), 
+ 
     
 )
 urlpatterns += patterns('', 
     #other commented code here 
     (r'^catalog/$', 'preview.views.home'), 
+#    (r'^catalog/?', 'views.home'),
+    (r'^static/(?P<path>.*)$', 'django.views.static.serve', 
+          { 'document_root' : 'D:/My Documents/Home/pythons/ecomstore' }),    
 ) 
 

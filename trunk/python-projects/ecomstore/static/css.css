@@ -19,7 +19,8 @@ html,body{
 } 
 .bn{ 
     border:none; 
-}#main{ 
+}
+#main{ 
      margin: 0 auto; 
      width:900px; 
      background-color:White; 

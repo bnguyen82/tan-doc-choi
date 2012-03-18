@@ -1,6 +1,9 @@
 # Django settings for ecomstore project.
-
-DEBUG = False
+import os 
+# hack to accommodate Windows 
+CURRENT_PATH = os.path.abspath(os.path.dirname(__file__).decode('utf-8')).replace('\\', '/') 
+    
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -103,11 +106,13 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'ecomstore.urls'
 
+#TEMPLATE_DIRS = (
 TEMPLATE_DIRS = (
+    os.path.join(CURRENT_PATH, 'templates'),                  
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    'D:/My Documents/Home/pythons/ecomstore/templates'
+#    'D:/My Documents/Home/pythons/ecomstore/templates'
 )
 
 INSTALLED_APPS = (
