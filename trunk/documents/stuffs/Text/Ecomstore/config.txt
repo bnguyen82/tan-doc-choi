@@ -2,3 +2,6 @@
 
  Django exceptions
  http://code.google.com/p/django-db-log/
+ 
+ Create views
+ python manage.py startapp preview
