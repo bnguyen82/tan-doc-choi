@@ -1,0 +1,23 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+New project
+	+Folder
+		python-cmd.txt
+[Open project files]
+0=python-cmd.txt
+[Selected Project Files]
+Main=
+Selected=python-cmd.txt
+[python-cmd.txt]
+TopLine=1
+Caret=18,4
