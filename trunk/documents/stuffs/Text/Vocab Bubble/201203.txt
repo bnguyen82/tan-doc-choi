@@ -81,3 +81,4 @@ batteries (n) with batteries included
 That's the downside!
 subtle (adj) subtle question
 stickler (n) a stickler for promptness
+Django is worth it for the urls and templating alone
