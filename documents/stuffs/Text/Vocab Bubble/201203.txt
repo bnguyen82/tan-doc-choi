@@ -82,3 +82,8 @@ That's the downside!
 subtle (adj) subtle question
 stickler (n) a stickler for promptness
 Django is worth it for the urls and templating alone
+the fact that
+This affair is a matter of cheating
+overhaul (v) overhaul the taxes system
+conceivably (adv) maybe
+itch (v, adj) ~ urge I'm itching to do this
