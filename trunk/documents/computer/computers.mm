@@ -326,7 +326,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1210840695957" HGAP="30" ID="ID_8828670" MODIFIED="1329104741415" TEXT="Eclipse" VSHIFT="-164">
+<node COLOR="#00b439" CREATED="1210840695957" FOLDED="true" HGAP="30" ID="ID_8828670" MODIFIED="1332404096396" TEXT="Eclipse" VSHIFT="-164">
 <edge COLOR="#990033" STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1210840701363" ID="ID_1167485465" MODIFIED="1259467640505" STYLE="bubble">
@@ -576,7 +576,7 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#00b439" CREATED="1329114641913" ID="ID_1712642259" MODIFIED="1329114646934" TEXT="Java tools">
+<node COLOR="#00b439" CREATED="1329114641913" FOLDED="true" ID="ID_1712642259" MODIFIED="1332404100755" TEXT="Java tools">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1329114647821" ID="ID_908544925" MODIFIED="1329114649809" TEXT="Jar">
@@ -586,19 +586,87 @@
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1326337697478" FOLDED="true" ID="ID_1859372212" MODIFIED="1328174610753" TEXT="LDAP" VSHIFT="22">
+<node COLOR="#00b439" CREATED="1326337697478" ID="ID_1859372212" MODIFIED="1332404059290" TEXT="LDAP" VSHIFT="22">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1326337707352" ID="ID_1729535391" MODIFIED="1326337720531" TEXT="C&#x1ea5;u tr&#xfa;c">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1326337721351" HGAP="21" ID="ID_399160852" MODIFIED="1326337969203" TEXT="D&#x1ea1;ng c&#xe2;y g&#x1ecd;i l&#xe0; LDAP Directory" VSHIFT="14">
+<node COLOR="#111111" CREATED="1332404068286" ID="ID_1008714151" LINK="http://docs.oracle.com/javase/jndi/tutorial/getStarted/concepts/naming.html" MODIFIED="1332404453473" TEXT="Basic">
+<node COLOR="#111111" CREATED="1332404080005" ID="ID_113721973" MODIFIED="1332404081602" TEXT="Naming">
+<node COLOR="#111111" CREATED="1332404147413" ID="ID_325013880" MODIFIED="1332404361715" TEXT="Rule to bind from a name to an object"/>
+<node COLOR="#111111" CREATED="1332404174549" ID="ID_1067094488" MODIFIED="1332404359099" TEXT="Naming convention">
+<node COLOR="#111111" CREATED="1332404082357" ID="ID_437211915" MODIFIED="1332404191396" TEXT="The Lightweight Directory Access Protocol (LDAP) naming convention orders components from right to left">
+<node COLOR="#111111" CREATED="1332404249400" ID="ID_674391488" MODIFIED="1332404335779" TEXT="cn=Rosanna Lee, o=Sun, c=US ">
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1332404263333" ID="ID_333652061" MODIFIED="1332404281350" TEXT=" LDAP entry cn=Rosanna Lee, relative to the entry o=Sun, is relative to c=us."/>
+</node>
+<node COLOR="#111111" CREATED="1332404202117" ID="ID_345663866" MODIFIED="1332404202910" TEXT="The DNS naming convention calls for components in the DNS name to be ordered from right to left ">
+<node COLOR="#111111" CREATED="1332404210141" ID="ID_116308826" MODIFIED="1332404334515" TEXT="sales.Wiz.COM">
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1332404223517" ID="ID_536936238" MODIFIED="1332404233663" TEXT="sales belong Wiz belong COM"/>
+</node>
+<node COLOR="#111111" CREATED="1332404301045" ID="ID_946525752" MODIFIED="1332404307086" TEXT="File system">
+<node COLOR="#111111" CREATED="1332404307853" ID="ID_864446269" MODIFIED="1332404332491" TEXT="/usr/hello">
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1332404317477" ID="ID_1496398177" MODIFIED="1332404324198" TEXT="a file hello in the file directory usr, which is located in the root of the file system"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1332404354677" ID="ID_6841700" MODIFIED="1332404355534" TEXT="An LDAP name is bound to an LDAP entry"/>
+</node>
+<node COLOR="#111111" CREATED="1332404541613" ID="ID_173635272" MODIFIED="1332404544845" TEXT="Context">
+<node COLOR="#111111" CREATED="1332404545141" ID="ID_1202929425" MODIFIED="1332404545558" TEXT="A context is a set of name-to-object bindings"/>
+<node COLOR="#111111" CREATED="1332404613005" ID="ID_1735207806" MODIFIED="1332405712267" TEXT="in the an LDAP entry o=sun,c=us, the entry o=sun is a subcontext of c=us. ">
+<icon BUILTIN="info"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1332404683349" ID="ID_792525247" MODIFIED="1332404700438" TEXT="Naming System">
+<node COLOR="#111111" CREATED="1332404691429" ID="ID_634428854" MODIFIED="1332404692359" TEXT="A naming system is a connected set of contexts of the same type "/>
+<node COLOR="#111111" CREATED="1332404712573" ID="ID_1831025420" MODIFIED="1332404713078" TEXT="A namespace is the set of names in a naming system">
+<node COLOR="#111111" CREATED="1332404731414" ID="ID_1895384875" MODIFIED="1332404744691" TEXT="The UNIX file system has a namespace consisting of all of the names of files and directories in that file system">
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1332404754901" ID="ID_1037622173" MODIFIED="1332404757267" TEXT="The LDAP namespace contains names of LDAP entries">
+<icon BUILTIN="info"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1332404928557" ID="ID_148527216" MODIFIED="1332404943383" TEXT="Directory service ">
+<node COLOR="#111111" CREATED="1332404984117" ID="ID_328284403" MODIFIED="1332404987265" TEXT="A directory service associates names with objects and also allows such objects to have attributes"/>
+<node COLOR="#111111" CREATED="1332405589166" ID="ID_1138164452" MODIFIED="1332405617319" TEXT="Directory object">
+<node COLOR="#111111" CREATED="1332405602309" ID="ID_900392305" MODIFIED="1332405603665" TEXT="An object that is in the directory. Sometimes called a directory entry"/>
+</node>
+<node COLOR="#111111" CREATED="1332405002541" ID="ID_1679334162" MODIFIED="1332405003270" TEXT="An attribute has an attribute identifier and a set of attribute values"/>
+<node COLOR="#111111" CREATED="1332405015557" ID="ID_352723890" MODIFIED="1332405015952" TEXT="A directory is a connected set of directory objects"/>
+<node COLOR="#111111" CREATED="1332404931525" ID="ID_115461358" MODIFIED="1332405018385" TEXT="A directory service is a service that provides operations for creating, adding, removing, and modifying the attributes associated with objects in a directory"/>
+<node COLOR="#111111" CREATED="1332405283613" ID="ID_1404180679" MODIFIED="1332405284343" TEXT="Directories often arrange their objects in a hierarchy"/>
+</node>
+<node COLOR="#111111" CREATED="1332405141110" ID="ID_1040911148" MODIFIED="1332405141606" TEXT="Searches and Search Filters">
+<node COLOR="#111111" CREATED="1332405149493" ID="ID_578487981" MODIFIED="1332405150006" TEXT="You can look up a directory object by supplying its name to the directory service"/>
+<node COLOR="#111111" CREATED="1332405202581" ID="ID_1839306226" MODIFIED="1332405209529" TEXT="Search filter">
+<node COLOR="#111111" CREATED="1332405187565" ID="ID_759874368" MODIFIED="1332405250627" TEXT="Or search by a query consisting of a logical expression in which you specify the attributes that the object or objects must have.">
+<icon BUILTIN="idea"/>
+</node>
+<node COLOR="#111111" CREATED="1332405216421" ID="ID_40519454" MODIFIED="1332405216847" TEXT="The query is called a search filter"/>
+<node COLOR="#111111" CREATED="1332405303461" ID="ID_258979627" MODIFIED="1332405306419" TEXT="query the directory service to find all users that have the attribute &quot;age&quot; greater than 40 years">
+<icon BUILTIN="info"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1332405649637" ID="ID_1595918097" MODIFIED="1332405656505" TEXT="Initial context">
+<node COLOR="#111111" CREATED="1332405661125" ID="ID_34165428" MODIFIED="1332405661847" TEXT="The starting point for resolution of names for naming and directory operations"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1326337721351" FOLDED="true" HGAP="21" ID="ID_399160852" MODIFIED="1332404062907" TEXT="D&#x1ea1;ng c&#xe2;y g&#x1ecd;i l&#xe0; LDAP Directory" VSHIFT="14">
 <node COLOR="#111111" CREATED="1326337908140" ID="ID_1829190015" MODIFIED="1326337930438" TEXT="The root directory (the starting place or the source of the tree), which branches out to     "/>
 <node COLOR="#111111" CREATED="1326337931675" ID="ID_1636577892" MODIFIED="1326337941980" TEXT="Countries, each of which branches out to     "/>
 <node COLOR="#111111" CREATED="1326337942929" ID="ID_1224821604" MODIFIED="1326337950956" TEXT="Organizations, which branch out to    "/>
 <node COLOR="#111111" CREATED="1326337945817" ID="ID_771464031" MODIFIED="1326337961235" TEXT=" Organizational units (divisions, departments, and so forth), which branches out to (includes an entry for)   "/>
 <node COLOR="#111111" CREATED="1326337962304" ID="ID_1641956801" MODIFIED="1326337964015" TEXT="  Individuals (which includes people, files, and shared resources such as printers) "/>
 </node>
-<node COLOR="#111111" CREATED="1326338339043" ID="ID_164068954" MODIFIED="1326338347989" TEXT="C&#x1ea5;u tr&#xfa;c m&#x1ed9;t Entry">
+<node COLOR="#111111" CREATED="1326338339043" FOLDED="true" ID="ID_164068954" MODIFIED="1332404063909" TEXT="C&#x1ea5;u tr&#xfa;c m&#x1ed9;t Entry">
 <node COLOR="#111111" CREATED="1326338348418" ID="ID_1284340912" MODIFIED="1326338354445" TEXT="An entry is defined as a set of attributes, and an attribute is a set of values, and sets need not be ordered."/>
 <node COLOR="#111111" CREATED="1326338581263" ID="ID_974406207" MODIFIED="1326338582117" TEXT="An attribute has a name (an attribute type or attribute description) and one or more values"/>
 <node COLOR="#111111" CREATED="1326338599040" ID="ID_1352418711" MODIFIED="1326338599541" TEXT="Each entry has a unique identifier: its Distinguished Name (DN)">
@@ -1672,7 +1740,7 @@ bkup-$this_day.tar.gz --listed-incremental=list
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841450341" ID="ID_582905701" MODIFIED="1328174616024" POSITION="left" TEXT="Windows">
+<node COLOR="#0033ff" CREATED="1210841450341" FOLDED="true" ID="ID_582905701" MODIFIED="1332404107836" POSITION="left" TEXT="Windows">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1210841456466" ID="ID_133388507" MODIFIED="1224323213341">
