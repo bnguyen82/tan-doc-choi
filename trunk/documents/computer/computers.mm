@@ -659,7 +659,7 @@
 <node COLOR="#111111" CREATED="1332405661125" ID="ID_34165428" MODIFIED="1332405661847" TEXT="The starting point for resolution of names for naming and directory operations"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1326337721351" FOLDED="true" HGAP="21" ID="ID_399160852" MODIFIED="1332404062907" TEXT="D&#x1ea1;ng c&#xe2;y g&#x1ecd;i l&#xe0; LDAP Directory" VSHIFT="14">
+<node COLOR="#111111" CREATED="1326337721351" FOLDED="true" HGAP="21" ID="ID_399160852" MODIFIED="1332413499395" TEXT="D&#x1ea1;ng c&#xe2;y g&#x1ecd;i l&#xe0; LDAP Directory" VSHIFT="14">
 <node COLOR="#111111" CREATED="1326337908140" ID="ID_1829190015" MODIFIED="1326337930438" TEXT="The root directory (the starting place or the source of the tree), which branches out to     "/>
 <node COLOR="#111111" CREATED="1326337931675" ID="ID_1636577892" MODIFIED="1326337941980" TEXT="Countries, each of which branches out to     "/>
 <node COLOR="#111111" CREATED="1326337942929" ID="ID_1224821604" MODIFIED="1326337950956" TEXT="Organizations, which branch out to    "/>
