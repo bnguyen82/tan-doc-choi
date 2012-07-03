@@ -1,2 +1,17 @@
 
 mvn dependency:sources
+
+
+#############
+Debug Tomcat server
+WIN:
+
+set JPDA_ADDRESS=8000
+set JPDA_TRANSPORT=dt_socket
+bin/catalina.bat jpda start
+
+UNIX:
+
+export JPDA_ADDRESS=8000
+export JPDA_TRANSPORT=dt_socket
+bin/catalina.sh jpda start
