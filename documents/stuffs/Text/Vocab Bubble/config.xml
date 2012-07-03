@@ -1,0 +1,7 @@
+aperio/client
+aperio/service/contact
+
+localhost:8080/aperio/client/login.ao
+user1@aperio.com/password
+
+jdbc:derby://localhost:1527/ipos-test;create=true
