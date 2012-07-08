@@ -1,0 +1,1 @@
+mvn archetype:generate --batch-mode -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.csc.ipos -DartifactId=migrate-app -Dversion=1.0-SNAPSHOT
