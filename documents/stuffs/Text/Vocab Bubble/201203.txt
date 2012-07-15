@@ -157,3 +157,6 @@ flaw
 diligent (adj)
 groundbreaking (n,a)
 temper (n)
+
+skeptical (v) doubt
+presumbly (adv)
