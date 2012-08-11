@@ -22,6 +22,7 @@ Home
 	+Windows
 		windows-cmd.txt
 		App\Home-config.txt
+		new.txt
 	-Mysql
 	+ecomstore
 		Ecomstore\config.txt
@@ -29,9 +30,13 @@ Home
 		python-cmd.txt
 [Open project files]
 0=Vocab Bubble\201203.txt
+1=new.txt
 [Selected Project Files]
 Main=
-Selected=Vocab Bubble\201203.txt
+Selected=new.txt
 [Vocab Bubble\201203.txt]
 TopLine=132
-Caret=15,163
+Caret=30,151
+[new.txt]
+TopLine=1
+Caret=14,25

@@ -1,0 +1,25 @@
+   // callProgram("VPMSAPI", premiumrec.premiumRec);
+Map<String, String> inputAttrMap = new HashMap<String, String>();
+
+Collection<String> outputPropertySet = new ArrayList<String>();
+for (int loopVar1 = 0; !(loopVar1 == 25); loopVar1 += 1){
+if (isNE(wsaaProperty[loopVar1], SPACE)){
+outputPropertySet.add(wsaaProperty[loopVar1].getData().toString().trim());
+for (int loopVar2 = 0; !(loopVar2 == 11); loopVar2 += 1){
+if (isNE(wsaaAttribute[loopVar2], SPACE)){
+inputAttrMap.put(wsaaAttribute[loopVar2].getData().toString().trim(),
+wsaaAttrValue[loopVar1][loopVar2].getData().toString().trim());
+}
+}
+}
+}
+Map<String, String> calcMap = new HashMap<String, String>();
+
+// Prmpm01vpms prmpm01vpms = new Prmpm01vpms(appVars);
+// try {
+// Double prem = prmpm01vpms.TradEndownment(inputAttrMap, calcMap, outputPropertySet);
+// premiumrec.calcPrem.set(new BigDecimal(prem));
+// } catch (ExitSection e) {
+// }
+Double prem = VPMSUtils.TradEndownment(appVars, inputAttrMap, calcMap, outputPropertySet);
+Best Regards,
