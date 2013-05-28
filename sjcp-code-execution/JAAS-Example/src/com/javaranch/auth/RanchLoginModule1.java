@@ -23,7 +23,7 @@ import com.sun.security.auth.UserPrincipal;
  * @author Rahul Bhattacharjee
  * 
  */
-public class RanchLoginModule implements LoginModule{
+public class RanchLoginModule1 implements LoginModule{
 
 	private Subject subject;
 	private CallbackHandler callbackHandler;
@@ -59,7 +59,7 @@ public class RanchLoginModule implements LoginModule{
 			throw new LoginException("No callback handler supplied.");
 		}
 
-		callbacks = new Callback[2];
+		Callback[] callbacks = new Callback[2];
 		callbacks[0] = new NameCallback("Username");
 		callbacks[1] = new PasswordCallback("Password", false);
 
@@ -70,8 +70,8 @@ public class RanchLoginModule implements LoginModule{
 			String password = new String(passwordCharArray);
 
 	        //==> Authentication.
-			returnValue = userName.equals(password);
-			
+			returnValue = !userName.equals(password);
+
 		} catch (IOException ioe) {
 			ioe.printStackTrace();
 			throw new LoginException("IOException occured.");
