@@ -6,9 +6,10 @@
     <option value="snippet">Snippet</option>
   </select>
     <ul>
+      <hello></hello>	
       <li ng-repeat="phone in phones | filter:query | orderBy:order">
       <a ><img ng-src="{{phone.imageUrl}}"/></a><br/>
-      <a >{{phone.id}}</a>
+      <a >{{phone.id | checkmark}}</a>
               <p>{{phone.snippet}}</p>
       </li>
     </ul>
