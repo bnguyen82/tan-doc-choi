@@ -1,10 +1,10 @@
 
 function PhoneService($http){
    this.http = $http;
-   this.getJson = function(fnSuccess){
-	   var self = this;
-	   $http.get("phones.json").success(function(data){
-		    fnSuccess.call(self, data);
-	  });
-   };
 }
+PhoneService.prototype.getJson = function(fnSuccess){
+   var self = this;
+   self.http.get("phones.json").success(function(data){
+	    fnSuccess.call(self, data);
+  });
+};

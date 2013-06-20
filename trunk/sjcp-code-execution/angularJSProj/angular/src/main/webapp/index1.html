@@ -9,8 +9,15 @@
 	<script src="directives.js"></script>
 	<script src="http-service.js"></script>
   </head>
-
+	
   <body>
+  <script>
+  	function showGreeting(){
+  		this.bao="Good";
+  	}
+  	var ha = new showGreeting();
+  	//alert(ha.bao);
+  </script>
   	<div id="statusBar">Failed</div>
     <div ng-include="'phone-list.html'"></div>    
   </body>
