@@ -8,7 +8,7 @@
     <ul>
       <hello></hello>	
       <li ng-repeat="phone in phones | filter:query | orderBy:order">
-      <a ><img ng-src="{{phone.imageUrl}}"/></a><br/>
+      <a href ng-click="$parent.phoneService.gotoPage('phone-detail.html')"><img ng-src="{{phone.imageUrl}}" /></a><br/>
       <a >{{phone.id | checkmark}}</a>
               <p>{{phone.snippet}}</p>
       </li>

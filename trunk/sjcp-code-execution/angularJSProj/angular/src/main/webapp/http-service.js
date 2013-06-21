@@ -5,6 +5,7 @@ factory('httpInterceptor', function(){
 				function(response){
 			var statusBar = $('#statusBar');
 			statusBar.hide();
+			response.interceptor = "Interceptor added";
 			return response;
 		},
 				function(response){
