@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="zippyModule">
+  <head>
+    <script src="http://code.angularjs.org/1.0.6/angular.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="directive/style.css"></link>
+  </head>
+  <body>
+    <div ng-controller="Ctrl3">
+      Title: <input ng-model="title"> <br>
+      Text: <textarea ng-model="text"></textarea>
+      <hr>
+      <div class="zippy" zippy-title="Details: {{title}}...">{{text}}</div>
+    </div>
+    <script src="directive/js.js"></script>
+  </body>
+</html>
