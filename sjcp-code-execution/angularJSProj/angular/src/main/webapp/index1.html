@@ -18,8 +18,11 @@
   	var ha = new showGreeting();
   	//alert(ha.bao);
   </script>
+  <div ng-controller="MainCtrl">
+  	<div ng-click="broadcastEvent()">Broadcase event</div>
   	<div id="statusBar">Failed</div>
-    <div ng-include="'phone-list.html'"></div>    
+    <div ng-include="'phone-list.html'"></div>
+  </div>      
   </body>
 
 </html>

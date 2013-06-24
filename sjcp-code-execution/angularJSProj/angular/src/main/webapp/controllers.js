@@ -20,9 +20,8 @@ angular.module('phonecat', ['phonecatFilters', 'phoneDirectives', 'HttpService']
 .factory('phoneService',function($http){
 	return new PhoneService($http);
 })
-
 	  
-function PhoneListCtrl($scope, $location) {
+function PhoneListCtrl($scope, $location, phoneService) {
 	phoneService.getJson(function(phones){
 		$scope.phones = phones;
 	});
@@ -31,5 +30,17 @@ function PhoneListCtrl($scope, $location) {
 		$location.path(url);
 	};
 	$scope.service = phoneService;
+//	$scope.$emit('displayMes2', [{name:'Bao'}]);
+	$scope.$on('displayMes', function(event, mass) {
+		console.log('Listening event displayMessage ' + mass[0].name);
+	});
 }
-PhoneListCtrl.$inject = ['phoneService'];
+
+function MainCtrl($scope, $location, $rootScope) {
+	$scope.broadcastEvent = function() {
+		console.log('Broadcast event displayMessage');
+		$scope.$broadcast('displayMes', [{name:'Good news'}]);
+	};
+//	$rootScope.$broadcast('displayMes2', [{2:5}]);
+}
+//PhoneListCtrl.$inject = ['phoneService'];
