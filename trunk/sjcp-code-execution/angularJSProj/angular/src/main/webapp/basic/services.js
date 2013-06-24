@@ -5,7 +5,7 @@ function PhoneService($http, $location){
 }
 PhoneService.prototype.getJson = function(fnSuccess){
    var self = this;
-   self.http.get("phones.json").success(function(data,status, headers, config){
+   self.http.get("data/phones.json").success(function(data,status, headers, config){
 	    fnSuccess.call(self, data);
   });
 };
