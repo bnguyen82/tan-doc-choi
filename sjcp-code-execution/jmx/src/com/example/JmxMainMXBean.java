@@ -19,7 +19,6 @@ public class JmxMainMXBean {
 		QueueSampler sampler = new QueueSampler(queue);
 		server.registerMBean(sampler, name);
 		
-		
 		Thread.sleep(Long.MAX_VALUE);
 		
 	}
