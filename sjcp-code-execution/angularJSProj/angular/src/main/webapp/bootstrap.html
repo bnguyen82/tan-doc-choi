@@ -9,8 +9,12 @@
 	<link href="//mgcrea.github.com/angular-strap/css/prettify.css" rel="stylesheet">
     <link href="//mgcrea.github.com/angular-strap/vendor/bootstrap-select.css" rel="stylesheet">
     <link rel="stylesheet/less" type="text/css" href="bootstrap/css/styles.less" />
-    
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="bootstrap/js/less-1.4.0.js" type="text/javascript"></script>
+	<style type="text/css">
+		@import url(http://fonts.googleapis.com/css?family=Noto+Serif:700);
+	</style>
+    </script>
         
   </head>
   <body ng-controller="MainCtrl">
@@ -27,7 +31,7 @@
 	  </ul>
 	  <div class="tab-content">
 	    <div class="tab-pane active" id="tab1">
-	      <p>I'm in Section 1.</p>
+	      <p style="font-family: 'Noto Serif', serif;">I'm in Section 1.</p>
 	    </div>
 	    <div class="tab-pane" id="tab2">
 	      <p>Howdy, I'm in Section 2.</p>
@@ -43,7 +47,7 @@
         <button ng-repeat="(key, value) in selects" type="button" class="btn" value="{{value.id}}" 
         ng-bind-html-unsafe="value.name"></button>
       </div>
-      <button type="button" class="btn" ng-click="pushSelect()"><i class="icon-plus"></i>&nbsp;add item</button>
+      <button type="button" class="btn" ng-click="pushSelect()"><i class="icon-adn"></i>&nbsp;add item</button>
     </div>
     
     <table id="myTable">

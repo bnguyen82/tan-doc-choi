@@ -74,7 +74,8 @@ public class SparklrUserApprovalHandler extends TokenServicesUserApprovalHandler
 
 		String flag = authorizationRequest.getApprovalParameters().get(AuthorizationRequest.USER_OAUTH_APPROVAL);
 		boolean approved = flag != null && flag.toLowerCase().equals("true");
-
+		
+		//Baonht: if client is my-less-trusted-autoapprove-client and response_type="token" ==> approval
 		return approved
 				|| (authorizationRequest.getResponseTypes().contains("token") && autoApproveClients
 						.contains(authorizationRequest.getClientId()));

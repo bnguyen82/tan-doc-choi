@@ -31,9 +31,13 @@ function PhoneListCtrl($scope, $location, phoneService) {
 	};
 	$scope.service = phoneService;
 //	$scope.$emit('displayMes2', [{name:'Bao'}]);
-	$scope.$on('displayMes', function(event, mass) {
+	$scope.$on('click', function(event, mass) {
 		console.log('Listening event displayMessage ' + mass[0].name);
 	});
+	
+	$scope.loadTweets = function() {
+	 	console.log("Loading tweet");
+	}
 }
 
 function MainCtrl($scope, $location, $rootScope) {
@@ -42,5 +46,8 @@ function MainCtrl($scope, $location, $rootScope) {
 		$scope.$broadcast('displayMes', [{name:'Good news'}]);
 	};
 //	$rootScope.$broadcast('displayMes2', [{2:5}]);
+	$scope.deleteTweets = function() {
+		console.log("Deleting tweets");
+	}
 }
 //PhoneListCtrl.$inject = ['phoneService'];
