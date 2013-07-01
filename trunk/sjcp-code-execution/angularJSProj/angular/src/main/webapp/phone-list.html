@@ -7,6 +7,9 @@
   </select>
     <ul>
       <hello></hello>	
+      <superhero strength> Super hero</superhero>
+      <div enter="panel" leave>Mouse enter events catched</div>	
+      
       <li ng-repeat="phone in phones | filter:query | orderBy:order">
       <a href ng-click="$parent.phoneService.gotoPage('phone-detail.html')"><img ng-src="{{phone.imageUrl}}" /></a><br/>
       <a >{{phone.id | checkmark}}</a>
