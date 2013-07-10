@@ -27,7 +27,7 @@ $(function() {
 		};
 		
 		
-		var url = "http://localhost:8080/i-web/" + "resource/i18n/prefix" ;
+		var url = "http://localhost:8080/ipos-web/" + "resource/i18n/prefix" ;
 		$.postSync(url, ['workspace'], function(data){
 			console.log(data);
 		});
