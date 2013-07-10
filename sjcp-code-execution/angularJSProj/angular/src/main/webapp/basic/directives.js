@@ -51,3 +51,17 @@ angular.module('phoneDirectives', [])
 	
 	}
 })
+.directive("welcome", function() {
+ 	return {
+ 		restrict:"A",
+ 		scope: {
+ 			greeting: "@" 
+ 		},
+ 		template:'<div>{{greeting}}</div>',
+// 		link: function(scope, element, attr){
+// 			scope.greeting = attr.greeting;
+// 		}
+ 	
+ 	}
+ 	
+})
