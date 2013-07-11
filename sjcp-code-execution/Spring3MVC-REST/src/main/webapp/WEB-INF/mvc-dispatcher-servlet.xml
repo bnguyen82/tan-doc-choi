@@ -12,7 +12,7 @@
 	<context:component-scan base-package="com.mkyong.common.controller" />
 
 	<mvc:annotation-driven />
-
+	<mvc:default-servlet-handler/>
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
