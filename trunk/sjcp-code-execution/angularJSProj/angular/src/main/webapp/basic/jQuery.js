@@ -2,6 +2,41 @@ $(function() {
  	$('body').on('click', function (){
  		console.log("Body catch mouse enter events");
  	});
+ 	
+ 	//Example for Promise >>>>
+ 	function delay(){
+ 		var deferred = $.Deferred();
+ 		
+ 		setTimeout(function(){
+ 			console.log("It's time to work");
+// 			deferred.resolve("Bao");
+ 			deferred.reject("Bao");
+ 		}, 2000);
+ 		
+ 		return deferred.promise();
+ 	}
+ 	
+ 	delay().done(
+	 		function(name){
+	 			console.log("result is" + name);
+ 		})
+ 		.fail(
+	 		function(name) { 
+	 			console.log("something went wrong " + name); 
+ 		})
+ 		.always(
+ 			function(name) { 
+ 				console.log("something went wrong " + name); 
+ 		});
+// 	delay().then(
+// 			function(name){
+// 				console.log("result is" + name);
+// 			},
+// 			function(name) { 
+// 				console.log("something went wrong " + name); 
+// 			}
+// 	);
+ 	//Example for Promise <<<<
 
 })
 
