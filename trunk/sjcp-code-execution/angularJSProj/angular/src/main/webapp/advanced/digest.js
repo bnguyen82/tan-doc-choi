@@ -3,18 +3,9 @@ function MainCtrl($scope){
 	$scope.message = "Hello World";
 	$scope.showFlag = true;
 	
-//	setTimeout(function() {
-//		$scope.message = "Called";
-//	}, 1000);
-	
-	//Call apply of angular to explicitly bind value change in timeout
-	setTimeout(function() {
-		$scope.$apply(function() {
-			$scope.message = "Called";
-		});
-	}, 1000);
-	
-	
+	$scope.log = function(){
+		console.log("2 Called before timeout");
+	}
 	$scope.show = function() {
 		$scope.showFlag = !$scope.showFlag;
 	};
@@ -24,4 +15,23 @@ function MainCtrl($scope){
 	$scope.isShow = function() {
 		return $scope.showFlag;
 	};
+	
+//	setTimeout(function() {
+//		$scope.message = "Called";
+//	}, 1000);
+	
+	//Call apply of angular to explicitly bind value change in timeout
+	//Also note that event timeout callback just be handle after this controller
+	//finishes its all line codes
+	setTimeout(function() {
+		$scope.$apply(function() {
+			$scope.message = "Called";
+		});
+	}, 20);
+	
+	//Illustrate that below lines are always called before timeout callback
+	//even through timeout is 0
+	console.log("1 Called before timeout");
+	$scope.log();
+	console.log("3 Called before timeout");
 }
