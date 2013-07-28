@@ -38,6 +38,29 @@ $(function() {
 // 	);
  	//Example for Promise <<<<
 
+ 	//Example OOP with javascript
+	function Person(){
+			var name = "Bao";
+			function say(){
+				console.log("I'm saying");
+			};
+			function eat(){
+				console.log("I'm eating");
+			};
+			return ({name: name,
+					say: say,
+					eat:eat
+			});
+	}
+	person = new Person();
+	person.say();
+ 	
+	//
+	function Animal(){
+		this.name = "Dog";
+	}
+	bun = new Animal();
+	
 })
 
 function showConsole(){
