@@ -1,4 +1,13 @@
 var myapp = angular.module('myapp', []);
+myapp.factory('myService',function($q){
+	var service = new MyService($q);
+	return service;
+});
+function MyService($q){
+	this.$q = $q;
+	this.name = "Bao";
+};
+
 function MainCtrl($scope){
 	$scope.message = "Hello World";
 	$scope.showFlag = true;
