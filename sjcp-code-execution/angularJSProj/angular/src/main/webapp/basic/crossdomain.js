@@ -26,8 +26,26 @@ $(function() {
 			return null;
 		};
 		
-		
+//		var iposUrl = "http://localhost:8080/ipos-web";
+//		 $.ajax({
+//		    type: "POST",
+//		    url: iposUrl + "/ajaxlogin?ajax=true",
+//		    cache: false,
+//		    contentType: 'application/json',
+//		    data: { j_username: 'super@ipos.com' , j_password: 'password'},
+//		    dataType: 'json',
+//		    async: false,
+//		    success: function(json) {
+//		    	console.log(json);
+//		    },
+//		    error: function(XMLHttpRequest, textStatus, errorThrown){
+//		    	console.log("error");
+//		    }
+//		  });		
+
+
 		var url = "http://localhost:8080/ipos-web/" + "resource/i18n/prefix" ;
+//		var url = "http://localhost:28080/SpringMVC/movie/ironMan" ;
 		$.postSync(url, ['workspace'], function(data){
 			console.log(data);
 		});
