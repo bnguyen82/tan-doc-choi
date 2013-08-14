@@ -6,32 +6,34 @@
 	    <!-- Bootstrap CSS -->
 	    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
 	    <link rel="stylesheet" href="control.css">
+		<!-- App Script -->
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<!-- Angular -->
+		<script src="http://code.angularjs.org/1.0.6/angular.min.js"></script>
 	</head>
 	
-	<body class="fluid-container">
+	<body class="fluid-container" ng-controller="AppCtrl">
 		</br>
-		<div class="row-fluid">
+		<div class="row-fluid" >
 			<div class="span2">
 				<span>Mobile Phone</span>
 			</div>
 			<div class="span3">
-				<input type="tel" id="mobile-number">
+				<input type="tel" id="mobile-number" >
 			</div>
-			<div class="span7">
+			<div class="span3">
+				<input tel-input id="mobile-number1" ng-model="number">
+			</div>
+			<div class="span4">
 			</div>
 		</div>
 		
-		<!-- Angular -->
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 		<!-- UI-Router -->
 		<script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
 		
-		<!-- App Script -->
-		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="control.js"> </script>
 		<script src="app.js"> </script>
 		
-		<script> $("#mobile-number").intlTelInput(); </script>
 	</body>
 	
 </html>
