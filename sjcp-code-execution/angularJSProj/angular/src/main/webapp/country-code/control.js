@@ -184,6 +184,9 @@ author: Jack O'Connor (http://jackocnr.com)
             // hide dropdown again
             this.closeDropdown(countryList);
             // focus the input
+            setTimeout(function(){
+            	telInput.keyup();
+            }, 1000);
             telInput.focus();
             // mark the list item as active (incase they open the dropdown again)
             countryList.children(".country").removeClass("active highlight");
