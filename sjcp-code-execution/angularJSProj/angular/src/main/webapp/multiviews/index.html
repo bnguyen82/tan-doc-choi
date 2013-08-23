@@ -10,17 +10,8 @@
 	
 	<body >
 		<div ng-app="app"> 
-			<a href="#/view1">View 1</a> | <a href="#/view2">View 2</a>| <a href="#/view3">View 3</a>
-		
-		    <div ng-controller="AnimateController">
-		        <ul>
-		            <li ng-repeat="anim in animations">
-		                <input type="radio" name="animation" ng-model="$parent.animation" value="{{anim}}" >{{anim}} animation</input>
-		            </li>
-		        </ul>Selected animation: {{animation}}
-		        <hr/>
-		        <div ui-view ng-animate=" 'view' ">Loading...</ng-view>
-		    </div>
+			<div ui-view="header"></div>
+			
 		    <hr/>
 		</div>
 		
