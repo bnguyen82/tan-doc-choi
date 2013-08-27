@@ -28,6 +28,13 @@ myapp.config(function($stateProvider, $urlRouterProvider){
             $scope.things = ["A", "Set", "Of", "Things"];
           }
       })
+      .state('route2.detail', {
+    	  url: "/detail",
+    	  templateUrl: "routing/views/route2-detail.html",
+    	  controller: function($scope){
+    		  $scope.thing = "Things";
+    	  }
+      })
     .state('home', {
         url: "/home",
         template: "Hello World!",
