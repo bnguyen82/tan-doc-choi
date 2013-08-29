@@ -15,9 +15,9 @@ import org.apache.log4j.Logger;
 public class TestMessageListener implements MessageListener
 {
 
-	private TestMessageSender messageSender_i;
+	private TestMessageSender messageSender;
 
-	private static final Logger logger_c = Logger.getLogger(TestMessageListener.class);
+	private static final Logger logger = Logger.getLogger(TestMessageListener.class);
 
 
 	/**
@@ -28,9 +28,7 @@ public class TestMessageListener implements MessageListener
 	 */
 	public void onMessage(Message message)
 	{
-		ClassLoader cl = this.getClass().getClassLoader();
-		ClassLoader cl1 = messageSender_i.getClass().getClassLoader();
-		logger_c.debug("Received message from queue [" + message +"]");
+		logger.debug("Received message from queue [" + message +"]");
 
 		/* The message must be of type TextMessage */
 		if (message instanceof TextMessage)
@@ -38,22 +36,22 @@ public class TestMessageListener implements MessageListener
 			try
 			{
 				String msgText = ((TextMessage) message).getText();
-				logger_c.debug("About to process message: " + msgText);
+				logger.debug("About to process message: " + msgText);
 
 				/* call message sender to put message onto second queue */
-				messageSender_i.sendMessage(msgText);
+				messageSender.sendMessage(msgText);
 
 			}
-			catch (JMSException jmsEx_p)
+			catch (JMSException jmsEx)
 			{
 				String errMsg = "An error occurred extracting message";
-				logger_c.error(errMsg, jmsEx_p);
+				logger.error(errMsg, jmsEx);
 			}
 		}
 		else
 		{
 			String errMsg = "Message is not of expected type TextMessage";
-			logger_c.error(errMsg);
+			logger.error(errMsg);
 			throw new RuntimeException(errMsg);
 		}
 	}
@@ -61,10 +59,10 @@ public class TestMessageListener implements MessageListener
 	/**
 	 * Sets the message sender.
 	 *
-	 * @param messageSender_p the new message sender
+	 * @param messageSender the new message sender
 	 */
-	public void setTestMessageSender(TestMessageSender messageSender_p)
+	public void setTestMessageSender(TestMessageSender messageSender)
 	{
-		this.messageSender_i = messageSender_p;
+		this.messageSender = messageSender;
 	}
 }
