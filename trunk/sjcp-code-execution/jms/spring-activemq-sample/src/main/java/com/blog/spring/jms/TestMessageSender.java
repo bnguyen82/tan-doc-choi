@@ -13,20 +13,20 @@ import org.springframework.stereotype.Service;
 @Service
 public class TestMessageSender
 {
-	private JmsTemplate jmsTemplate_i;
-	private Queue testQueue_i;
-	private static final Logger logger_c = Logger .getLogger(TestMessageSender.class);
+	private JmsTemplate jmsTemplate;
+	private Queue testQueue;
+	private static final Logger logger = Logger .getLogger(TestMessageSender.class);
 
 	/**
 	 * Sends message using JMS Template.
 	 *
-	 * @param message_p the message_p
+	 * @param message the message
 	 * @throws JMSException the jMS exception
 	 */
-	public void sendMessage(String message_p) throws JMSException
+	public void sendMessage(String message) throws JMSException
 	{
-		logger_c.debug("About to put message on queue. Queue[" + testQueue_i.toString() + "] Message[" + message_p + "]");
-		jmsTemplate_i.convertAndSend(testQueue_i, message_p);
+		logger.debug("About to put message on queue. Queue[" + testQueue.toString() + "] Message[" + message + "]");
+		jmsTemplate.convertAndSend(testQueue, message);
 	}
 
 	/**
@@ -36,7 +36,7 @@ public class TestMessageSender
 	 */
 	public void setJmsTemplate(JmsTemplate tmpl)
 	{
-		this.jmsTemplate_i = tmpl;
+		this.jmsTemplate = tmpl;
 	}
 
 	/**
@@ -46,6 +46,6 @@ public class TestMessageSender
 	 */
 	public void setTestQueue(Queue queue)
 	{
-		this.testQueue_i = queue;
+		this.testQueue = queue;
 	}
 }
