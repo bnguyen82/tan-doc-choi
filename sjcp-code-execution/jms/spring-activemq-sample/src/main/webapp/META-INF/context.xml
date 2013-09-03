@@ -33,5 +33,19 @@
 	  		 type="org.apache.activemq.command.ActiveMQQueue"
         	 factory="org.apache.activemq.jndi.JNDIReferenceFactory"
         	 physicalName="TestQueueTwo"/>
+   <!--
+   		This is a reference to the second Queue we defined
+   		earlier in the ActiveMQ admin console
+   -->
+   <Resource name="jms/testTopicOne"
+	  		 auth="Container"
+	  		 type="org.apache.activemq.command.ActiveMQTopic"
+        	 factory="org.apache.activemq.jndi.JNDIReferenceFactory"
+        	 physicalName="TestTopicOne"/>
+   <Resource name="jms/testTopicTwo"
+	  		 auth="Container"
+	  		 type="org.apache.activemq.command.ActiveMQTopic"
+        	 factory="org.apache.activemq.jndi.JNDIReferenceFactory"
+        	 physicalName="TestTopicTwo"/>
 
 </Context>
