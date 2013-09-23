@@ -1,8 +1,11 @@
 <div>
- <!--  <ul>
+  <h4>Edit users:</h4>
+  <ul>
     <li ng-repeat="user in userList ">
-        <a href="#/users/edit">{{user.name}}</a>
+        <a ui-sref="users.opp.edit({uid : {{user.uid}}})">{{user.name}}</a>
     </li>
-  </ul>  -->
-  <a href="#/users/edit">Bao</a>
+  </ul> 
+  <a ui-sref="users.opp.add">Add new User</a>
+  
+  <div ui-view></div>
 </div>

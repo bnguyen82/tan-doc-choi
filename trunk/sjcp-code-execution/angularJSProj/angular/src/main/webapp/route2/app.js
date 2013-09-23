@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ui.state']);
+var app = angular.module('app', ['ui.router']);
 app.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home')
     $stateProvider.
@@ -6,11 +6,16 @@ app.config(function($stateProvider, $urlRouterProvider) {
               {url: "/users", 
         	  templateUrl: "user-list.html",   
         	  controller: UserListController})
-          .state('users.edit',
-              {url: "/edit", 
+    	  .state('users.opp', 
+    		  {url: "/opp", 
+    		  abstract: true,
+    		  template: '<ui-view/>',   
+    		  })
+          .state('users.opp.edit',
+              {url: "/edit/:uid", 
         	  templateUrl: "user-edit.html", 
         	  controller: UserEditController})
-          .state('users.add',
+          .state('users.opp.add',
               {url: '/add', 
         	  templateUrl: 'user-add.html', 
         	  controller: UserAddController})
@@ -24,9 +29,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
     })
 });
 function MainCtrl(){
-	
-}
-
+};
 function UserListController($scope, $state){
 	$scope.userList = [{
 		uid: "1",
@@ -37,9 +40,8 @@ function UserListController($scope, $state){
 		name: "Ha"
 	}];
 };
-
 function UserEditController($scope, $stateParams){
-	$scope.user = {uid: $stateParams.userId, name: "Bao1"};
+	$scope.user = {uid: $stateParams.uid, name: "Bao1"};
 }
 function UserAddController($scope, $stateParams){
 }
