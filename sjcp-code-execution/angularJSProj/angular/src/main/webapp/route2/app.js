@@ -4,18 +4,41 @@ app.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider.
           state('users', 
               {url: "/users", 
-        	  templateUrl: "user-list.html",   
-        	  controller: UserListController})
-    	  .state('users.opp', 
-    		  {url: "/opp", 
-    		  abstract: true,
-    		  template: '<ui-view/>',   
-    		  })
-          .state('users.opp.edit',
+        	  views: {
+        		  "main": {
+        			  templateUrl: "user-list.html",   
+                	  controller: UserListController
+        		  }
+        	  }
+              })
+//    	  .state('users.opp', 
+//    		  {url: "/opp", 
+//    		  abstract: true,
+//    		  template: '<ui-view/>',   
+//    		  })
+          .state('users.edit',
               {url: "/edit/:uid", 
-        	  templateUrl: "user-edit.html", 
-        	  controller: UserEditController})
-          .state('users.opp.add',
+        	  views: {
+        		  "": {
+		        	  templateUrl: "user-edit.html", 
+		        	  controller: UserEditController
+        		  }
+        	  }
+        	  })
+    	  .state('users.editEs',
+    			  {url: "/editEs/:uid", 
+    		  views: {
+    			  "": {
+    				  templateUrl: "user-edit.html", 
+    				  controller: UserEditController
+    			  },
+    			  "modal@": {
+    				  templateUrl: "modal.html",
+    				  controller: UserEditModalController
+    			  }
+    		  }
+    			  })
+          .state('users.add',
               {url: '/add', 
         	  templateUrl: 'user-add.html', 
         	  controller: UserAddController})
@@ -44,4 +67,7 @@ function UserEditController($scope, $stateParams){
 	$scope.user = {uid: $stateParams.uid, name: "Bao1"};
 }
 function UserAddController($scope, $stateParams){
+}
+function UserEditModalController($scope, $stateParams){
+	console.log("Enter modal controller");
 }
